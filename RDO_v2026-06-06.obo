@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-06-13
-date: 13:06:2026 20:13
+data-version: releases/2026-06-06
+date: 06:06:2026 20:13
 saved-by: rgd
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-05 --
 subsetdef: RGD_JBrowse_slim "RGD_JBrowse_slim"
@@ -11,7 +11,7 @@ property_value: dc:creator "Carissa A. Park" xsd:string
 property_value: dc:creator "G. Thomas Hayman" xsd:string
 property_value: dc:creator "Mahima Vedi" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-06-13" xsd:string
+property_value: owl:versionInfo "2026-06-06" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -37855,9 +37855,9 @@ id: DOID:0070563
 name: glucose-galactose malabsorption
 alt_id: DOID:9001750
 def: "A glucose metabolism disease characterized by a defect in glucose and galactose transport across the intestinal brush border, resulting in neonatal onset of life-threatening watery diarrhea and dehydration, that has_material_basis_in homozygous mutation in the SLC5A1 gene on chromosome 22q12.3. (DO)" [PMID:20486940 "DO"]
-synonym: "carbohydrate intolerance" EXACT []
-synonym: "complex carbohydrate intolerance" EXACT []
-synonym: "congenital glucose-galactose malabsorption" EXACT []
+synonym: "carbohydrate intolerance" EXACT [1]
+synonym: "complex carbohydrate intolerance" EXACT [1]
+synonym: "CONGENITAL GLUCOSE-GALACTOSE MALABSORPTION" EXACT []
 synonym: "DIAR16" EXACT []
 synonym: "diarrhea 16" EXACT []
 synonym: "GGM" EXACT []
@@ -52113,7 +52113,6 @@ def: "A primary ovarian insufficiency that is characterized by secondary amenorr
 synonym: "POF11" EXACT []
 synonym: "premature ovarian failure 11" EXACT []
 xref: MIM:616946
-xref: MONDO:0014843
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:5426 ! primary ovarian insufficiency
 created_by: mtutaj
@@ -62496,8 +62495,8 @@ id: DOID:0090129
 name: carnitine palmitoyltransferase I deficiency
 def: "A lipid metabolism disorder that is characterized by impaired mitochondrial oxidation of long chain fatty acids in the liver and kidneys resulting in episodes of illness- or fasting-induced hypoketotic hypoglycemia, and has_material_basis_in autosomal recessive inheritance of homozygous or compound heterozygous mutation in the carnitine palmitoyltransferase 1A gene (CPT1A) on chromosome 11q13. (DO)" [https://ghr.nlm.nih.gov/condition/carnitine-palmitoyltransferase-i-deficiency "DO", MIM:255120 "DO"]
 synonym: "carnitine palmitoyl transferase 1A deficiency" EXACT []
-synonym: "carnitine palmitoyl transferase 1 deficiency" EXACT []
 synonym: "carnitine palmitoyltransferase 1 deficiency" EXACT []
+synonym: "carnitine palmitoyl transferase 1 deficiency" EXACT []
 synonym: "Carnitine Palmitoyltransferase IA Deficiency" EXACT []
 synonym: "carnitine palmitoyl transferase IA deficiency" EXACT []
 synonym: "CARNITINE PALMITOYLTRANSFERASE TYPE I DEFICIENCY" EXACT []
@@ -69051,11 +69050,11 @@ is_a: DOID:12930 ! dilated cardiomyopathy
 [Term]
 id: DOID:0110448
 name: dilated cardiomyopathy 1HH
+alt_id: RDO:9000821
 def: "A dilated cardiomyopathy that has_material_basis_in mutation in the BAG3 gene on chromosome 10q26.11. (DO)" [PMID:21353195 "DO"]
-synonym: "BAG3-related condition" BROAD []
+synonym: "BAG3-RELATED CONDITION" BROAD []
 synonym: "CMD1HH" EXACT []
 xref: MIM:613881
-xref: MONDO:0013479
 xref: NCI:C192082
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:12930 ! dilated cardiomyopathy
@@ -71573,7 +71572,6 @@ name: long QT syndrome 15
 def: "A long QT syndrome that has_material_basis_in dominant inheritance of mutation in the CALM2 gene on chromosome 2p21. (DO)" [PMID:23388215 "DO"]
 synonym: "LQT15" EXACT []
 xref: MIM:616249
-xref: MONDO:0014550
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:2843 ! long QT syndrome
 
@@ -99055,7 +99053,6 @@ synonym: "deposition of barium in the lungs" EXACT []
 synonym: "inhalation of barytes" EXACT []
 xref: GARD:8371
 xref: MESH:C537080
-xref: MONDO:0001001
 xref: NCI:C34410
 is_a: DOID:10316 ! pneumoconiosis
 
@@ -99186,7 +99183,6 @@ synonym: "pneumoconiosis due to talc" EXACT []
 synonym: "talcosis" EXACT []
 synonym: "talc pneumoconiosis" EXACT []
 xref: ICD10CM:J62.0
-xref: MONDO:0001003
 xref: NCI:C27026
 is_a: DOID:10316 ! pneumoconiosis
 created_by: rgd
@@ -105024,8 +105020,8 @@ def: "A viral infectious disease that is a hemorrhagic fever, located in kidney,
 synonym: "epidemic hemorrhagic fever" EXACT []
 synonym: "hemorrhagic fever renal syndrome" EXACT []
 synonym: "hemorrhagic fever with renal syndrome" EXACT []
-synonym: "hemorrhagic nephrosonephritis" EXACT []
 synonym: "hemorrhagic nephroso nephritis" EXACT []
+synonym: "hemorrhagic nephrosonephritis" EXACT []
 synonym: "HFRS" EXACT []
 synonym: "Puumala virus nephropathy" EXACT []
 synonym: "Russian hemorrhagic fever" EXACT []
@@ -105446,7 +105442,6 @@ synonym: "sclera diseases" EXACT []
 synonym: "scleral diseases" EXACT []
 xref: ICD10CM:H15
 xref: MESH:D015422
-xref: MONDO:0001269
 xref: NCI:C79717
 is_a: DOID:5614 ! eye disease
 
@@ -107904,8 +107899,8 @@ name: urinary bladder anterior wall cancer
 synonym: "malignant neoplasm of anterior wall of urinary bladder" EXACT []
 xref: ICD10CM:C67.3
 xref: ICD9CM:188.3
-xref: MONDO:0001376
 xref: NCI:C194385
+xref: RDO:9001951
 is_a: DOID:11054 ! urinary bladder cancer
 created_by: rgd
 creation_date: 2017-09-11T00:00:00Z
@@ -108323,10 +108318,10 @@ creation_date: 2017-10-18T00:00:00Z
 [Term]
 id: DOID:11874
 name: abnormal threshold of rods
-synonym: "abnormal dark adaptation curve" EXACT []
+synonym: "abnormal dark adaptation curve" EXACT [ICD9CM_2006:368.63]
 xref: ICD10CM:H53.61
 xref: ICD9CM:368.63
-xref: MONDO:0001396
+xref: RDO:9003333
 is_a: DOID:8499 ! night blindness
 created_by: rgd
 creation_date: 2017-10-24T00:00:00Z
@@ -124151,9 +124146,9 @@ is_a: DOID:1570 ! ectropion
 [Term]
 id: DOID:1572
 name: normal pressure hydrocephalus
-def: "A communicating hydrocephalus characterized by normal cerebrospinal fluid pressure, gait instability, cognitive decline, and impaired bladder control. Onset is usually in late adulthood. (DO)" [https://pmc.ncbi.nlm.nih.gov/articles/PMC12273625/ "DO", https://www.mayoclinic.org/diseases-conditions/hydrocephalus/symptoms-causes/syc-20373604 "DO", https://www.ncbi.nlm.nih.gov/books/NBK542247/ "DO"]
-synonym: "Hakim's syndrome" EXACT []
-synonym: "Hakim syndrome" EXACT []
+def: "A communicating hydrocephalus characterized by normal cerebrospinal fluid pressure, gait instability, cognitive decline, and impaired bladder control. Onset is usually in late adulthood. (DO)" [https://pmc.ncbi.nlm.nih.gov/articles/PMC12273625/ "DO", https://www.mayoclinic.org/diseases-conditions/hydrocephalus/symptoms-causes/syc-20373604 "DO", https://www.ncbi.nlm.nih.gov/books/NBK542247/ "DO", MESH:D006850]
+synonym: "Hakim's Syndrome" EXACT []
+synonym: "Hakim Syndrome" EXACT []
 synonym: "low pressure hydrocephalus" EXACT []
 synonym: "NPH" EXACT []
 synonym: "NPH (normal pressure hydrocephalus)" EXACT []
@@ -134374,8 +134369,8 @@ synonym: "EBVS1" RELATED []
 synonym: "Epstein-Barr virus infection" EXACT []
 synonym: "Epstein-Barr Virus Infections" EXACT []
 synonym: "EPSTEIN-BARR VIRUS INSERTION SITE 1" RELATED []
-synonym: "Human Herpes Virus 4 Infections" EXACT []
 synonym: "Human Herpesvirus 4 Infections" EXACT []
+synonym: "Human Herpes Virus 4 Infections" EXACT []
 xref: EFO:0000769
 xref: MESH:D020031
 xref: MIM:132850
@@ -134645,13 +134640,13 @@ is_a: DOID:0080616 ! kidney cortex disease
 [Term]
 id: DOID:2975
 name: cystic kidney disease
-def: "A kidney disease that is characterized by the formation of cysts (fluid-filled sacs) in and around the kidney. (DO)" [https://my.clevelandclinic.org/health/diseases/21846-cystic-kidney-disease "DO"]
+def: "A kidney disease that is characterized by the formation of cysts (fluid-filled sacs) in and around the kidney. (DO)" [https://my.clevelandclinic.org/health/diseases/21846-cystic-kidney-disease "DO", MESH:D052177]
 synonym: "complex cyst of kidney" NARROW []
 synonym: "cystic kidney" EXACT []
 synonym: "cystic kidney diseases" EXACT []
-synonym: "cystic kidneys" EXACT []
+synonym: "Cystic Kidneys" EXACT []
 synonym: "Cystic Renal Disease" EXACT []
-synonym: "familial cystic renal disease" NARROW []
+synonym: "FAMILIAL CYSTIC RENAL DISEASE" NARROW []
 synonym: "kidney cyst" NARROW []
 synonym: "renal cyst" NARROW []
 synonym: "simple cyst of kidney" NARROW []
@@ -143182,17 +143177,16 @@ creation_date: 2017-10-31T00:00:00Z
 [Term]
 id: DOID:3965
 name: Merkel cell carcinoma
-def: "A skin carcinoma that is characterized by the presence of a trabecular glandular architectural pattern. (DO)" [https://www.mayoclinic.org/diseases-conditions/merkel-cell-carcinoma/symptoms-causes/syc-20351030 "DO"]
-synonym: "Merkel cell cancer" EXACT []
-synonym: "Merkel cell tumor" EXACT []
-synonym: "Merkle tumors" EXACT []
+def: "A skin carcinoma that is characterized by the presence of a trabecular glandular architectural pattern. (DO)" [https://www.mayoclinic.org/diseases-conditions/merkel-cell-carcinoma/symptoms-causes/syc-20351030 "DO", MESH:D015266]
+synonym: "Merkel Cell Cancer" EXACT []
+synonym: "Merkel Cell Tumor" EXACT []
+synonym: "Merkle Tumors" EXACT []
 synonym: "trabecular adenocarcinoma" EXACT []
 synonym: "trabecular carcinoma" EXACT []
 xref: EFO:1001471
 xref: GARD:9266
 xref: ICDO:8247/3
 xref: MESH:D015266
-xref: MONDO:0019210
 xref: NCI:C4068
 xref: NCI:C9231
 is_a: DOID:1800 ! neuroendocrine carcinoma
@@ -147802,11 +147796,10 @@ is_a: DOID:4552 ! large cell carcinoma
 id: DOID:4556
 name: lung large cell carcinoma
 synonym: "large cell carcinoma of lung" EXACT []
-synonym: "lymphoepithelioma-like lung carcinoma" NARROW []
+synonym: "Lymphoepithelioma-Like Lung Carcinoma" NARROW []
 xref: EFO:0003050
 xref: EFO:1000016
 xref: EFO:1000340
-xref: MONDO:0003050
 xref: NCI:C4450
 is_a: DOID:3908 ! lung non-small cell carcinoma
 is_a: DOID:4552 ! large cell carcinoma
@@ -159853,8 +159846,8 @@ id: DOID:6293
 name: central nervous system lipoma
 def: "A central nervous system benign neoplasm that derives_from fat cells. (DO)" [PMID:12597248 "DO"]
 synonym: "lipoma of the CNS" EXACT []
-xref: MONDO:0003844
 xref: NCI:C5451
+xref: RDO:9004396
 is_a: DOID:0060090 ! central nervous system benign neoplasm
 is_a: DOID:3315 ! lipoma
 created_by: rgd
@@ -161724,8 +161717,10 @@ def: "A hypersensitivity reaction type IV disease that is an inherited disorder 
 synonym: "ALPS" EXACT []
 synonym: "autoimmune lymphoproliferative syndromes" EXACT []
 synonym: "Autoimmune Lymphoproliferative Syndrome Type 1, Autosomal Dominant" NARROW []
+synonym: "AUTOIMMUNE LYMPHOPROLIFERATIVE SYNDROME, TYPE IA" NARROW []
 synonym: "Autoimmune Lymphoproliferative Syndrome, Type I, Autosomal Dominant" NARROW []
 synonym: "AUTOIMMUNE LYMPHOPROLIFERATIVE SYNDROME, TYPE I, AUTOSOMAL RECESSIVE" NARROW []
+synonym: "autoimmune lymphoproliferative syndrome, type IB" NARROW []
 synonym: "Canale-Smith syndrome" EXACT []
 xref: GARD:8686
 xref: ICD10CM:D89.82
@@ -182350,6 +182345,7 @@ is_a: DOID:9002557 ! Inherited Blood Coagulation Disease
 [Term]
 id: DOID:9001030
 name: Multiple Primary Neoplasms
+alt_id: RDO:0005711
 def: "Two or more abnormal growths of tissue occurring simultaneously and presumed to be of separate origin. The neoplasms may be histologically the same or different, and may be found in the same or different sites." [MESH:D009378]
 synonym: "multiple primary neoplasm" EXACT []
 synonym: "Synchronous Multiple Primary Neoplasms" EXACT []
@@ -187152,11 +187148,10 @@ is_a: DOID:9004795 ! Congenital Hand Deformities
 [Term]
 id: DOID:9001566
 name: Atrophia Maculosa Varioliformis Cutis, Familial
+alt_id: MIM:601341
 synonym: "AMVC" EXACT []
 synonym: "Varioliform Macular Atrophy of the Skin" EXACT []
 xref: MESH:C563349
-xref: MIM:601341
-xref: MONDO:0011039
 is_a: DOID:9007168 ! Genetic Skin Diseases
 
 [Term]
@@ -200087,7 +200082,6 @@ def: "General term for a group of MALNUTRITION syndromes caused by failure of no
 synonym: "Malabsorption Syndrome" EXACT []
 xref: EFO:0009554
 xref: MESH:D008286
-xref: MONDO:0020598
 is_a: DOID:0014667 ! disease of metabolism
 is_a: DOID:225 ! syndrome
 is_a: DOID:5295 ! intestinal disease
@@ -234052,10 +234046,10 @@ is_a: DOID:440 ! neuromuscular disease
 [Term]
 id: DOID:9006656
 name: Familial Hypokalemia
+alt_id: MIM:241150
 synonym: "familial hypokalemic alkalosis with specific renal tubulopathy" EXACT []
 synonym: "Gullner Syndrome" EXACT []
 xref: MESH:C562654
-xref: MIM:241150
 is_a: DOID:4500 ! hypokalemia
 is_a: DOID:655 ! inherited metabolic disorder
 
@@ -242094,7 +242088,7 @@ synonym: "Hantavirus Infection" EXACT []
 synonym: "Hantavirus infectious disease" EXACT []
 xref: EFO:0007295
 xref: MESH:D018778
-xref: MONDO:0005780
+xref: RDO:0005767
 is_a: DOID:9004137 ! Bunyaviridae Infections
 
 [Term]
@@ -247725,9 +247719,8 @@ is_a: DOID:653 ! purine-pyrimidine metabolic disorder
 id: DOID:9008121
 name: Lipoyltransferase 1 Deficiency
 synonym: "LIPT1D" EXACT []
-synonym: "LIPT1-related condition" EXACT []
+synonym: "LIPT1-RELATED CONDITION" EXACT []
 xref: MIM:616299
-xref: MONDO:0014576
 xref: ORDO:401862
 is_a: DOID:3652 ! Leigh disease
 created_by: rgd
@@ -248639,6 +248632,7 @@ id: DOID:9008227
 name: Pregnancy-associated Malaria
 def: "The co-occurrence of pregnancy and malaria caused by Plasmodium falciparum." []
 synonym: "PAM" EXACT []
+xref: RDO:9001161
 is_a: DOID:14067 ! Plasmodium falciparum malaria
 is_a: DOID:9003878 ! Parasitic Pregnancy Complications
 created_by: rgd
@@ -250974,8 +250968,8 @@ is_a: DOID:630 ! genetic disease
 [Term]
 id: DOID:9008483
 name: Cortical Defects, Wormian Bones, and Dentinogenesis Imperfecta
+alt_id: MIM:604922
 xref: MESH:C565734
-xref: MIM:604922
 is_a: DOID:0080006 ! bone development disease
 is_a: DOID:4154 ! dentinogenesis imperfecta
 
