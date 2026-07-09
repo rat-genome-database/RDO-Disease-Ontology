@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-07-04
-date: 04:07:2026 20:13
+data-version: releases/2026-06-27
+date: 27:06:2026 20:13
 saved-by: rgd
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 subsetdef: RGD_JBrowse_slim "RGD_JBrowse_slim"
@@ -11,7 +11,7 @@ property_value: dc:creator "Carissa A. Park" xsd:string
 property_value: dc:creator "G. Thomas Hayman" xsd:string
 property_value: dc:creator "Mahima Vedi" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-07-04" xsd:string
+property_value: owl:versionInfo "2026-06-27" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -3876,8 +3876,9 @@ creation_date: 2017-10-18T00:00:00Z
 [Term]
 id: DOID:0050544
 name: hypermethioninemia
+alt_id: MIM:250850
 def: "An amino acid metabolic disorder that involves an excess of the amino acid methionine, in the blood. This condition can occur when methionine is not broken down properly in the body. (DO)" [http://en.wikipedia.org/wiki/Hypermethioninemia "DO"]
-synonym: "deficiency of methionine adenosyltransferase" EXACT []
+synonym: "Deficiency of Methionine Adenosyltransferase" EXACT []
 synonym: "Hepatic Methionine Adenosyltransferase Deficiency" EXACT []
 synonym: "Hypermethioninemia, Isolated Persistent" EXACT []
 synonym: "MAT DEFICIENCY" EXACT []
@@ -3887,11 +3888,9 @@ synonym: "methionine adenosyltransferase deficiency, autosomal dominant" NARROW 
 synonym: "methionine adenosyltransferase deficiency, autosomal recessive" NARROW []
 synonym: "methionine adenosyltransferase I/III deficiency" EXACT []
 synonym: "Methioninemia" EXACT []
-synonym: "S-adenosylhomocysteine hydrolase deficiency" EXACT []
+synonym: "S-Adenosylhomocysteine Hydrolase Deficiency" EXACT []
 xref: EFO:0009069
 xref: MESH:C564683
-xref: MIM:250850
-xref: MONDO:0009607
 xref: NCI:C123435
 xref: ORDO:168598
 is_a: DOID:9252 ! amino acid metabolic disorder
@@ -4500,7 +4499,6 @@ def: "A dysostosis characterized by short fingers and toes. (DO)" [http://en.wik
 synonym: "brachydactylia" EXACT []
 synonym: "brachydactylias" EXACT []
 synonym: "brachydactylism" EXACT []
-xref: GARD:11913
 xref: MESH:D059327
 xref: MONDO:0021004
 xref: ORDO:294937
@@ -7784,7 +7782,6 @@ synonym: "retinal cone dystrophy" EXACT []
 xref: GARD:11897
 xref: MESH:D000077765
 xref: MONDO:0000455
-xref: ORDO:1871
 is_a: DOID:5679 ! retinal disease
 created_by: rgd
 creation_date: 2017-11-08T00:00:00Z
@@ -8146,7 +8143,7 @@ name: second-degree atrioventricular block
 def: "An atrioventricular block that is characterized by progressive prolongation of the PR interval on consecutive beats followed by a blocked P wave on electrocardiogram or intermittently non-conducted P waves not preceded by PR changes on electrocardiogram caused by a conduction block between the atria and the ventricles through the atrioventricular node. (DO)" [https://en.wikipedia.org/wiki/Second-degree_atrioventricular_block "DO"]
 synonym: "idiopathic second-degree atrioventricular block" EXACT []
 synonym: "second-degree heart block" EXACT []
-xref: MONDO:0000467
+xref: RDO:9003341
 is_a: DOID:0050820 ! atrioventricular block
 created_by: rgd
 creation_date: 2017-10-24T00:00:00Z
@@ -8336,7 +8333,6 @@ xref: NCI:C34564
 xref: NCI:C35437
 xref: NCI:C35438
 xref: NCI:C35527
-xref: ORDO:376724
 is_a: DOID:543 ! dystonia
 created_by: rgd
 creation_date: 2017-11-06T00:00:00Z
@@ -8888,7 +8884,7 @@ xref: ORDO:52430
 is_a: DOID:11724 ! limb-girdle muscular dystrophy
 is_a: DOID:225 ! syndrome
 is_a: DOID:3429 ! inclusion body myositis
-is_a: DOID:5408 ! Paget disease of bone
+is_a: DOID:5408 ! Paget's disease of bone
 is_a: DOID:9255 ! frontotemporal dementia
 
 [Term]
@@ -10567,7 +10563,6 @@ def: "A congenital dyserythropoietic anemia characterized by neonatal jaundice, 
 synonym: "CDAN4B" EXACT []
 synonym: "CDA, type IVb" EXACT []
 xref: MIM:620969
-xref: ORDO:727394
 is_a: DOID:1338 ! congenital dyserythropoietic anemia
 created_by: mtutaj
 creation_date: 2024-12-19T09:48:22Z
@@ -11829,86 +11824,6 @@ created_by: do
 creation_date: 2026-06-01T09:41:03Z
 
 [Term]
-id: DOID:0051092
-name: Damseh-Danson neurodevelopmental disorder
-def: "An autosomal recessive intellectual developmental disability that is characterized by global developmental delay apparent from infancy and that has_material_basis_in homozygous or compound heterozygous mutation in the SNX27 gene on chromosome 1q21. (DO)" [PMID:41609011 "DO"]
-synonym: "NEURODEVELOPMENTAL DISORDER WITH SEIZURES, ABSENT LANGUAGE, AND BEHAVIORAL ABNORMALITIES" EXACT []
-xref: MIM:621591
-is_a: DOID:0060308 ! autosomal recessive intellectual developmental disorder
-created_by: do
-creation_date: 2026-07-01T08:36:07Z
-
-[Term]
-id: DOID:0051093
-name: retinitis pigmentosa 102
-def: "A retinitis pigmentosa that is charaterized by onset of night blindness and loss of peripheral vision in adolescence, and eventual reduction in visual acuity with progression of disease and that has_material_basis_in heterozygous mutation in the RNU4-2 gene on chromosome 12q24. (DO)" [PMID:41513982 "DO"]
-xref: MIM:621560
-is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:10584 ! retinitis pigmentosa
-created_by: do
-creation_date: 2026-07-01T08:41:03Z
-
-[Term]
-id: DOID:0051094
-name: retinitis pigmentosa 103
-def: "A retinitis pigmentosa that is charaterized by onset of night blindness and/or loss of peripheral vision in adolescence and that has_material_basis_in heterozygous mutation in the RNU6-1 gene on chromosome 15q23. (DO)" [PMID:41513982 "DO"]
-xref: MIM:621561
-is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:10584 ! retinitis pigmentosa
-created_by: do
-creation_date: 2026-07-01T08:42:36Z
-
-[Term]
-id: DOID:0051095
-name: retinitis pigmentosa 104
-def: "A retinitis pigmentosa that is charaterized by onset of night blindness and/or loss of peripheral vision in adolescence and that has_material_basis_in heterozygous mutation in the RNU6-2 gene on chromosome 19p13. (DO)" [PMID:41513982 "DO"]
-xref: MIM:621562
-is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:10584 ! retinitis pigmentosa
-created_by: do
-creation_date: 2026-07-01T08:48:19Z
-
-[Term]
-id: DOID:0051096
-name: retinitis pigmentosa 105
-def: "A retinitis pigmentosa that is charaterized by onset of night blindness and/or loss of peripheral vision in adolescence and that has_material_basis_in heterozygous mutation in the RNU6-8 gene on chromosome 14q12. (DO)" [PMID:41513982 "DO"]
-xref: MIM:621563
-is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:10584 ! retinitis pigmentosa
-created_by: do
-creation_date: 2026-07-01T08:49:42Z
-
-[Term]
-id: DOID:0051097
-name: retinitis pigmentosa 106
-def: "A retinitis pigmentosa that is charaterized by onset of night blindness and/or loss of peripheral vision in adolescence and that has_material_basis_in heterozygous mutation in the RNU6-9 gene on chromosome 19p13. (DO)" [PMID:41513982 "DO"]
-xref: MIM:621564
-is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:10584 ! retinitis pigmentosa
-created_by: do
-creation_date: 2026-07-01T08:52:39Z
-
-[Term]
-id: DOID:0051098
-name: retinitis pigmentosa 107
-def: "A retinitis pigmentosa that is charaterized by onset of RP ranging from the second decade to the sixth decade of life, with affected individuals experiencing night blindness, constriction of peripheral vision, and reduced visual acuity and that has_material_basis_in homozygous or compound heterozygous mutation in the CFAP20 gene on chromosome 16q21. (DO)" [PMID:35246562 "DO", PMID:36329026 "DO"]
-xref: MIM:621587
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:10584 ! retinitis pigmentosa
-created_by: do
-creation_date: 2026-07-01T08:55:57Z
-
-[Term]
-id: DOID:0051099
-name: Paget disease of bone 7
-def: "A Paget disease of bone that is characterized by persistent and long-lasting active bone resorption, resulting in severe skeletal deformities and high levels of serum alkaline phosphatase and bone turnover markers and that has_material_basis_in heterozygous mutation in the PFN1 gene on chromosome 17p13. (DO)" [PMID:33599011 "DO"]
-synonym: "Paget's disease of bone 7" EXACT []
-xref: MIM:621600
-is_a: DOID:5408 ! Paget disease of bone
-created_by: do
-creation_date: 2026-07-01T08:57:38Z
-
-[Term]
 id: DOID:0060000
 name: infective endocarditis
 def: "An endocarditis that is characterized by inflammation of the endocardium caused by infectious agents. (DO)" [http://en.wikipedia.org/wiki/Endocarditis "DO", http://en.wikipedia.org/wiki/Infective_endocarditis "DO"]
@@ -12042,8 +11957,8 @@ synonym: "gamma chain deficiency" EXACT []
 synonym: "IMD4" EXACT []
 synonym: "Immunodeficiency 4" EXACT []
 synonym: "SCIDX" EXACT []
-synonym: "SCID-X1" EXACT []
 synonym: "SCIDX1" EXACT []
+synonym: "SCID-X1" EXACT []
 synonym: "thymic epithelial hypoplasia" EXACT []
 synonym: "X-linked SCID" EXACT []
 synonym: "X-linked severe combined immunodeficiency disease" EXACT []
@@ -12895,12 +12810,8 @@ creation_date: 2017-08-31T00:00:00Z
 
 [Term]
 id: DOID:0060079
-name: HER2 positive breast cancer
-def: "A breast cancer that is characterized by excess HER2 (EBBR2) protein. (DO)" [https://www.bcrf.org/about-breast-cancer/her2-positive-breast-cancer-treatment-research/ "DO", https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html "DO", PMID:22153890 "DO"]
-synonym: "HER2+ breast cancer" EXACT []
-synonym: "Her2-receptor positive breast cancer" EXACT []
-synonym: "human epidermal growth factor 2 positive breast cancer" EXACT []
-synonym: "human epidermal growth factor receptor 2 positive breast cancer" EXACT []
+name: Her2-receptor positive breast cancer
+def: "A breast cancer that is characterized by the presence of Her2 receptors. (DO)" [https://www.cancer.org/cancer/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-hormone-receptor-status.html "DO", https://www.sciencedirect.com/science/article/pii/S1470204511703369 "DO"]
 xref: EFO:1000294
 is_a: DOID:1612 ! breast cancer
 created_by: rgd
@@ -12908,14 +12819,8 @@ creation_date: 2017-08-31T00:00:00Z
 
 [Term]
 id: DOID:0060080
-name: HER2 negative breast cancer
-def: "A breast cancer that is characterized by the absence of HER2 (EBBR2) protein. (DO)" [https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html "DO", PMID:40282933 "DO", PMID:41968415 "DO", PMID:42169015 "DO", PMID:42269397 "DO"]
-synonym: "HER2- breast cancer" EXACT []
-synonym: "HER2-null breast cancer" EXACT []
-synonym: "Her2-receptor negative breast cancer" EXACT []
-synonym: "HER2-zero breast cancer" EXACT []
-synonym: "human epidermal growth factor 2 negative breast cancer" EXACT []
-synonym: "human epidermal growth factor receptor 2 negative breast cancer" EXACT []
+name: Her2-receptor negative breast cancer
+def: "A breast cancer that is characterized by the absence of Her2 receptors. (DO)" [PMID:25682076 "DO"]
 xref: EFO:0009780
 xref: MONDO:0000618
 is_a: DOID:1612 ! breast cancer
@@ -12924,16 +12829,10 @@ creation_date: 2017-08-31T00:00:00Z
 
 [Term]
 id: DOID:0060081
-name: triple-negative breast cancer
-def: "A breast cancer that is characterized by the absence of estrogen, progresterone and HER2 (EBBR2) receptors. (DO)" [https://www.bcrf.org/about-breast-cancer/triple-negative-breast-cancer-treatment-symptoms-research/ "DO", https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html "DO", PMID:22826413 "DO"]
-synonym: "HR-/HER2- breast cancer" EXACT []
-synonym: "HR-negative/HER2-negative breast cancer" EXACT []
-synonym: "human epidermal growth factor receptor 2 negative/hormone receptor negative breast cancer" EXACT []
-synonym: "TNBC" EXACT []
-synonym: "triple-negative breast cancer (TNBC / HR-/HER2-)" EXACT []
-synonym: "triple-receptor negative breast cancer" EXACT []
+name: triple-receptor negative breast cancer
+def: "A breast cancer that is characterized by the absence of estrogen, progresterone and Her2 receptors. (DO)" [PMID:22826413 "DO"]
 xref: EFO:0005537
-is_a: DOID:0060080 ! HER2 negative breast cancer
+is_a: DOID:1612 ! breast cancer
 created_by: rgd
 creation_date: 2017-08-31T00:00:00Z
 
@@ -13921,7 +13820,6 @@ id: DOID:0060176
 name: gamma-amino butyric acid metabolism disorder
 def: "An amino acid metabolic disorder characterized by impairment of the GABA catabolic pathway. (DO)" [PMID:12891648 "DO"]
 xref: MONDO:0000698
-xref: ORDO:79175
 is_a: DOID:9252 ! amino acid metabolic disorder
 created_by: rgd
 creation_date: 2017-10-20T00:00:00Z
@@ -17598,7 +17496,6 @@ xref: MIM:146390
 xref: MONDO:0007800
 xref: NCI:C84521
 xref: ORDO:1598
-xref: ORDO:261974
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:0060388 ! chromosomal deletion syndrome
 
@@ -17617,7 +17514,6 @@ xref: MESH:C536580
 xref: MIM:601808
 xref: MONDO:0011147
 xref: ORDO:1600
-xref: ORDO:262146
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:0060388 ! chromosomal deletion syndrome
 
@@ -18686,7 +18582,6 @@ xref: MIM:616421
 xref: MONDO:0014633
 xref: NCI:C165674
 xref: NCI:C172100
-xref: ORDO:1942
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:11832 ! visual epilepsy
 is_a: DOID:9005154 ! Myoclonic Epilepsies
@@ -20818,7 +20713,6 @@ xref: MIM:604772
 xref: MONDO:0011484
 xref: NCI:C123414
 xref: ORDO:3286
-xref: ORDO:730618
 is_a: DOID:0050431 ! arrhythmogenic right ventricular cardiomyopathy
 is_a: DOID:0060674 ! catecholaminergic polymorphic ventricular tachycardia
 is_a: DOID:12930 ! dilated cardiomyopathy
@@ -20834,7 +20728,6 @@ synonym: "VTSIP2" EXACT []
 xref: ICD10CM:I47.2
 xref: MIM:611938
 xref: MONDO:0012762
-xref: ORDO:730631
 is_a: DOID:0060674 ! catecholaminergic polymorphic ventricular tachycardia
 
 [Term]
@@ -20845,7 +20738,6 @@ synonym: "CPVT3" EXACT []
 synonym: "CVPT3" EXACT []
 synonym: "TECRL-RELATED CONDITION" EXACT []
 xref: MIM:614021
-xref: ORDO:730644
 is_a: DOID:0060674 ! catecholaminergic polymorphic ventricular tachycardia
 
 [Term]
@@ -26005,7 +25897,6 @@ def: "A thrombocytopenia characterized by thrombocytopenia with progression to p
 synonym: "CAMT2" EXACT []
 xref: MIM:620481
 xref: MONDO:0957575
-xref: ORDO:726050
 is_a: DOID:0090118 ! congenital amegakaryocytic thrombocytopenia
 created_by: mtutaj
 creation_date: 2024-11-01T16:31:32Z
@@ -26044,7 +25935,6 @@ synonym: "CAMT1" EXACT []
 xref: MIM:604498
 xref: MONDO:0800452
 xref: ORDO:3319
-xref: ORDO:726047
 is_a: DOID:0090118 ! congenital amegakaryocytic thrombocytopenia
 created_by: mtutaj
 creation_date: 2024-11-27T18:37:54Z
@@ -26084,6 +25974,7 @@ synonym: "CRS6" EXACT []
 synonym: "ZIC1-RELATED CONDITION" BROAD []
 xref: MIM:616602
 xref: MONDO:0014705
+xref: ORDO:672985
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:2340 ! craniosynostosis
 created_by: mtutaj
@@ -26449,7 +26340,6 @@ synonym: "TLK2-related condition" BROAD []
 synonym: "TLK2-related neurodevelopmental disorder" BROAD []
 xref: MIM:618050
 xref: MONDO:0054837
-xref: ORDO:720321
 is_a: DOID:0060307 ! autosomal dominant intellectual developmental disorder
 created_by: mtutaj
 creation_date: 2025-03-03T17:11:06Z
@@ -26622,6 +26512,7 @@ def: "An autosomal dominant intellectual developmental disorder characterized by
 synonym: "MRD70" EXACT []
 xref: MIM:620157
 xref: MONDO:0859333
+xref: ORDO:597743
 is_a: DOID:0060307 ! autosomal dominant intellectual developmental disorder
 created_by: mtutaj
 creation_date: 2025-03-04T09:08:21Z
@@ -26753,7 +26644,6 @@ def: "A primary immunodeficiency disease that is characterized by highly variabl
 synonym: "IMD81" EXACT []
 xref: MIM:619374
 xref: MONDO:0030302
-xref: ORDO:720371
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:612 ! primary immunodeficiency disease
 created_by: mtutaj
@@ -27424,7 +27314,6 @@ synonym: "IMD133" EXACT []
 synonym: "Immunodeficiency 133 with autoimmunity and autoinflammation" EXACT []
 synonym: "immunodeficiency 133 with ectodermal dysplasia with or without peripheral neuropathy" EXACT []
 xref: MIM:621254
-xref: ORDO:730318
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:612 ! primary immunodeficiency disease
 created_by: mtutaj
@@ -27898,7 +27787,6 @@ id: DOID:0061127
 name: retinitis pigmentosa 99
 def: "A retinitis pigmentosa that has_material_basis_in mutation in the RLBP1 gene on chromosome 15q26.1. (DO)" [PMID:20301590 "DO", PMID:25429852 "DO"]
 synonym: "RP99" EXACT []
-xref: MIM:301148
 is_a: DOID:10584 ! retinitis pigmentosa
 created_by: mtutaj
 creation_date: 2025-04-30T10:11:25Z
@@ -28179,7 +28067,6 @@ synonym: "CUL3-related disorder" BROAD []
 synonym: "NEDAUS" EXACT []
 xref: MIM:619239
 xref: MONDO:0030994
-xref: ORDO:716116
 is_a: DOID:0060307 ! autosomal dominant intellectual developmental disorder
 is_a: DOID:225 ! syndrome
 created_by: mtutaj
@@ -28689,7 +28576,6 @@ synonym: "FHCA1" EXACT []
 synonym: "TJP2-related condition" BROAD []
 xref: MIM:607748
 xref: MONDO:0031446
-xref: ORDO:238475
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:9007118 ! Familial Hypercholanemia
 created_by: mtutaj
@@ -29569,7 +29455,6 @@ def: "A brain small vessel disease characterized by schemic and/or hemorrhagic e
 synonym: "BSVD4" EXACT []
 xref: MIM:621313
 xref: MONDO:0979873
-xref: ORDO:728764
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:0112313 ! brain small vessel disease
 created_by: mtutaj
@@ -32155,7 +32040,6 @@ def: "A congenital hypothyroidism that has_material_basis_in heterozygous mutati
 synonym: "CHNG6" EXACT []
 synonym: "THRA-RELATED CONDITION" EXACT []
 xref: MIM:614450
-xref: ORDO:566231
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:9000591 ! Congenital Nongoitrous Hypothyroidism
 
@@ -33694,14 +33578,13 @@ is_a: DOID:0050466 ! Loeys-Dietz syndrome
 id: DOID:0070237
 name: Loeys-Dietz syndrome 3
 def: "A Loeys-Dietz syndrome that has_material_basis_in heterozygous mutation in the SMAD3 gene on chromosome 15q. (DO)" [PMID:21217753 "DO"]
-synonym: "aneurysms-osteoarthritis syndrome" EXACT []
+synonym: "ANEURYSMS-OSTEOARTHRITIS SYNDROME" EXACT []
 synonym: "LDS1C" EXACT []
 synonym: "LDS3" EXACT []
 synonym: "LOEYS-DIETZ SYNDROME, TYPE 1C" EXACT []
 synonym: "Loeys-Dietz syndrome with osteoarthritis" EXACT []
-synonym: "SMAD3-related condition" EXACT []
+synonym: "SMAD3-RELATED CONDITION" EXACT []
 xref: MIM:613795
-xref: MONDO:0013426
 xref: ORDO:284984
 is_a: DOID:0050466 ! Loeys-Dietz syndrome
 
@@ -34410,10 +34293,9 @@ is_a: DOID:0070296 ! autosomal recessive primary microcephaly
 id: DOID:0070284
 name: primary autosomal recessive microcephaly 12
 def: "A primary autosomal recessive microcephaly that has_material_basis_in homozygous or compound heterozygous mutation in the CDK6 gene on chromosome 7q21. (DO)" [PMID:23918663 "DO"]
-synonym: "CDK6-related condition" EXACT []
+synonym: "CDK6-RELATED CONDITION" EXACT []
 synonym: "MCPH12" EXACT []
 xref: MIM:616080
-xref: MONDO:0014484
 is_a: DOID:0070296 ! autosomal recessive primary microcephaly
 
 [Term]
@@ -35402,6 +35284,7 @@ synonym: "PERRS1" EXACT []
 synonym: "prolonged electroretinal response suppression 1" EXACT []
 synonym: "RGS9-RELATED CONDITION" EXACT []
 xref: MIM:608415
+xref: ORDO:75374
 is_a: DOID:0050335 ! bradyopsia
 created_by: mtutaj
 creation_date: 2023-05-31T12:16:10Z
@@ -35429,6 +35312,7 @@ synonym: "basal cell nevus syndrome 1" EXACT []
 synonym: "BCNS1" EXACT []
 xref: MIM:109400
 xref: MONDO:0958174
+xref: ORDO:377
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:2512 ! nevoid basal cell carcinoma syndrome
 created_by: mtutaj
@@ -38964,7 +38848,6 @@ synonym: "AIMS" EXACT []
 synonym: "IDMYS" EXACT []
 xref: MIM:619719
 xref: MONDO:0859224
-xref: ORDO:726782
 is_a: DOID:1059 ! intellectual disability
 is_a: DOID:225 ! syndrome
 is_a: DOID:9002704 ! Leukoencephalopathies
@@ -39204,6 +39087,7 @@ def: "A glycine encephalopathy that has_material_basis_in homozygous or compound
 synonym: "GCE1" EXACT []
 xref: MIM:605899
 xref: MONDO:0958179
+xref: ORDO:407
 is_a: DOID:9268 ! glycine encephalopathy
 created_by: mtutaj
 creation_date: 2024-11-01T16:41:58Z
@@ -39250,6 +39134,7 @@ synonym: "MTPD1" EXACT []
 synonym: "trifunctional protein deficiency, type 1" EXACT []
 xref: MIM:609015
 xref: MONDO:0958181
+xref: ORDO:746
 is_a: DOID:0111277 ! mitochondrial trifunctional protein deficiency
 created_by: mtutaj
 creation_date: 2024-11-01T17:17:22Z
@@ -40330,7 +40215,6 @@ name: neurodevelopmental disorder with congenital cardiac defects and variable r
 def: "A autosomal dominant intellectual developmental disorder characterized by global developmental delay with hypotonia, mildly delayed walking and speech acquisition, impaired intellectual development ranging from learning difficulties to severe cognitive impairment, behavioral abnormalities or autistic features, and congenital heart defects that has_material_basis_in heterozygous mutation in the KDM2B gene on chromosome 12q24. (DO)" [https://pmc.ncbi.nlm.nih.gov/articles/PMC12361114/ "DO", https://pmc.ncbi.nlm.nih.gov/articles/PMC9825659/ "DO"]
 synonym: "NEDCRO" EXACT []
 xref: MIM:621474
-xref: ORDO:717841
 is_a: DOID:0060307 ! autosomal dominant intellectual developmental disorder
 created_by: do
 creation_date: 2026-04-30T19:46:51Z
@@ -40375,7 +40259,6 @@ name: X-linked neurodevelopmental disorder with poor or absent speech and behavi
 def: "A syndromic X-linked intellectual disability characterized by global developmental delay apparent from infancy, hypotonia with delayed walking or inability to walk, severe-to-profound intellectual disability with poor or absent speech, and early-onset epilepsy that has_material_basis_in hemizygous or heterozygous mutation in the IQSEC2 gene on chromosome Xp11. Females may be less severely affected than males. (DO)" [https://pmc.ncbi.nlm.nih.gov/articles/PMC6752297/ "DO", PMID:30666632 "DO"]
 synonym: "NEDXSB" EXACT []
 xref: MIM:301164
-xref: ORDO:397933
 is_a: DOID:0060309 ! syndromic X-linked intellectual disability
 is_a: DOID:0080009 ! X-linked dominant disease
 created_by: do
@@ -40675,7 +40558,6 @@ name: adult-onset leukoencephalopathy without lacunae
 def: "A leukodystrophy characterized by a diffuse vascular leukoencephalopathy without lacunar infarct and a hippocampal type of memory defect with onset in the sixth to seventh decade that has_material_basis_in heterozygous mutation in the LAMB1 gene on chromosome 7q31. (DO)" [PMID:34606115 "DO"]
 synonym: "LUCAO" EXACT []
 xref: MIM:621424
-xref: ORDO:662229
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:10579 ! leukodystrophy
 created_by: do
@@ -41229,20 +41111,6 @@ created_by: rgd
 creation_date: 2026-06-01T11:59:17Z
 
 [Term]
-id: DOID:0070758
-name: primary ciliary dyskinesia 46
-alt_id: DOID:9001692
-def: "A primary ciliary dyskinesia characterized by recurrent sinus and respiratory infections, with reduced pulmonary function and uncoordinated beating of respiratory cilia that has_material_basis_in homozygous mutation in the STK36 gene on chromosome 2q35. Situs abnormalities have not been reported. (DO)" [https://www.ncbi.nlm.nih.gov/books/NBK1122/ "DO", PMID:28543983 "DO"]
-synonym: "CILD46" EXACT []
-synonym: "STK36-related condition" EXACT []
-xref: MIM:619436
-xref: MONDO:0030332
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:9562 ! primary ciliary dyskinesia
-created_by: mtutaj
-creation_date: 2026-07-01T09:06:52Z
-
-[Term]
 id: DOID:0070759
 name: autosomal recessive progressive external ophthalmoplegia with mitochondrial DNA deletions 6
 alt_id: DOID:9002313
@@ -41254,327 +41122,6 @@ xref: MONDO:0957993
 is_a: DOID:9005815 ! Progressive External Ophthalmoplegia with Mitochondrial DNA Deletions, Autosomal Recessive
 created_by: tutajm
 creation_date: 2026-06-01T12:01:48Z
-
-[Term]
-id: DOID:0070760
-name: primary ciliary dyskinesia 47 and lissencephaly
-alt_id: DOID:9005352
-def: "A primary ciliary dyskinesia characterized by onset of recurrent respiratory infections and respiratory dysfunction caused by defective mucociliary clearance in early childhood and neurologic features, such as impaired intellectual development and central hypotonia, associated with structural brain abnormalities, most notably lissencephaly and thin or absent corpus callosum, that has_material_basis_in homozygous mutation in the TP73 gene on chromosome 1p36. Situs abnormalities have not been reported. (DO)" [https://www.ncbi.nlm.nih.gov/books/NBK1122/ "DO", PMID:34077761 "DO"]
-synonym: "CILD47" EXACT []
-synonym: "Primary Ciliary Dyskinesia 47" EXACT []
-synonym: "primary ciliary dyskinesia-47 and lissencephaly" EXACT []
-xref: MIM:619466
-xref: MONDO:0030346
-is_a: DOID:0050453 ! lissencephaly
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:9562 ! primary ciliary dyskinesia
-created_by: mtutaj
-creation_date: 2026-07-01T09:20:53Z
-
-[Term]
-id: DOID:0070761
-name: primary ciliary dyskinesia 48
-alt_id: DOID:9005202
-def: "A primary ciliary dyskinesia characterized by recurrent upper and lower respiratory infections due to impaired ciliary movement and clearance, resulting from defects in the radial spokes and central pairs of microtubules in motile cilia that has_material_basis_in homozygous mutation in the NME5 gene on chromosome 5q31. Situs abnormalities have not been reported. (DO)" [https://www.ncbi.nlm.nih.gov/books/NBK1122/ "DO", PMID:32185794 "DO"]
-synonym: "CILD48" EXACT []
-synonym: "primary ciliary dyskinesia-48 without situs inversus" EXACT []
-xref: MIM:620032
-xref: MONDO:0031054
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:9562 ! primary ciliary dyskinesia
-created_by: mtutaj
-creation_date: 2026-07-01T09:22:33Z
-
-[Term]
-id: DOID:0070762
-name: primary ciliary dyskinesia 49
-alt_id: DOID:9005405
-def: "A primary ciliary dyskinesia characterized by onset of recurrent respiratory infections, chronic cough, and bronchiectasis in early childhood due to defective ciliary clearance and male infertility due to defective flagellar morphology and function that has_material_basis_in compound heterozygous mutation in the CFAP74 gene on chromosome 1p36. Situs abnormalities have not been reported. (DO)" [https://www.ncbi.nlm.nih.gov/books/NBK1122/ "DO", PMID:32555313 "DO", PMID:36047773 "DO"]
-synonym: "CFAP74-related condition" EXACT []
-synonym: "CILD49" EXACT []
-synonym: "primary ciliary dyskinesia-49 without situs inversus" EXACT []
-xref: MIM:620197
-xref: MONDO:0859353
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:9562 ! primary ciliary dyskinesia
-created_by: mtutaj
-creation_date: 2026-07-01T09:28:55Z
-
-[Term]
-id: DOID:0070763
-name: primary ciliary dyskinesia 50
-alt_id: DOID:9003633
-def: "A primary ciliary dyskinesia characterized by chronic sinusitis, bronchitis, and male infertility with markedly reduced progressive motility and multiple morphologic abnormalities of the flagella resulting from defects or loss of the inner dynein arms of the sperm flagella that has_material_basis_in homozygous or compound heterozygous mutation in the DNAH7 gene on chromosome 2q32. (DO)" [https://www.ncbi.nlm.nih.gov/books/NBK1122/ "DO", PMID:34476482 "DO", PMID:35543642 "DO"]
-synonym: "CILD50" EXACT []
-synonym: "DNAH7-related condition" EXACT []
-xref: MIM:620356
-xref: MONDO:0957252
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:9562 ! primary ciliary dyskinesia
-created_by: mtutaj
-creation_date: 2026-07-01T09:31:01Z
-
-[Term]
-id: DOID:0070764
-name: primary ciliary dyskinesia 51
-alt_id: DOID:9005960
-def: "A primary ciliary dyskinesia characterized by male infertility with markedly reduced progressive motility and multiple morphologic abnormalities of the flagella, chronic rhinosinusitis and bronchitis, and recurrent upper and lower respiratory infections that has_material_basis_in homozygous or compound heterozygous mutation in the BRWD1 gene on chromosome 21q22. Situs abnormalities have been reported. (DO)" [PMID:33389130 "DO"]
-synonym: "BRWD1-related condition" EXACT []
-synonym: "CILD51" EXACT []
-xref: MIM:620438
-xref: MONDO:0957396
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:9562 ! primary ciliary dyskinesia
-created_by: mtutaj
-creation_date: 2026-07-01T09:33:24Z
-
-[Term]
-id: DOID:0070765
-name: primary ciliary dyskinesia 52
-alt_id: DOID:9003681
-def: "A primary ciliary dyskinesia characterized by laterality defects and mild respiratory symptoms due to subtle ciliary beating defects that has_material_basis_in homozygous or compound heterozygous mutation in the DAW1 gene on chromosome 2q36. (DO)" [PMID:36074124 "DO"]
-synonym: "CILD52" EXACT []
-synonym: "DAW1-related disorder" EXACT []
-synonym: "primary ciliary dyskinesia 52, with or without situs invertus" EXACT []
-xref: MIM:620570
-xref: MONDO:0957922
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:9562 ! primary ciliary dyskinesia
-created_by: tutajm
-creation_date: 2026-07-01T09:35:23Z
-
-[Term]
-id: DOID:0070766
-name: primary ciliary dyskinesia 53
-alt_id: DOID:9007615
-def: "A primary ciliary dyskinesia characterized by randomization of the left-right body asymmetry and respiratory symptoms that has_material_basis_in homozygous mutation in the CLXN gene on chromosome 8q11. (DO)" [PMID:36727596 "DO"]
-synonym: "CILD53" EXACT []
-xref: MIM:620642
-xref: MONDO:0957991
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:9562 ! primary ciliary dyskinesia
-created_by: tutajm
-creation_date: 2026-07-01T09:41:14Z
-
-[Term]
-id: DOID:0070767
-name: primary ciliary dyskinesia 54
-alt_id: DOID:9009318
-def: "A primary ciliary dyskinesia characterized by a mild respiratory phenotype including rhinitis, sinusitis, asthma, and bronchiectasis that has_material_basis_in compound heterozygous mutation in the CFAP54 gene on chromosome 12q23. Some abnormalities of spermatozoa have been reported, but their effect on male fertility is unclear. (DO)" [PMID:37725231 "DO"]
-synonym: "CILD54" EXACT []
-xref: MIM:621125
-xref: MONDO:0100607
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:9562 ! primary ciliary dyskinesia
-created_by: tutajm
-creation_date: 2026-07-01T09:41:27Z
-
-[Term]
-id: DOID:0070768
-name: peri-implant disease
-def: "A periodontal disease affecting the structures surrounding and supporting dental implants. (DO)" [https://www.perio.org/for-patients/periodontal-treatments-and-procedures/dental-implant-procedures/peri-implant-diseases/ "DO", PMID:29926489 "DO"]
-is_a: DOID:3388 ! periodontal disease
-created_by: do
-creation_date: 2026-07-01T09:44:51Z
-
-[Term]
-id: DOID:0070769
-name: peri-implant mucositis
-def: "A peri-implant disease characterised by clinical signs of inflammation without loss of supporting bone. (DO)" [PMID:29926488 "DO", PMID:29926489 "DO", PMID:38789756 "DO"]
-is_a: DOID:0070768 ! peri-implant disease
-created_by: do
-creation_date: 2026-07-01T09:47:02Z
-
-[Term]
-id: DOID:0070770
-name: peri-implantitis
-alt_id: DOID:9003969
-def: "A peri-implant disease characterized by inflammation in the peri-implant mucosa and progressive loss of supporting bone. (DO)" [PMID:29926484 "DO", PMID:29926489 "DO", PMID:38789756 "DO"]
-synonym: "periimplantitis" EXACT []
-xref: EFO:1001390
-xref: MESH:D057873
-is_a: DOID:0070768 ! peri-implant disease
-creation_date: 2026-07-01T09:50:54Z
-
-[Term]
-id: DOID:0070771
-name: gingival fibromatosis 1
-alt_id: DOID:9003873
-def: "A gingival fibromatosis that has_material_basis_in heterozygous mutation in the SOS1 gene on chromosome 2p22. (DO)" [PMID:11868160 "DO"]
-synonym: "GGF1" EXACT []
-synonym: "GINGF" EXACT []
-synonym: "GINGF1" EXACT []
-synonym: "gingival fibromatosis, type 1" EXACT []
-synonym: "hereditary gingival fibromatosis 1" EXACT []
-synonym: "HGF" EXACT []
-synonym: "SOS1-related condition" BROAD []
-synonym: "SOS1-related disorder" BROAD []
-xref: MESH:C562884
-xref: MIM:135300
-xref: MONDO:0007609
-xref: ORDO:2024
-is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:0060466 ! gingival fibromatosis
-creation_date: 2026-07-01T09:55:14Z
-
-[Term]
-id: DOID:0070772
-name: gingival fibromatosis 2
-alt_id: DOID:9003463
-def: "A gingival fibromatosis that has_material_basis_in variation in a region on chromosome 5q13-q22. (DO)" [PMID:11386754 "DO"]
-synonym: "GGF2" EXACT []
-synonym: "GINGF2" EXACT []
-synonym: "gingival fibromatosis, hereditary, 2" EXACT []
-synonym: "HGF2" EXACT []
-xref: MESH:C565323
-xref: MIM:605544
-xref: MONDO:0011563
-is_a: DOID:0060466 ! gingival fibromatosis
-creation_date: 2026-07-01T09:55:26Z
-
-[Term]
-id: DOID:0070773
-name: gingival fibromatosis 3
-alt_id: DOID:9006587
-def: "A gingival fibromatosis characterized by gingival overgrowth in early childhood at the time of tooth eruption that has_material_basis_in variation in a region on chromosome 2p23.3-p22.3. (DO)" [PMID:16098013 "DO", PMID:19633868 "DO", PMID:35665929 "DO"]
-synonym: "GGF3" EXACT []
-synonym: "GINGF3" EXACT []
-synonym: "gingival fibromatosis, hereditary, 3" EXACT []
-synonym: "HGF3" EXACT []
-xref: MESH:C537928
-xref: MIM:609955
-xref: MONDO:0012378
-is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:0060466 ! gingival fibromatosis
-creation_date: 2026-07-01T09:55:36Z
-
-[Term]
-id: DOID:0070774
-name: gingival fibromatosis 4
-alt_id: DOID:9004629
-def: "A gingival fibromatosis that has_material_basis_in variation in a region on chromosome 11p15. (DO)" [PMID:17075716 "DO"]
-synonym: "GGF4" EXACT []
-synonym: "GINGF4" EXACT []
-synonym: "gingival fibromatosis, hereditary, 4" EXACT []
-synonym: "HGF4" EXACT []
-xref: MESH:C567028
-xref: MIM:611010
-xref: MONDO:0012598
-is_a: DOID:0060466 ! gingival fibromatosis
-creation_date: 2026-07-01T09:55:47Z
-
-[Term]
-id: DOID:0070775
-name: gingival fibromatosis 6
-alt_id: DOID:9009208
-def: "A gingival fibromatosis that has_material_basis_in heterozygous mutation in the ZNF862 gene on chromosome 7q36. (DO)" [PMID:35142290 "DO"]
-synonym: "GINGF6" EXACT []
-xref: MIM:620999
-xref: MONDO:0975841
-is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:0060466 ! gingival fibromatosis
-created_by: tutajm
-creation_date: 2026-07-01T10:09:46Z
-
-[Term]
-id: DOID:0070776
-name: impaired intellectual development and distinctive facial features with or without cardiac defects
-alt_id: DOID:9006001
-def: "A syndromic intellectual disability characterized by mild-to-profound developmental delay, intellectual disability, speech delay, hypotonia, variable congenital heart defects, and distinctive dysmorphic facial features including frontal bossing, upslanting palpebral fissures, depressed nasal bridge with bulbous tip, and macrostomia  that has_material_basis_in heterozygous mutation in the MED13L gene on chromosome 12q24. (DO)" [https://www.ncbi.nlm.nih.gov/books/NBK613517/ "DO", PMID:25758992 "DO", PMID:42345332 "DO"]
-synonym: "Asadollahi-Rauch syndrome" EXACT []
-synonym: "CARDIAC ANOMALIES - DEVELOPMENTAL DELAY - FACIAL DYSMORPHISM SYNDROME" EXACT []
-synonym: "IMPAIRED INTELLECTUAL DEVELOPMENT AND DISTINCTIVE FACIAL FEATURES WITH CARDIAC DEFECTS" NARROW []
-synonym: "impaired intellectual development and distinctive facial features with or without cardiac defects" EXACT []
-synonym: "MED13L-related condition" BROAD []
-synonym: "MED13L-related disorder" BROAD []
-synonym: "MED13L-related intellectual disability" EXACT []
-synonym: "MED13L syndrome" EXACT []
-synonym: "Mental Retardation and Distinctive Facial Features with or without Cardiac Defects" EXACT []
-synonym: "MRFACD" EXACT []
-xref: ICD10CM:Q87.85
-xref: MIM:616789
-xref: MONDO:0014773
-xref: ORDO:369891
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:0050888 ! syndromic intellectual disability
-is_a: DOID:1682 ! congenital heart disease
-is_a: DOID:9001487 ! Facies
-is_a: DOID:9008731 ! Craniofacial Abnormalities
-creation_date: 2026-07-01T10:14:54Z
-
-[Term]
-id: DOID:0070777
-name: syndromic X-linked intellectual developmental disorder, Snijders Blok type
-alt_id: DOID:9002789
-def: "A syndromic X-linked intellectual disability characterized by mildly to severely impaired intellectual development with variable other features including brain abnormalities, microcephaly, hypotonia, movement disorder and/or spasticity, ventricular enlargement, hypoplasia, and behavioral problems that has_material_basis_in heterozygous or hemizygous mutation in the DDX3X gene on Xp11. It occurs predominantly in females. (DO)" [https://www.ncbi.nlm.nih.gov/books/NBK561282/ "DO", PMID:26235985 "DO", PMID:30734472 "DO"]
-synonym: "DDX3X-RELATED CONDITION" EXACT []
-synonym: "DDX3X-RELATED X-LINKED INTELLECTUAL DISABILITY" EXACT []
-synonym: "INTELLECTUAL DEVELOPMENTAL DISORDER, X-LINKED, SYNDROMIC, SNIJDERS BLOK TYPE" EXACT []
-synonym: "Mental Retardation, X-Linked 102" EXACT []
-synonym: "MRX102" EXACT []
-synonym: "MRXSSB" EXACT []
-synonym: "syndromic X-linked intellectual developmental disorder, Snijders Blok type" EXACT []
-synonym: "X-LINKED INTELLECTUAL DISABILITY-HYPOTONIA-MOVEMENT DISORDER SYNDROME" EXACT []
-xref: GARD:12715
-xref: ICD10CM:F78.A
-xref: MIM:300958
-xref: MONDO:0010497
-xref: NCI:C129931
-xref: ORDO:457260
-is_a: DOID:0060309 ! syndromic X-linked intellectual disability
-creation_date: 2026-07-01T10:30:18Z
-
-[Term]
-id: DOID:0070778
-name: hormone receptor-negative/HER2-positive breast cancer
-def: "A HER2 positive breast cancer characterized by excess HER2 (ERBB2) protein and the absence of both the estrogen and progesterone receptors. (DO)" [https://seer.cancer.gov/statfacts/html/breast-subtypes.html "DO", https://www.breastcancer.org/types/molecular-subtypes "DO", https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html "DO", https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-hormone-receptor-status.html "DO"]
-synonym: "HR-/HER2+ breast cancer" EXACT []
-synonym: "HR-negative/HER2-positive breast cancer" EXACT []
-synonym: "human epidermal growth factor receptor 2-positive/hormone receptor-negative breast cancer" EXACT []
-is_a: DOID:0060079 ! HER2 positive breast cancer
-created_by: do
-creation_date: 2026-07-01T10:37:00Z
-
-[Term]
-id: DOID:0070779
-name: hormone receptor-positive/HER2-positive breast cancer
-def: "A HER2 positive breast cancer characterized by excess HER2 (ERBB2) protein and at least one of the estrogen or progesterone receptors. (DO)" [https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html "DO", https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-hormone-receptor-status.html "DO", PMID:22153890 "DO", PMID:39062682 "DO"]
-synonym: "HR+/HER2+ breast cancer" EXACT []
-synonym: "HR-positive/HER2-positive breast cancer" EXACT []
-synonym: "human epidermal growth factor receptor 2 positive/hormone receptor positive breast cancer" EXACT []
-is_a: DOID:0060079 ! HER2 positive breast cancer
-created_by: do
-creation_date: 2026-07-01T10:37:57Z
-
-[Term]
-id: DOID:0070780
-name: hormone receptor-positive/HER2-negative breast cancer
-def: "A HER2 negative breast cancer characterized by at least one of the estrogen or progesterone receptors and the absence of HER2 (EBBR2) protein. (DO)" [https://pmc.ncbi.nlm.nih.gov/articles/PMC10847323/ "DO", https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html "DO", https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-hormone-receptor-status.html "DO", PMID:25682076 "DO"]
-synonym: "HR+/HER2- breast cancer" EXACT []
-synonym: "HR-positive/HER2-negative breast cancer" EXACT []
-synonym: "HR-positive, HER2-negative (HR+/HER2-) breast cancer" EXACT []
-synonym: "human epidermal growth factor receptor 2 negative/hormone receptor positive breast cancer" EXACT []
-is_a: DOID:0060080 ! HER2 negative breast cancer
-created_by: do
-creation_date: 2026-07-01T10:39:09Z
-
-[Term]
-id: DOID:0070781
-name: HER2-low breast cancer
-def: "A breast cancer characterized by low levels of HER2 (EBBR2) protein. (DO)" [https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html "DO", PMID:40282933 "DO"]
-synonym: "human epidermal growth factor receptor 2-low breast cancer" EXACT []
-is_a: DOID:1612 ! breast cancer
-created_by: do
-creation_date: 2026-07-01T10:40:40Z
-
-[Term]
-id: DOID:0070782
-name: HER2-ultralow breast cancer
-def: "A breast cancer characterized by very low, but detectable, levels of HER2 (EBBR2) protein. (DO)" [https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html "DO", PMID:40282933 "DO"]
-synonym: "human epidermal growth factor receptor 2-ultralow breast cancer" EXACT []
-is_a: DOID:1612 ! breast cancer
-created_by: do
-creation_date: 2026-07-01T10:41:31Z
 
 [Term]
 id: DOID:0080000
@@ -41700,7 +41247,6 @@ synonym: "chromosome disorders" EXACT []
 xref: EFO:0003831
 xref: MESH:D025063
 xref: MONDO:0019040
-xref: ORDO:68335
 is_a: DOID:630 ! genetic disease
 is_a: DOID:9005835 ! Congenital Abnormalities
 
@@ -44090,8 +43636,8 @@ def: "A bacterial meningitis that has_material_basis_in Neisseria meningitidis i
 synonym: "meningococcal meningitis, serogroup A" NARROW []
 synonym: "meningococcal meningitis, serogroup B" NARROW []
 synonym: "meningococcal meningitis,  serogroup C" NARROW []
-synonym: "meningococcal meningitis, serogroup W 135" NARROW []
 synonym: "meningococcal meningitis, serogroup W135" NARROW []
+synonym: "meningococcal meningitis, serogroup W 135" NARROW []
 synonym: "meningococcal meningitis, serogroup Y" NARROW []
 synonym: "meningococcic meningitis" EXACT []
 xref: EFO:1001040
@@ -52053,7 +51599,6 @@ def: "A beta thalassemia that has_material_basis_in one dominantly inherited mut
 synonym: "beta thalassemia, dominant inclusion body type" EXACT []
 synonym: "congenital dyserythropoietic anemia, Irish or Weatherall type" EXACT []
 synonym: "inclusion body beta-thalassemia" EXACT []
-xref: GARD:17164
 xref: MESH:C565834
 xref: MIM:603902
 xref: MONDO:0011381
@@ -52071,7 +51616,7 @@ synonym: "beta+ thalassemia, silent allele" EXACT []
 synonym: "beta-E-thalassemia" EXACT []
 synonym: "beta-Knossos-thalassemia" EXACT []
 synonym: "beta-plus-thalassemia" EXACT []
-synonym: "beta-plus-thalassemia, dominant" NARROW []
+synonym: "BETA-PLUS-THALASSEMIA, DOMINANT" NARROW []
 synonym: "Beta-Showa-Yakushiji Thalassemia" EXACT []
 synonym: "beta-thal/Hb E" EXACT []
 synonym: "beta-thalassemia hemoglobin E" EXACT []
@@ -52091,7 +51636,7 @@ synonym: "HEMOGLOBIN NEAPOLIS" RELATED []
 synonym: "HEMOGLOBIN NORTH SHORE" RELATED []
 synonym: "HEMOGLOBIN NORTH SHORE-CARACAS" RELATED []
 synonym: "Hemoglobin Showa-Yakushiji" RELATED []
-synonym: "hemoglobin Terre Haute" RELATED []
+synonym: "HEMOGLOBIN TERRE HAUTE" RELATED []
 synonym: "hemoglobin Yukuhashi" RELATED []
 synonym: "thalassemia major" EXACT []
 synonym: "thalassemia major (beta thalassemia major)" EXACT []
@@ -52100,7 +51645,6 @@ xref: MIM:187550
 xref: MONDO:0008545
 xref: NCI:C129699
 xref: ORDO:231214
-is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:12241 ! beta thalassemia
 created_by: mtutaj
 creation_date: 2020-09-15T00:00:00Z
@@ -52110,8 +51654,8 @@ id: DOID:0080772
 name: beta-thalassemia intermedia
 def: "A beta thalassemia that is characterized by mild to moderate anemia along with slow growth and bone abnormalities appearing in early childhood or later in life. (DO)" [https://ghr.nlm.nih.gov/condition/beta-thalassemia "DO"]
 synonym: "thalassemia intermedia" EXACT []
+synonym: "thalassemia intermedias" EXACT []
 xref: ORDO:231222
-is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:12241 ! beta thalassemia
 created_by: mtutaj
 creation_date: 2020-09-15T00:00:00Z
@@ -52121,22 +51665,18 @@ id: DOID:0080773
 name: delta beta-thalassemia
 def: "A beta thalassemia that is characterized by decreased or absent synthesis of both the delta- and beta-globin chains, which leads to a compensatory increase in fetal gamma-chain synthesis. This disorder results in a microcytic anemia that is clinically mild. (DO)" [PMID:30706898 "DO", PMID:31444804 "DO"]
 synonym: "British HPFH" RELATED []
-synonym: "delta/beta thalessemia" EXACT []
+synonym: "DELTA/BETA THALESSEMIA" EXACT []
 synonym: "DELTA-PLUS-THALASSEMIA" EXACT []
 synonym: "FETAL HEMOGLOBIN, A-GAMMA TYPE, REDUCTION IN" NARROW []
-synonym: "Greek HPFH" RELATED []
+synonym: "Greek HPFH" NARROW []
 synonym: "HEREDITARY PERSISTENCE OF FETAL HEMOGLOBIN" NARROW []
 synonym: "hereditary persistence of fetal hemoglobin, HB gene cluster-related" NARROW []
 synonym: "hereditary persistence of hemoglobin F" NARROW []
 synonym: "HPFH" NARROW []
-synonym: "Sardinian HPFH" RELATED []
-synonym: "thalassemia, gamma-delta-beta" RELATED []
-xref: GARD:17165
-xref: ICD10CM:D56.2
-xref: ICD9CM:282.45
+synonym: "Sardinian HPFH" NARROW []
+synonym: "THALASSEMIA, GAMMA-DELTA-BETA" RELATED []
 xref: MESH:C562716
 xref: MIM:141749
-xref: MONDO:0016489
 xref: NCI:C172823
 xref: ORDO:231237
 is_a: DOID:0050736 ! autosomal dominant disease
@@ -52150,7 +51690,6 @@ id: DOID:0080774
 name: thalassemia minor
 def: "A beta thalassemia that has_material_basis_in one HBB gene mutation without typical thalassemia symptoms, but may have some symptoms of anemia. (DO)" [https://ghr.nlm.nih.gov/condition/beta-thalassemia#inheritance "DO"]
 synonym: "beta thalassemia minor" EXACT []
-xref: GARD:25885
 is_a: DOID:12241 ! beta thalassemia
 created_by: mtutaj
 creation_date: 2019-11-25T10:35:58Z
@@ -53016,14 +52555,13 @@ creation_date: 2020-12-22T14:37:11Z
 id: DOID:0080846
 name: latent autoimmune diabetes in adults
 def: "A type 1 diabetes mellitus that is characterized by a less intensive autoimmune process, highly variable β-cell destruction, different degrees of insulin resistance and heterogeneous titre and pattern of islet autoantibody, sharing features with both type 1 and type 2 diabetes mellitus. (DO)" [PMID:29947172 "DO", PMID:30565440 "DO"]
-synonym: "diabetes mellitus type 1.5" EXACT []
+synonym: "Diabetes Mellitus Type 1.5" EXACT []
 synonym: "LADA" EXACT []
-synonym: "LADA, latent autoimmune diabetes in adults" EXACT []
-synonym: "latent autoimmune diabetes of adults" EXACT []
+synonym: "LADA, Latent Autoimmune Diabetes in Adults" EXACT []
+synonym: "Latent Autoimmune Diabetes of Adults" EXACT []
 synonym: "type 1.5 diabetes" EXACT []
 xref: EFO:0009706
 xref: MESH:D000071698
-xref: MONDO:0850306
 is_a: DOID:9744 ! type 1 diabetes mellitus
 created_by: mtutaj
 creation_date: 2020-12-22T14:40:11Z
@@ -55658,7 +55196,7 @@ creation_date: 2022-02-01T09:22:28Z
 
 [Term]
 id: DOID:0081034
-name: glutathione synthetase deficiency with 5-oxoprolinuria
+name: glutatione synthetase deficiency with 5-oxoprolinuria
 def: "A glutathione synthetase deficiency that is characterized by massive urinary excretion of 5-oxoproline, metabolic acidosis, hemolytic anemia, and central nervous system damage and that has_material_basis_in homozygous or compound heterozygous mutation in the gene encoding glutathione synthetase (GSS) on chromosome 20q11. The metabolic defect results in decreased levels of cellular glutathione, which overstimulates the synthesis of gamma-glutamylcysteine and its subsequent conversion to 5-oxoproline. (DO)" [PMID:15990954 "DO"]
 synonym: "5-oxoprolinemia" EXACT []
 synonym: "5-oxoprolinuria" EXACT []
@@ -56476,7 +56014,6 @@ synonym: "Mental Retardation, Autosomal Recessive 15" EXACT []
 synonym: "MRT15" EXACT []
 synonym: "RAFQS" EXACT []
 xref: MIM:614202
-xref: ORDO:397941
 is_a: DOID:0060308 ! autosomal recessive intellectual developmental disorder
 created_by: mtutaj
 creation_date: 2022-06-02T22:56:56Z
@@ -58195,7 +57732,6 @@ synonym: "ELP2-RELATED DISORDERS" EXACT []
 synonym: "Mental Retardation, Autosomal Recessive 58" EXACT []
 synonym: "MRT58" EXACT []
 xref: MIM:617270
-xref: ORDO:717795
 is_a: DOID:0060308 ! autosomal recessive intellectual developmental disorder
 created_by: mtutaj
 creation_date: 2022-08-29T15:50:20Z
@@ -58891,7 +58427,6 @@ synonym: "NUP188-related condition" BROAD []
 synonym: "SANDSTEF" EXACT []
 xref: MIM:618804
 xref: MONDO:0032926
-xref: ORDO:729761
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:225 ! syndrome
 is_a: DOID:9004324 ! Congenital, Hereditary, and Neonatal Diseases and Abnormalities
@@ -60255,51 +59790,50 @@ creation_date: 2023-05-31T21:45:58Z
 
 [Term]
 id: DOID:0081365
-name: Paget disease of bone 2
+name: Paget's disease of bone 2
 alt_id: DOID:9003060
 def: "A Paget's disease of bone that has_material_basis_in heterozygous mutation in the TNFRSF11A gene, which encodes RANK, on chromosome 18q21. (DO)" [PMID:24988994 "DO"]
-synonym: "Paget's disease of bone 2" EXACT []
-synonym: "Paget disease of bone 2, early-onset" NARROW []
+synonym: "Paget disease of bone-2" EXACT []
+synonym: "Paget Disease of Bone 2, Early-Onset" EXACT []
 synonym: "PDB2" EXACT []
 xref: MIM:602080
 xref: MONDO:0011183
 is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:5408 ! Paget disease of bone
+is_a: DOID:5408 ! Paget's disease of bone
 created_by: mtutaj
 creation_date: 2023-05-31T21:48:46Z
 
 [Term]
 id: DOID:0081366
-name: Paget disease of bone 3
+name: Paget's disease of bone 3
 alt_id: DOID:9007946
 def: "A Paget's disease of bone that has_material_basis_in heterozygous mutation in the SQSTM1 gene on chromosome 5q35. (DO)" [PMID:24988994 "DO"]
-synonym: "Paget's disease of bone 3" EXACT []
+synonym: "Paget disease of bone 3" EXACT []
 synonym: "PDB3" EXACT []
 xref: MIM:167250
 xref: MONDO:0008176
 is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:5408 ! Paget disease of bone
+is_a: DOID:5408 ! Paget's disease of bone
 created_by: mtutaj
 creation_date: 2023-06-01T14:01:37Z
 
 [Term]
 id: DOID:0081367
-name: Paget disease of bone 4
+name: Paget's disease of bone 4
 alt_id: DOID:9006119
+alt_id: MIM:606263
 def: "A Paget's disease of bone that has_material_basis_in linkage to the 5q31 region within 12.2 cM, between D5S642 and D5S1972. (DO)" [PMID:11473345 "DO"]
-synonym: "Paget's disease of bone 4" EXACT []
-synonym: "Pagets disease of bone 4" EXACT []
+synonym: "Paget Disease of Bone 4" EXACT []
 synonym: "PDB4" EXACT []
 xref: MESH:C565240
-xref: MIM:606263
 is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:5408 ! Paget disease of bone
+is_a: DOID:5408 ! Paget's disease of bone
 created_by: mtutaj
 creation_date: 2023-06-01T14:03:53Z
 
 [Term]
 id: DOID:0081368
-name: Paget disease of bone 5
+name: Paget's disease of bone 5
 alt_id: DOID:9005421
 alt_id: MIM:239000
 def: "A Paget's disease of bone that is characterized by short stature, progressive long bone deformities, fractures, vertebral collapse, skull enlargement, and hyperostosis with progressive deafness and that has_material_basis_in osteoprotegerin deficiency caused by homozygous or compound heterozygous mutation in the TNFRSF11B gene on chromosome 8q24. (DO)" [PMID:25108083 "DO"]
@@ -60308,7 +59842,7 @@ synonym: "elevated alkaline phosphatase" BROAD []
 synonym: "familial idiopathic hyperphosphatasemia" EXACT []
 synonym: "familial idiopathic hyperphosphatasia" EXACT []
 synonym: "familial osteoectasia" EXACT []
-synonym: "hereditary hyperphosphatasia" EXACT []
+synonym: "Hereditary hyperphosphatasia" EXACT []
 synonym: "hyperostosis corticalis deformans juvenilis" EXACT []
 synonym: "hyperphosphatasemia with bone disease" EXACT []
 synonym: "Idiopathic Hyperphosphatasia" EXACT []
@@ -60317,31 +59851,31 @@ synonym: "juvenile Paget's disease" EXACT []
 synonym: "juvenile Paget disease" EXACT []
 synonym: "osteochalasia desmalis familiaris" EXACT []
 synonym: "osteoectasia with hyperphosphatasia" EXACT []
-synonym: "Paget's disease of bone 5" EXACT []
+synonym: "Paget disease of bone-5" EXACT []
 synonym: "Paget Disease of Bone 5, Juvenile-Onset" EXACT []
 synonym: "PDB5" EXACT []
-synonym: "TNFRSF11B-related condition" EXACT []
+synonym: "TNFRSF11B-RELATED CONDITION" EXACT []
 xref: GARD:2831
 xref: MESH:C537701
 xref: NCI:C131861
 xref: ORDO:2801
 is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:5408 ! Paget disease of bone
+is_a: DOID:5408 ! Paget's disease of bone
 created_by: mtutaj
 creation_date: 2023-06-01T14:05:18Z
 
 [Term]
 id: DOID:0081369
-name: Paget disease of bone 6
+name: Paget's disease of bone 6
 alt_id: DOID:9001120
 def: "A Paget's disease of bone that is characterized by adult onset of bone pain associated with polyostotic bone lesions primarily affecting the axial skeleton and that has_material_basis_in heterozygous mutation in the ZNF687 gene on chromosome 1q21. (DO)" [PMID:26849110 "DO"]
-synonym: "Paget's disease of bone 6" EXACT []
+synonym: "Paget disease of bone 6" EXACT []
 synonym: "PDB6" EXACT []
-synonym: "ZNF687-related condition" EXACT []
+synonym: "ZNF687-RELATED CONDITION" EXACT []
 xref: MIM:616833
 xref: MONDO:0014792
 is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:5408 ! Paget disease of bone
+is_a: DOID:5408 ! Paget's disease of bone
 created_by: mtutaj
 creation_date: 2023-06-01T14:07:09Z
 
@@ -61174,7 +60708,6 @@ synonym: "distal hereditary motor neuropathy, autosomal recessive 10" EXACT []
 synonym: "HMNR10" EXACT []
 synonym: "VRK1-related motor neuron disease" EXACT []
 xref: MIM:620542
-xref: ORDO:423894
 is_a: DOID:0111197 ! autosomal recessive distal hereditary motor neuronopathy
 created_by: mtutaj
 creation_date: 2024-01-31T12:25:24Z
@@ -61308,21 +60841,18 @@ creation_date: 2024-04-01T11:47:17Z
 [Term]
 id: DOID:0081438
 name: Peroxisome biogenesis disorder 9B
-alt_id: DOID:9004029
 alt_id: DOID:9006365
+alt_id: MIM:614879
 def: "A peroxisomal biogenesis disorder that is characterized by the overlapping phenotypes of neonatal adrenoleukodystrophy and infantile Refsum disease and that has_material_basis_in homozygous or compound heterozygous mutation in the PEX7 gene on chromosome 6q23. (DO)" [PMID:12325024 "DO"]
 synonym: "Adult Refsum Disease, 2" EXACT []
 synonym: "PBD9B" EXACT []
-synonym: "Peroxisome biogenesis disorder, complementation group 9" EXACT []
-synonym: "Peroxisome biogenesis disorder, PEX7-related, atypical" EXACT []
-synonym: "PEX7-related disorder" BROAD []
-xref: MESH:C566387
+synonym: "PEROXISOME BIOGENESIS DISORDER, PEX7-RELATED, ATYPICAL" EXACT []
+synonym: "PEX7-RELATED DISORDER" BROAD []
 xref: MESH:C567603
-xref: MIM:614879
-xref: MONDO:0013945
 is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:0080377 ! peroxisomal biogenesis disorder
 is_a: DOID:10582 ! Refsum disease
+is_a: DOID:9004029 ! Peroxisome Biogenesis Disorder, Complementation Group 9
+created_by: mtutaj
 creation_date: 2024-04-01T11:49:14Z
 
 [Term]
@@ -64494,26 +64024,24 @@ is_a: DOID:10871 ! age related macular degeneration
 [Term]
 id: DOID:0110029
 name: alpha thalassemia-intellectual disability syndrome type 1
-def: "A syndrome characterized by a variable phenotype including alpha thalassemia, intellectual disability, developmental abnormalities and/or speech delay, and facial dysmorphism that has_material_basis_in a deletion in chromosome 16p that involves the alpha-1 (HBA1) and alpha-2 (HBA2) genes, among others. (DO)" [https://pmc.ncbi.nlm.nih.gov/articles/PMC7279195/ "DO", PMID:15921166 "DO", PMID:18076105 "DO"]
+alt_id: MIM:141750
+def: "An alpha thalassemia that has_material_basis_in a deletion in chromosome 16p that involves the alpha-1 (HBA1) and alpha-2 (HBA2) genes, among others. (DO)" [PMID:15921166 "DO", PMID:18076105 "DO"]
 synonym: "alpha thalassemia/impaired intellectual development syndrome, deletion type" EXACT []
 synonym: "alpha-thalassemia/mental retardation syndrome, chromosome 16-related" EXACT []
-synonym: "alpha-thalassemia/mental retardation syndrome, deletion-type" EXACT []
 synonym: "alpha-thalassemia/mental retardation syndrome, type 1" EXACT []
 synonym: "alpha thalassemia-intellectual disability syndrome, deletion type" EXACT []
 synonym: "alpha-thalassemia-intellectual disability syndrome linked to chromosome 16" EXACT []
+synonym: "Alpha-Thalassemia Mental Retardation Syndrome, Deletion-Type" EXACT []
 synonym: "alpha thalassemia-retardation syndrome" EXACT []
 synonym: "ATR-16 syndrome" EXACT []
 synonym: "ATR, deletion-type" EXACT []
 synonym: "ATR syndrome, deletion type" EXACT []
 synonym: "ATR syndrome linked to chromosome 16" EXACT []
-synonym: "chromosome 16p deletion syndrome" EXACT []
+synonym: "CHROMOSOME 16p DELETION SYNDROME" EXACT []
 synonym: "HBHR" EXACT []
 synonym: "hemoglobin H-related mental retardation" EXACT []
 synonym: "mental retardation with hemoglobin H" EXACT []
-xref: GARD:16862
 xref: MESH:C563050
-xref: MIM:141750
-xref: MONDO:0007716
 xref: ORDO:98791
 is_a: DOID:0060388 ! chromosomal deletion syndrome
 is_a: DOID:1059 ! intellectual disability
@@ -64522,7 +64050,7 @@ is_a: DOID:1099 ! alpha thalassemia
 [Term]
 id: DOID:0110030
 name: alpha thalassemia-X-linked intellectual disability syndrome
-def: "A syndrome characterized by a variable phenotype including distinctive craniofacial features, genital anomalies, hypotonia, and mild-to-profound developmental delay or intellectual disability, and alpha thalassemia that has_material_basis_in mutation in the ATRX gene on Xq21. (DO)" [https://www.ncbi.nlm.nih.gov/books/NBK1449/ "DO", PMID:1415255 "DO", PMID:7697714 "DO"]
+def: "An alpha thalassemia that has_material_basis_in mutation in the ATRX gene on Xq21. (DO)" [PMID:1415255 "DO", PMID:7697714 "DO"]
 synonym: "alpha-thalassemia/intellectual disability syndrome" EXACT []
 synonym: "alpha-thalassemia-mental retardation syndrome, nondeletion type" EXACT []
 synonym: "alpha-thalassemia mental retardation syndrome, non deletion type, X-linked" EXACT []
@@ -64564,7 +64092,6 @@ synonym: "Hb H disease" EXACT []
 synonym: "hemoglobin H disease, deletional" EXACT []
 synonym: "hemoglobin H disease, nondeletional" EXACT []
 xref: MIM:613978
-xref: NCI:C95504
 xref: ORDO:93616
 is_a: DOID:1099 ! alpha thalassemia
 created_by: rgd
@@ -64848,6 +64375,19 @@ is_a: DOID:0050177 ! monogenic disease
 is_a: DOID:10652 ! Alzheimer's disease
 
 [Term]
+id: DOID:0110051
+name: Alzheimer's disease 19
+def: "An Alzheimer's disease that is characterized by associated variants of the gene PLD3. (DO)" [PMID:24336208 "DO", PMID:25832408 "DO"]
+synonym: "AD19" EXACT []
+synonym: "Alzheimer disease 19" EXACT []
+synonym: "Alzheimer disease 19 late onset" EXACT []
+synonym: "ALZHEIMER DISEASE 19, SUSCEPTIBILITY TO" RELATED []
+xref: MIM:615711
+xref: MONDO:0014316
+is_a: DOID:0050177 ! monogenic disease
+is_a: DOID:10652 ! Alzheimer's disease
+
+[Term]
 id: DOID:0110052
 name: amelogenesis imperfecta type 1B
 def: "An amelogenesis imperfecta that has_material_basis_in heterozygous mutation in the enamelin gene (ENAM) on chromosome 4q13. (DO)" [PMID:11487571 "DO"]
@@ -64866,6 +64406,8 @@ is_a: DOID:2187 ! amelogenesis imperfecta
 [Term]
 id: DOID:0110053
 name: amelogenesis imperfecta type 4
+alt_id: MIM:104510
+alt_id: RDO:0014687
 def: "An amelogenesis imperfecta which can has_material_basis_in mutation in the DLX3 gene. (DO)" [PMID:15666299 "DO"]
 synonym: "AI4" EXACT []
 synonym: "AIHHT" EXACT []
@@ -64873,8 +64415,6 @@ synonym: "Amelogenesis Imperfecta, Hypomaturation-Hypoplastic Type, with Taurodo
 synonym: "amelogenesis imperfecta type IV" EXACT []
 synonym: "DLX3-RELATED CONDITION" BROAD []
 xref: MESH:C566293
-xref: MIM:104510
-xref: MONDO:0007093
 xref: ORDO:100034
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:2187 ! amelogenesis imperfecta
@@ -65609,11 +65149,10 @@ is_a: DOID:3310 ! atopic dermatitis
 [Term]
 id: DOID:0110103
 name: atopic dermatitis 7
+alt_id: MIM:613064
 def: "An atopic dermatitis associated with variation in the region 11q13.5. (DO)" [PMID:19349984 "DO"]
 synonym: "ATOD7" EXACT []
 xref: MESH:C567796
-xref: MIM:613064
-xref: MONDO:0013107
 is_a: DOID:3310 ! atopic dermatitis
 
 [Term]
@@ -69240,13 +68779,13 @@ is_a: DOID:12347 ! osteogenesis imperfecta
 [Term]
 id: DOID:0110351
 name: osteogenesis imperfecta type 11
+alt_id: RDO:9000622
 def: "An osteogenesis imperfecta that has_material_basis_in mutation in the FKBP10 gene on chromosome 17q21. (DO)" [PMID:20362275 "DO"]
-synonym: "FKBP10-related condition" BROAD []
+synonym: "FKBP10-RELATED CONDITION" BROAD []
 synonym: "OI11" EXACT []
-synonym: "OI, type XI" EXACT []
+synonym: "OI, TYPE XI" EXACT []
 synonym: "osteogenesis imperfecta type XI" EXACT []
 xref: MIM:610968
-xref: MONDO:0012592
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:12347 ! osteogenesis imperfecta
 
@@ -69899,12 +69438,12 @@ is_a: DOID:10584 ! retinitis pigmentosa
 [Term]
 id: DOID:0110408
 name: retinitis pigmentosa 11
+alt_id: MIM:600138
+alt_id: RDO:0013098
 def: "A retinitis pigmentosa that has_material_basis_in mutation in the PRPF31 gene on chromosome 19q13. (DO)" [PMID:11545739 "DO"]
-synonym: "PRPF31-related condition" EXACT []
+synonym: "PRPF31-RELATED CONDITION" EXACT []
 synonym: "RP11" EXACT []
 xref: MESH:C563991
-xref: MIM:600138
-xref: MONDO:0010828
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:10584 ! retinitis pigmentosa
 
@@ -70123,13 +69662,13 @@ creation_date: 2017-09-05T00:00:00Z
 [Term]
 id: DOID:0110426
 name: dilated cardiomyopathy 1D
+alt_id: MIM:601494
+alt_id: RDO:0012603
 def: "A dilated cardiomyopathy that has_material_basis_in mutation in the TNNT2 gene on chromosome 1q32. (DO)" [PMID:11106718 "DO"]
 synonym: "CMD1D" EXACT []
-synonym: "left ventricular noncompaction 6" NARROW []
+synonym: "LEFT VENTRICULAR NONCOMPACTION 6" NARROW []
 synonym: "LVNC6" NARROW []
 xref: MESH:C563306
-xref: MIM:601494
-xref: MONDO:0011095
 xref: NCI:C198599
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:12930 ! dilated cardiomyopathy
@@ -72758,7 +72297,6 @@ xref: GARD:3284
 xref: MIM:192500
 xref: MONDO:0100316
 xref: ORDO:101016
-xref: ORDO:727141
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:0080578 ! digenic disease
 is_a: DOID:2843 ! long QT syndrome
@@ -72778,7 +72316,6 @@ synonym: "LQT2/9, digenic" NARROW []
 xref: GARD:3285
 xref: MESH:C563614
 xref: NCI:C137957
-xref: ORDO:727149
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:0080578 ! digenic disease
 is_a: DOID:2843 ! long QT syndrome
@@ -72795,7 +72332,6 @@ xref: GARD:3286
 xref: MESH:C537034
 xref: MESH:C565840
 xref: NCI:C137959
-xref: ORDO:727203
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:0080578 ! digenic disease
 is_a: DOID:2843 ! long QT syndrome
@@ -72813,7 +72349,6 @@ xref: MESH:C566766
 xref: MIM:613695
 xref: MONDO:0013372
 xref: NCI:C172094
-xref: ORDO:727185
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:0080578 ! digenic disease
 is_a: DOID:2843 ! long QT syndrome
@@ -72829,7 +72364,6 @@ synonym: "LONG QT SYNDROME 6, ACQUIRED, SUSCEPTIBILITY TO" RELATED []
 synonym: "LQT6" EXACT []
 xref: GARD:10434
 xref: MESH:C566333
-xref: ORDO:727178
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:0080578 ! digenic disease
 is_a: DOID:2843 ! long QT syndrome
@@ -72841,7 +72375,6 @@ def: "A long QT syndrome characterized by a prolonged QT interval and polymorphi
 synonym: "LQT8" EXACT []
 xref: MIM:618447
 xref: NCI:C142894
-xref: ORDO:727156
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:2843 ! long QT syndrome
 created_by: mtutaj
@@ -72975,7 +72508,6 @@ synonym: "MYSPC" EXACT []
 synonym: "SYT2-RELATED CONDITION" BROAD []
 synonym: "SYT2-RELATED MYASTHENIA" BROAD []
 xref: MIM:616040
-xref: ORDO:716908
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:3635 ! congenital myasthenic syndrome
 created_by: rgd
@@ -73339,7 +72871,6 @@ synonym: "myasthenic syndrome due to mutation in SCN4A" EXACT []
 xref: MESH:C565830
 xref: MIM:614198
 xref: MONDO:0013620
-xref: ORDO:716881
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:3635 ! congenital myasthenic syndrome
 
@@ -74983,12 +74514,12 @@ is_a: DOID:2476 ! hereditary spastic paraplegia
 [Term]
 id: DOID:0110805
 name: hereditary spastic paraplegia 53
+alt_id: RDO:9001082
 def: "A hereditary spastic paraplegia that has_material_basis_in mutation in the VPS37A gene on chromosome 8p22. (DO)" [PMID:22717650 "DO"]
 synonym: "autosomal recessive spastic paraplegia 53" EXACT []
 synonym: "autosomal recessive spastic paraplegia type 53" EXACT []
 synonym: "SPG53" EXACT []
 xref: MIM:614898
-xref: MONDO:0013962
 xref: ORDO:319199
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:2476 ! hereditary spastic paraplegia
@@ -76641,7 +76172,6 @@ xref: MESH:C538350
 xref: MIM:161800
 xref: MONDO:0008070
 xref: NCI:C129870
-xref: ORDO:98904
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:3191 ! nemaline myopathy
 
@@ -78542,7 +78072,6 @@ synonym: "Fhbl2" EXACT []
 synonym: "Hypobetalipoproteinemia, familial, 2" EXACT []
 synonym: "HYPOLIPIDEMIA, FAMILIAL, COMBINED" EXACT []
 xref: MESH:C565732
-xref: ORDO:727925
 is_a: DOID:1390 ! hypobetalipoproteinemia
 
 [Term]
@@ -78567,7 +78096,6 @@ xref: MESH:C566267
 xref: MESH:D052476
 xref: MIM:615558
 xref: MONDO:0014252
-xref: ORDO:727915
 is_a: DOID:1390 ! hypobetalipoproteinemia
 
 [Term]
@@ -83314,8 +82842,8 @@ synonym: "MPS IV A" EXACT []
 synonym: "MPS IVA" EXACT []
 synonym: "MPS IV - Morquio syndrome A" EXACT []
 synonym: "Mucopolysaccharidosis, MPS-IV-A" EXACT [SNOMEDCT_2005_07_31:7259005]
-synonym: "Mucopolysaccharidosis Type IV A" EXACT []
 synonym: "mucopolysaccharidosis type IVA" EXACT []
+synonym: "Mucopolysaccharidosis Type IV A" EXACT []
 xref: GARD:3785
 xref: ICD10CM:E76.210
 xref: MIM:253000
@@ -84103,14 +83631,13 @@ is_a: DOID:9005850 ! Hereditary Optic Atrophies
 [Term]
 id: DOID:0111443
 name: optic atrophy 2
+alt_id: MIM:311050
 def: "An optic atrophy that has_material_basis_in variation in a region on chromosome Xp11.4-p11.21. (DO)" [PMID:9382106 "DO"]
 synonym: "OPA2" EXACT []
-synonym: "optic atrophy, non-Leber type, with early onset" EXACT []
+synonym: "OPTIC ATROPHY, NON-LEBER TYPE, WITH EARLY ONSET" EXACT []
 synonym: "X-linked optic atrophy" EXACT []
 synonym: "X-linked optic atrophy 2" EXACT []
 xref: MESH:C537125
-xref: MIM:311050
-xref: MONDO:0010698
 xref: ORDO:98890
 is_a: DOID:0050735 ! X-linked monogenic disease
 is_a: DOID:9005850 ! Hereditary Optic Atrophies
@@ -90474,7 +90001,6 @@ synonym: "syndromic X-linked mental retardation 36" EXACT []
 synonym: "syndromic X-linked mental retardation, Basilicata-Akhtar type" EXACT []
 xref: MIM:301032
 xref: MONDO:0026730
-xref: ORDO:730261
 is_a: DOID:0060309 ! syndromic X-linked intellectual disability
 
 [Term]
@@ -93509,6 +93035,7 @@ xref: MESH:C567906
 xref: MIM:309530
 xref: MONDO:0010656
 xref: NCI:C133729
+xref: ORDO:397933
 is_a: DOID:0050776 ! non-syndromic X-linked intellectual disability
 is_a: DOID:0080009 ! X-linked dominant disease
 created_by: mtutaj
@@ -94259,9 +93786,8 @@ id: DOID:0112089
 name: nuclear type mitochondrial complex I deficiency 11
 def: "A nuclear type mitochondrial complex I deficiency that has_material_basis_in homozygous or compound heterozygous mutation in the NDUFAF1 gene on chromosome 15q15.1. (DO)" [PMID:17557076 "DO"]
 synonym: "MC1DN11" EXACT []
-synonym: "NDUFAF1-related condition" EXACT []
+synonym: "NDUFAF1-RELATED CONDITION" EXACT []
 xref: MIM:618234
-xref: MONDO:0032617
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:0112065 ! nuclear type mitochondrial complex I deficiency
 created_by: mtutaj
@@ -94988,10 +94514,9 @@ creation_date: 2017-10-19T00:00:00Z
 id: DOID:0112140
 name: retinitis pigmentosa 83
 def: "A retinitis pigmentosa characterized by onset of night blindness in the first decade of life, decreased central vision in the second decade of life, and retinal degeneration that has_material_basis_in heterozygous mutation in ARL3 on chromosome 10q24.32. (DO)" [PMID:30932721 "DO"]
-synonym: "ARL3-related condition" BROAD []
+synonym: "ARL3-RELATED CONDITION" BROAD []
 synonym: "RP83" EXACT []
 xref: MIM:618173
-xref: MONDO:0032577
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:10584 ! retinitis pigmentosa
 created_by: mtutaj
@@ -98204,7 +97729,6 @@ def: "A pontocerebellar hypoplasia characterized by hypotonia and severe global 
 synonym: "MINPP1-RELATED CONDITION" BROAD []
 synonym: "PCH16" EXACT []
 xref: MIM:619527
-xref: ORDO:728514
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:0060264 ! pontocerebellar hypoplasia
 created_by: mtutaj
@@ -98301,7 +97825,6 @@ def: "A craniodiaphyseal dysplasia characterized by childhood-onset short statur
 synonym: "CTDI" EXACT []
 synonym: "TMEM53-RELATED CRANIOTUBULAR DYSPLASIA" EXACT []
 xref: MIM:619727
-xref: ORDO:728902
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:0080032 ! craniodiaphyseal dysplasia
 created_by: mtutaj
@@ -99023,8 +98546,8 @@ alt_id: MIM:131100
 def: "A multiple endocrine neoplasia that has_material_basis_in a mutation in the MEN1 tumor suppressor gene and is characterized by over active endocrine glands frequently involving tumors of the parathyroid glands, the pituitary gland, and the pancreas. (DO)" [http://en.wikipedia.org/wiki/Multiple_endocrine_neoplasia_type_1 "DO", http://ghr.nlm.nih.gov/condition/multiple-endocrine-neoplasia "DO", http://www.nlm.nih.gov/medlineplus/ency/article/000398.htm "DO", PMID:25509899 "DO"]
 synonym: "MEA 1" EXACT []
 synonym: "MEA I" EXACT []
-synonym: "MEN1" EXACT []
 synonym: "MEN 1" EXACT []
+synonym: "MEN1" EXACT []
 synonym: "MEN1-RELATED CONDITION" EXACT []
 synonym: "MEN I" EXACT []
 synonym: "MEN type I" EXACT []
@@ -100236,9 +99759,9 @@ name: thalassemia
 def: "A microcytic anemia characterized by decreased synthesis of one or more hemoglobin polypeptide chains. (DO)" [https://www.genome.gov/Genetic-Disorders/Thalassemia "DO", PMID:11283697 "DO"]
 synonym: "hemoglobin J (Baltimore)" RELATED []
 synonym: "hemoglobin Karatsu" RELATED []
-synonym: "hemoglobin Pylos" RELATED []
+synonym: "Hemoglobin Pylos" RELATED []
 synonym: "hemoglobin Riyadh" RELATED []
-synonym: "hemoglobin Suan-Dok" RELATED []
+synonym: "HEMOGLOBIN SUAN-DOK" RELATED []
 synonym: "hemoglobin Tunis-Bizerte" RELATED []
 synonym: "sickle-cell thalassemia with crisis" EXACT []
 synonym: "sickle-cell thalassemia without crisis" EXACT []
@@ -100252,9 +99775,9 @@ xref: ICD9CM:282.4
 xref: MESH:D013789
 xref: MONDO:0000984
 xref: NCI:C35069
+is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:11252 ! microcytic anemia
 is_a: DOID:2860 ! hemoglobinopathy
-is_a: DOID:630 ! genetic disease
 
 [Term]
 id: DOID:10242
@@ -102780,18 +102303,12 @@ creation_date: 2017-09-06T00:00:00Z
 [Term]
 id: DOID:10652
 name: Alzheimer's disease
-alt_id: DOID:0110051
 def: "A tauopathy that is characterized by memory lapses, confusion, emotional instability and progressive loss of mental ability and results in progressive memory loss, impaired thinking, disorientation, and changes in personality and mood starting and leads in advanced cases to a profound decline in cognitive and physical functioning and is marked histologically by the degeneration of brain neurons especially in the cerebral cortex and by the presence of neurofibrillary tangles and plaques containing beta-amyloid. (DO)" [http://en.wikipedia.org/wiki/Alzheimer%27s_disease "DO", http://www.merriam-webster.com/medical/alzheimer%27s%20disease "DO", http://www.nia.nih.gov/alzheimers/publication/alzheimers-disease-fact-sheet "DO"]
 synonym: "acute confusional senile dementia" EXACT []
 synonym: "AD" EXACT []
-synonym: "AD19" RELATED []
 synonym: "alpha-2-macroglobulin polymorphism" RELATED []
-synonym: "Alzheimer's disease 19" RELATED []
 synonym: "Alzheimer dementia (AD)" EXACT []
 synonym: "Alzheimer disease" EXACT []
-synonym: "Alzheimer disease 19" RELATED []
-synonym: "Alzheimer disease 19 late onset" RELATED []
-synonym: "Alzheimer disease 19, susceptibility to" RELATED []
 synonym: "Alzheimer disease, association with" RELATED []
 synonym: "Alzheimer disease, early-onset, susceptibility to" RELATED []
 synonym: "Alzheimer disease, late-onset, susceptibility to" RELATED []
@@ -102807,7 +102324,7 @@ synonym: "Early Onset Alzheimer Disease" NARROW []
 synonym: "EARLY-ONSET FAMILIAL ALZHEIMER DISEASE" NARROW []
 synonym: "familial Alzheimer disease" NARROW []
 synonym: "Familial Alzheimer Disease (FAD)" NARROW []
-synonym: "focal-onset Alzheimer's disease" NARROW []
+synonym: "Focal Onset Alzheimer's Disease" NARROW []
 synonym: "late-onset Alzheimer disease" NARROW []
 synonym: "late-onset Alzheimers disease" NARROW []
 synonym: "presenile Alzheimer dementia" NARROW []
@@ -102823,9 +102340,7 @@ xref: GARD:10254
 xref: ICD9CM:331.0
 xref: MESH:D000544
 xref: MIM:502500
-xref: MIM:615711
 xref: MONDO:0004975
-xref: MONDO:0014316
 xref: NCI:C2866
 is_a: DOID:1307 ! dementia
 is_a: DOID:680 ! tauopathy
@@ -106110,12 +105625,12 @@ is_a: DOID:13543 ! hyperparathyroidism
 [Term]
 id: DOID:11203
 name: Angelucci's syndrome
-synonym: "acute atopic conjunctivitis" EXACT []
+synonym: "acute atopic conjunctivitis" EXACT [SNOMEDCT_2005_07_31:193863004]
 synonym: "Angelucci syndrome" EXACT []
 xref: ICD10CM:H10.1
 xref: ICD9CM:372.05
-xref: MONDO:0001224
 xref: NCI:C34353
+xref: RDO:9002737
 is_a: DOID:11204 ! allergic conjunctivitis
 is_a: DOID:225 ! syndrome
 created_by: rgd
@@ -111850,7 +111365,6 @@ xref: MIM:120300
 xref: MIM:216820
 xref: MONDO:0001476
 xref: NCI:C98877
-xref: ORDO:194
 xref: ORDO:98945
 is_a: DOID:9008296 ! Eye Abnormalities
 
@@ -114613,7 +114127,6 @@ xref: MIM:309900
 xref: MONDO:0010674
 xref: NCI:C61260
 xref: ORDO:580
-xref: ORDO:79388
 is_a: DOID:12798 ! mucopolysaccharidosis
 is_a: DOID:9005867 ! X-Linked Intellectual Developmental Disorders
 
@@ -114874,8 +114387,8 @@ synonym: "Guillaine Barre Syndrome" EXACT []
 synonym: "infectious neuronitis" EXACT []
 synonym: "Inflammatory Polyneuropathy Acutes" EXACT []
 synonym: "Landry Guillain Barre Syndrome" EXACT []
-synonym: "postinfectious polyneuritis" EXACT []
 synonym: "post-infectious polyneuritis" EXACT []
+synonym: "postinfectious polyneuritis" EXACT []
 xref: EFO:0007292
 xref: GARD:6554
 xref: MESH:D020275
@@ -117209,11 +116722,10 @@ is_a: DOID:9007168 ! Genetic Skin Diseases
 id: DOID:13272
 name: Klebsiella pneumonia
 def: "A bacterial pneumonia involving Klebsiella pneumoniae infection. Patients with Klebsiella pneumonia tend to cough up a characteristic sputum that is said to resemble red-currant jelly. Klebsiella pneumonia tends to affect people with underlying diseases, such as alcoholism, diabetes and chronic lung disease. The symptoms include high fever, rigors and pleuritic pain, and hemoptysis. (DO)" [http://en.wikipedia.org/wiki/Klebsiella_pneumonia "DO", PMID:1555037 "DO"]
-synonym: "pneumonia due to Klebsiella pneumoniae" EXACT []
-synonym: "pneumonia due to Klebsiella pneumoniae (disorder)" EXACT []
+synonym: "Pneumonia due to Klebsiella pneumoniae" EXACT [ICD9CM_2006:482.0]
+synonym: "Pneumonia due to Klebsiella pneumoniae (disorder)" EXACT [SNOMEDCT_2005_07_31:64479007]
 xref: ICD10CM:J15.0
 xref: ICD9CM:482.0
-xref: MONDO:0030602
 is_a: DOID:874 ! bacterial pneumonia
 is_a: DOID:9003828 ! Klebsiella Infections
 created_by: rgd
@@ -118103,7 +117615,6 @@ xref: ICD10CM:D61.01
 xref: ICD9CM:284.0
 xref: MESH:D029502
 xref: MONDO:0001713
-xref: ORDO:68383
 is_a: DOID:0080015 ! physical disorder
 is_a: DOID:12449 ! aplastic anemia
 
@@ -119816,8 +119327,8 @@ creation_date: 2017-08-31T00:00:00Z
 id: DOID:138
 name: vaginal squamous tumor
 def: "A vaginal cancer that has_material_basis_in squamous tissue. (DO)" [PMID:23057430 "DO"]
-xref: MONDO:0001806
 xref: NCI:C40242
+xref: RDO:9004609
 is_a: DOID:119 ! vaginal cancer
 created_by: rgd
 creation_date: 2017-11-01T00:00:00Z
@@ -122081,9 +121592,10 @@ creation_date: 2017-10-19T00:00:00Z
 [Term]
 id: DOID:14202
 name: adult dermatomyositis
-synonym: "adult onset dermatomyositis" EXACT []
+synonym: "adult onset dermatomyositis" EXACT [SNOMEDCT_2005_07_31:402425006]
+synonym: "adult type dermatomyositides" EXACT []
 synonym: "adult type dermatomyositis" EXACT []
-xref: MONDO:0001907
+xref: RDO:9002753
 is_a: DOID:10223 ! dermatomyositis
 created_by: rgd
 creation_date: 2017-10-18T00:00:00Z
@@ -126428,7 +125940,6 @@ xref: MONDO:0015871
 xref: NCI:C2977
 xref: NCI:C4274
 xref: NCI:C5196
-xref: ORDO:180261
 is_a: DOID:0060082 ! breast benign neoplasm
 is_a: DOID:9004240 ! Phyllodes Tumor
 created_by: rgd
@@ -126457,6 +125968,7 @@ xref: EFO:0007199
 xref: ICD9CM:013.2
 xref: MESH:D020306
 xref: MONDO:0005696
+xref: ORDO:641396
 is_a: DOID:0050598 ! extrapulmonary tuberculosis
 is_a: DOID:9002742 ! Central Nervous System Bacterial Infections
 
@@ -127822,6 +127334,7 @@ xref: MESH:D012019
 xref: MIM:604335
 xref: MONDO:0011441
 xref: NCI:C85042
+xref: ORDO:99995
 is_a: DOID:3223 ! complex regional pain syndrome
 
 [Term]
@@ -130256,6 +129769,7 @@ xref: ICD10CM:A18.1
 xref: ICD9CM:016
 xref: MESH:D014401
 xref: MONDO:0006002
+xref: ORDO:645874
 is_a: DOID:0050598 ! extrapulmonary tuberculosis
 is_a: DOID:9009146 ! Urogenital Diseases
 
@@ -133378,8 +132892,10 @@ is_a: DOID:2256 ! osteochondrodysplasia
 [Term]
 id: DOID:2582
 name: acatalasia
+alt_id: MIM:614097
+alt_id: OMIA:001138
 def: "A peroxisomal disease characterized by loss of catalase activity in erythrocytes that has_material_basis_in homozygous mutation in the CAT gene on chromosome 11p13. (DO)" [PMID:1999334 "DO"]
-synonym: "acatalasemia" EXACT []
+synonym: "Acatalasemia" EXACT []
 synonym: "Acatalasemia Japanese Type" EXACT []
 synonym: "Acatalasemia Swiss Type" EXACT []
 synonym: "Catalase Deficiencies" EXACT []
@@ -133388,15 +132904,13 @@ synonym: "CAT-RELATED CONDITION" EXACT []
 synonym: "deficiency of catalase" EXACT []
 synonym: "Hypocatalasemia" EXACT []
 synonym: "Hypocatalasia" EXACT []
-synonym: "Takahara's disease" EXACT []
+synonym: "Takahara's Disease" EXACT []
 synonym: "Takahara Disease" EXACT []
+synonym: "Takaharas Disease" EXACT []
 xref: EFO:0004144
 xref: GARD:363
 xref: MESH:D020642
-xref: MIM:614097
-xref: MONDO:0013571
 xref: NCI:C84526
-xref: OMIA:001138
 xref: ORDO:926
 is_a: DOID:906 ! peroxisomal disease
 
@@ -133958,12 +133472,12 @@ is_a: DOID:9007274 ! Sweat Gland Neoplasms
 id: DOID:2668
 name: mesenchymoma
 def: "A mixed mesenchymal tumor composed of two or more mesodermal cellular elements not commonly associated, not counting fibrous tissue as one of the elements. Mesenchymomas are widely distributed in the body and about 75% are malignant. (Dorland, 27th ed; Holland et al., Cancer Medicine, 3d ed, p1866)" [MESH:D008637]
-synonym: "mesenchymomas" EXACT []
+synonym: "Mesenchymomas" EXACT []
 xref: EFO:1001042
 xref: ICDO:8990/3
 xref: MESH:D008637
-xref: MONDO:0006854
 xref: NCI:C3233
+xref: RDO:0000961
 is_a: DOID:201 ! connective tissue cancer
 is_a: DOID:9003765 ! Complex and Mixed Neoplasms
 
@@ -135906,9 +135420,9 @@ id: DOID:2889
 name: retrocochlear disease
 def: "Pathological processes involving the VESTIBULOCOCHLEAR NERVE; BRAINSTEM; or CENTRAL NERVOUS SYSTEM. When hearing loss is due to retrocochlear pathology, it is called retrocochlear hearing loss." [MESH:D012181]
 synonym: "retrocochlear diseases" EXACT []
-synonym: "retrocochlear hearing loss" EXACT []
+synonym: "Retrocochlear Hearing Loss" EXACT []
 xref: MESH:D012181
-xref: MONDO:0002453
+xref: RDO:0004713
 is_a: DOID:2742 ! auditory system disease
 
 [Term]
@@ -140520,7 +140034,7 @@ is_a: DOID:2170 ! vaginitis
 [Term]
 id: DOID:3388
 name: periodontal disease
-def: "A mouth disease that is relating to or affecting the structures surrounding and supporting the teeth. (DO)" [https://en.wikipedia.org/wiki/Periodontal_disease "DO", https://www.ncbi.nlm.nih.gov/books/NBK554590/ "DO", https://www.nidcr.nih.gov/health-info/gum-disease/more-info "DO"]
+def: "A mouth disease that is relating to or affecting the structures surrounding and supporting the teeth. (DO)" [https://www.nidcr.nih.gov/health-info/gum-disease/more-info "DO"]
 synonym: "disease of supporting structures of teeth" EXACT []
 synonym: "parodontoses" EXACT []
 synonym: "parodontosis" EXACT []
@@ -140533,6 +140047,7 @@ xref: ICD10CM:K05.6
 xref: MESH:D010510
 xref: MONDO:0002635
 xref: NCI:C63743
+is_a: DOID:1091 ! tooth disease
 is_a: DOID:403 ! mouth disease
 
 [Term]
@@ -140555,7 +140070,6 @@ xref: MESH:D010214
 xref: NCI:C84992
 xref: ORDO:678
 is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:1091 ! tooth disease
 is_a: DOID:2121 ! ectodermal dysplasia
 is_a: DOID:3388 ! periodontal disease
 is_a: DOID:3390 ! palmoplantar keratosis
@@ -142936,10 +142450,10 @@ is_a: DOID:5656 ! cranial nerve disease
 [Term]
 id: DOID:3671
 name: pericoronitis
-def: "A gingival disease that involves infection of the gingival tissue surrounding or overlying an erupting or partially erupted tooth. (DO)" [https://ada.com/conditions/dental-abscess/ "DO", https://en.wikipedia.org/wiki/Pericoronitis "DO", https://www.ncbi.nlm.nih.gov/books/NBK576411/ "DO", MESH:D010497]
+def: "Inflammation of the gingiva surrounding the crown of a tooth." [MESH:D010497]
+synonym: "Pericoronitides" EXACT []
 xref: EFO:1001098
 xref: MESH:D010497
-xref: MONDO:0006899
 is_a: DOID:1483 ! gingival disease
 
 [Term]
@@ -144863,11 +144377,12 @@ creation_date: 2017-10-30T00:00:00Z
 [Term]
 id: DOID:3924
 name: main bronchus cancer
-synonym: "Ca main bronchus" EXACT []
-synonym: "malignant neoplasm of main bronchus" EXACT []
+synonym: "Ca main bronchus" EXACT [SNOMEDCT_2005_07_31:154487009]
+synonym: "malignant neoplasm of main bronchus" EXACT [ICD9CM_2006:162.2]
 xref: ICD10CM:C34.0
 xref: ICD9CM:162.2
-xref: MONDO:0002811
+xref: RDO:9001994
+is_a: DOID:1324 ! lung cancer
 is_a: DOID:1325 ! bronchus cancer
 created_by: rgd
 creation_date: 2017-09-12T00:00:00Z
@@ -145123,7 +144638,6 @@ xref: EFO:1000589
 xref: EFO:1000594
 xref: MONDO:0015075
 xref: NCI:C4815
-xref: ORDO:100088
 is_a: DOID:1781 ! thyroid cancer
 is_a: DOID:305 ! carcinoma
 created_by: rgd
@@ -146679,6 +146193,7 @@ xref: ICD10CM:E20.1
 xref: MESH:D011547
 xref: MONDO:0019992
 xref: NCI:C99027
+xref: ORDO:97593
 is_a: DOID:10575 ! calcium metabolism disease
 is_a: DOID:896 ! metal metabolism disorder
 is_a: DOID:9002278 ! Metabolic Bone Diseases
@@ -151048,8 +150563,8 @@ is_a: DOID:9000610 ! Obstetric Labor Complications
 id: DOID:4749
 name: middle cranial fossa meningioma
 synonym: "meningioma of the middle cranial fossa" EXACT []
-xref: MONDO:0003121
 xref: NCI:C5586
+xref: RDO:9004622
 is_a: DOID:4437 ! skull base meningioma
 created_by: rgd
 creation_date: 2017-11-02T00:00:00Z
@@ -151984,10 +151499,8 @@ is_a: DOID:9006487 ! Reoviridae Infections
 [Term]
 id: DOID:4889
 name: lymph node tuberculosis
-alt_id: DOID:9006148
 def: "An extrapulmonary tuberculosis that is located_in lymph node, and has_symptom lymphadenopathy, has_symptom fever, has_symptom weight loss, has_symptom fatigue, has_symptom night sweats and has_symptom cough. (DO)" [https://www.pneumonologia.gr/articlefiles/20070307_EXTRAPULMONARY_tbc.pdf "DO", PMID:25131362 "DO"]
 synonym: "cervical tuberculous lymphadenitis" EXACT []
-synonym: "King's Evil" EXACT []
 synonym: "lymph node tuberculoses" EXACT []
 synonym: "Mycobacterial Cervical Lymphadenitis" EXACT []
 synonym: "Scrofula" EXACT []
@@ -151998,7 +151511,6 @@ synonym: "tuberculous lymphadenopathy" EXACT []
 xref: EFO:0007350
 xref: ICD10CM:A18.2
 xref: MESH:D014388
-xref: MESH:D018601
 xref: NCI:C26896
 is_a: DOID:0050598 ! extrapulmonary tuberculosis
 is_a: DOID:9942 ! lymph node disease
@@ -155909,24 +155421,24 @@ creation_date: 2017-10-25T00:00:00Z
 
 [Term]
 id: DOID:5408
-name: Paget disease of bone
-def: "A bone formation disease that has_material_basis_in hyperactive osteoclast which results_in abnormal osteoblast bone formation located_in skull, located_in pelvis, located_in vertebral column, located_in set of limbs. (DO)" [http://en.wikipedia.org/wiki/Paget%27s_disease_of_bone "DO", http://orthoinfo.aaos.org/topic.cfm?topic=A00076 "DO", http://www.mayoclinic.com/health/pagets-disease-of-bone/DS00485 "DO", http://www.nlm.nih.gov/medlineplus/pagetsdiseaseofbone.html "DO", https://www.ncbi.nlm.nih.gov/books/NBK430805/ "DO", PMID:37180975 "DO"]
+name: Paget's disease of bone
+alt_id: MESH:C538098
+def: "A bone formation disease that has_material_basis_in hyperactive osteoclast which results_in abnormal osteoblast bone formation located_in skull, located_in pelvis, located_in vertebral column, located_in set of limbs. (DO)" [http://en.wikipedia.org/wiki/Paget%27s_disease_of_bone "DO", http://orthoinfo.aaos.org/topic.cfm?topic=A00076 "DO", http://www.mayoclinic.com/health/pagets-disease-of-bone/DS00485 "DO", http://www.nlm.nih.gov/medlineplus/pagetsdiseaseofbone.html "DO", PMID:37180975 "DO"]
 synonym: "familial Paget's disease of bone" RELATED []
-synonym: "osseous Paget's disease" EXACT []
-synonym: "osteitis deformans" EXACT []
+synonym: "Osseous Paget's Disease" EXACT []
+synonym: "Osteitis Deformans" EXACT []
 synonym: "Paget's bone disease" EXACT []
-synonym: "Paget's disease of bone" EXACT []
 synonym: "Paget disease, bone" EXACT []
+synonym: "Paget disease of bone" EXACT []
 synonym: "Paget disease of bone 1" RELATED []
 synonym: "Paget disease of bone, familial" EXACT []
 synonym: "Paget disease of bone, type 1" RELATED []
+synonym: "Pagets bone disease" EXACT []
 xref: EFO:0004261
 xref: GARD:8615
 xref: ICD10CM:M88
-xref: MESH:C538098
 xref: MESH:D010001
 xref: MIM:PS167250
-xref: MONDO:0005382
 xref: NCI:C3292
 xref: ORDO:280110
 is_a: DOID:205 ! hyperostosis
@@ -156188,17 +155700,16 @@ is_a: DOID:9006097 ! Sheep Diseases
 id: DOID:5435
 name: variant Creutzfeldt-Jakob disease
 def: "A transmissible spongiform encephalopathy of cattle associated with abnormal prion proteins in the brain. Affected animals develop excitability and salivation followed by ATAXIA. This disorder has been associated with consumption of SCRAPIE infected ruminant derived protein. This condition may be transmitted to humans, where it is referred to as variant or new variant CREUTZFELDT-JAKOB SYNDROME. (Vet Rec 1998 Jul 25;143(41):101-5)" [MESH:D016643]
-synonym: "bovine spongiform encephalitis" EXACT []
+synonym: "Bovine Spongiform Encephalitis" EXACT []
 synonym: "bovine spongiform encephalopathy" EXACT []
 synonym: "BSE (Bovine Spongiform Encephalopathy)" EXACT []
+synonym: "BSEs (Bovine Spongiform Encephalopathy)" EXACT []
 synonym: "Mad Cow Disease" EXACT []
 synonym: "Mad Cow Diseases" EXACT []
-synonym: "variant Creutzfeldt-Jakob syndrome" EXACT []
+synonym: "variant CREUTZFELDT-JAKOB SYNDROME" EXACT []
 xref: EFO:0004597
 xref: EFO:1001233
 xref: MESH:D016643
-xref: MONDO:0007012
-xref: ORDO:576370
 is_a: DOID:649 ! prion disease
 is_a: DOID:9004723 ! Cattle Diseases
 
@@ -161398,7 +160909,6 @@ xref: ICD10CM:C45.2
 xref: MONDO:0003805
 xref: NCI:C7631
 xref: NCI:C8703
-xref: ORDO:685004
 is_a: DOID:116 ! pericardium cancer
 is_a: DOID:1790 ! malignant mesothelioma
 created_by: rgd
@@ -161601,13 +161111,9 @@ creation_date: 2017-10-31T00:00:00Z
 [Term]
 id: DOID:624
 name: transient hypogammaglobulinemia of infancy
-def: "An immune system disease characterized by a transitory drop in the levels of immunoglobulin G in an infant beginning between 5 and 24 months of age with levels typically returning to reference range by 6 years of age. (DO)" [https://www.ncbi.nlm.nih.gov/books/NBK544356/ "DO", PMID:37628357 "DO"]
-synonym: "THI" EXACT []
-xref: GARD:20112
 xref: ICD10CM:D80.7
 xref: NCI:C27071
-xref: ORDO:169139
-is_a: DOID:2914 ! immune system disease
+is_a: DOID:625 ! transient hypogammaglobulinemia
 created_by: rgd
 creation_date: 2017-10-11T00:00:00Z
 
@@ -161644,6 +161150,15 @@ is_a: DOID:4440 ! seminoma
 is_a: DOID:5559 ! mediastinal cancer
 created_by: rgd
 creation_date: 2017-10-25T00:00:00Z
+
+[Term]
+id: DOID:625
+name: transient hypogammaglobulinemia
+xref: MONDO:0003827
+xref: NCI:C27319
+is_a: DOID:2583 ! agammaglobulinemia
+created_by: rgd
+creation_date: 2017-10-11T00:00:00Z
 
 [Term]
 id: DOID:6255
@@ -167686,12 +167201,11 @@ creation_date: 2017-10-26T00:00:00Z
 [Term]
 id: DOID:7514
 name: Wolffian adnexal neoplasm
-synonym: "female adnexal tumor of probable Wolffian origin" EXACT []
+synonym: "Female adnexal tumor of probable Wolffian origin" EXACT []
 synonym: "Wolffian adenoma" EXACT []
 synonym: "Wolffian adnexal tumor" EXACT []
 synonym: "Wolffian tumor" EXACT []
 xref: MESH:C536741
-xref: MONDO:0004255
 xref: NCI:C40141
 is_a: DOID:5727 ! uterine ligament cancer
 is_a: DOID:657 ! adenoma
@@ -168878,7 +168392,6 @@ synonym: "intraocular lymphomas" EXACT []
 synonym: "primary intraocular lymphoma" EXACT []
 xref: MESH:D064090
 xref: NCI:C9184
-xref: ORDO:695631
 is_a: DOID:0060058 ! lymphoma
 is_a: DOID:6903 ! eye lymphoma
 
@@ -169225,7 +168738,6 @@ name: dendritic cell sarcoma
 def: "A histiocytic and dendritic cell cancer that is mainly located_in lymph nodes. (DO)" [http://findarticles.com/p/articles/mi_m0BUM/is_12_83/ai_n8704912/ "DO"]
 xref: MONDO:0004380
 xref: NCI:C27260
-xref: ORDO:86903
 is_a: DOID:1115 ! sarcoma
 is_a: DOID:5621 ! histiocytic and dendritic cell cancer
 is_a: DOID:9500 ! leukocyte disease
@@ -169921,8 +169433,7 @@ creation_date: 2017-10-30T00:00:00Z
 [Term]
 id: DOID:8042
 name: testis polyembryoma
-synonym: "polyembryoma of testis" EXACT []
-xref: MONDO:0004442
+synonym: "Polyembryoma of testis" EXACT [NCI2004_11_17:C40962]
 xref: NCI:C40962
 is_a: DOID:5556 ! testicular malignant germ cell cancer
 
@@ -170694,14 +170205,13 @@ creation_date: 2017-11-13T00:00:00Z
 [Term]
 id: DOID:824
 name: periodontitis
-def: "A periodontal disease characterized by progressive destruction of the tooth-supporting apparatus including clinical attachment loss, alveolar bone loss, periodontal pocketing, and gingival bleeding, that is associated with inflammation and dysbiotic plaque biofilms. (DO)" [https://www.ncbi.nlm.nih.gov/books/NBK554590/ "DO", MESH:D010518, PMID:29926490 "DO"]
+def: "Inflammation and loss of connective tissues supporting or surrounding the teeth. This may involve any part of the PERIODONTIUM. Periodontitis is currently classified by disease progression (CHRONIC PERIODONTITIS; AGGRESSIVE PERIODONTITIS) instead of age of onset. (From 1999 International Workshop for a Classification of Periodontal Diseases and Conditions, American Academy of Periodontology)" [MESH:D010518]
 synonym: "chronic pericementitis" EXACT []
 synonym: "pericementitis" EXACT []
 xref: EFO:0000649
 xref: ICD10CM:K05.3
 xref: MESH:D010518
 xref: NCI:C34918
-is_a: DOID:104 ! bacterial infectious disease
 is_a: DOID:3388 ! periodontal disease
 
 [Term]
@@ -171646,14 +171156,15 @@ creation_date: 2017-10-27T00:00:00Z
 id: DOID:8465
 name: retinoschisis
 def: "A vitreoretinal dystrophy characterized by splitting of the neuroretinal layers. It occurs in two forms: degenerative retinoschisis and X chromosome-linked juvenile retinoschisis." [MESH:D041441]
-synonym: "degenerative retinoschisis" EXACT []
-synonym: "juvenile retinoschisis" EXACT []
-synonym: "retinoschises" EXACT []
+synonym: "Degenerative Retinoschises" EXACT []
+synonym: "Degenerative Retinoschisis" EXACT []
+synonym: "Juvenile Retinoschises" EXACT []
+synonym: "Juvenile Retinoschisis" EXACT []
+synonym: "Retinoschises" EXACT []
 synonym: "RS" EXACT []
 xref: ICD10CM:H33.10
 xref: ICD9CM:361.10
 xref: MESH:D041441
-xref: MONDO:0004579
 xref: NCI:C85046
 is_a: DOID:8466 ! retinal degeneration
 
@@ -171727,19 +171238,15 @@ is_a: DOID:419 ! scleroderma
 [Term]
 id: DOID:8476
 name: Whipple disease
-alt_id: DOID:9009030
 def: "A chronic systemic infection by a gram-positive bacterium, Tropheryma whippelii, mainly affecting the SMALL INTESTINE but also the JOINTS; CARDIOVASCULAR SYSTEM; and the CENTRAL NERVOUS SYSTEM. The disease is characterized by fat deposits in the INTESTINAL MUCOSA and LYMPH NODES, malabsorption, DIARRHEA with fatty stools, MALNUTRITION, and ARTHRITIS." [MESH:D008061]
-synonym: "intestinal lipodystrophy" EXACT []
-synonym: "Intestinal Lipophagic Granulomatosis" EXACT []
-synonym: "secondary non-tropical sprue" EXACT []
+synonym: "Intestinal Lipodystrophy" EXACT []
 synonym: "Whipple's disease" EXACT []
+synonym: "Whipples disease" EXACT []
 xref: EFO:0000775
 xref: GARD:7889
 xref: ICD10CM:K90.81
 xref: ICD9CM:040.2
-xref: MESH:C531849
 xref: MESH:D008061
-xref: MONDO:0005116
 xref: NCI:C85228
 xref: ORDO:3452
 is_a: DOID:5295 ! intestinal disease
@@ -172696,11 +172203,10 @@ is_a: DOID:612 ! primary immunodeficiency disease
 [Term]
 id: DOID:8578
 name: soft palate cancer
-synonym: "malignant tumor of soft palate" EXACT []
-synonym: "malignant tumor of the soft Palate" EXACT []
+synonym: "malignant tumor of soft palate" EXACT [SNOMEDCT_2005_07_31:363388009]
+synonym: "malignant tumor of the soft Palate" EXACT [NCI2004_11_17:C3529]
 xref: ICD10CM:C05.1
 xref: ICD9CM:145.3
-xref: MONDO:0004611
 xref: NCI:C3529
 is_a: DOID:8618 ! oral cavity cancer
 is_a: DOID:9005313 ! Palatal Neoplasms
@@ -172808,7 +172314,6 @@ xref: ICD9CM:034.1
 xref: MESH:D012541
 xref: MONDO:0005952
 xref: NCI:C94575
-xref: ORDO:688995
 is_a: DOID:9006844 ! Streptococcal Infections
 is_a: DOID:974 ! upper respiratory tract disease
 
@@ -172835,7 +172340,6 @@ xref: ICD10CM:C03
 xref: ICD9CM:143
 xref: MONDO:0005507
 xref: NCI:C9317
-is_a: DOID:1483 ! gingival disease
 is_a: DOID:8618 ! oral cavity cancer
 
 [Term]
@@ -174116,7 +173620,6 @@ xref: ICD10CM:C81.1
 xref: ICD9CM:201.5
 xref: MONDO:0004665
 xref: NCI:C3518
-xref: ORDO:98843
 is_a: DOID:8567 ! Hodgkin's lymphoma
 created_by: rgd
 creation_date: 2017-10-30T00:00:00Z
@@ -175576,7 +175079,6 @@ synonym: "RYR2-RELATED CONDITION" BROAD []
 synonym: "VENTRICULAR ARRHYTHMIAS DUE TO CARDIAC RYANODINE RECEPTOR CALCIUM RELEASE DEFICIENCY SYNDROME" NARROW []
 xref: EFO:0004269
 xref: MESH:D001145
-xref: ORDO:726788
 is_a: DOID:114 ! heart disease
 is_a: DOID:9004611 ! Pathologic Processes
 
@@ -176910,7 +176412,6 @@ synonym: "HECW2-related disorder" EXACT []
 synonym: "NDHSAL" EXACT []
 xref: MIM:617268
 xref: MONDO:0014995
-xref: ORDO:726695
 is_a: DOID:11832 ! visual epilepsy
 is_a: DOID:9004429 ! Neurodevelopmental Disorders
 is_a: DOID:9005466 ! Language Development Disorders
@@ -178552,7 +178053,6 @@ def: "A latent susceptibility to disease at the genetic level, which may be acti
 synonym: "Genetic Predisposition" EXACT []
 synonym: "Genetic Susceptibility" EXACT []
 xref: MESH:D020022
-xref: MONDO:0020573
 is_a: DOID:9002174 ! Disease Susceptibility
 
 [Term]
@@ -180757,7 +180257,6 @@ def: "A syndromic disorder with multisystemic involvement. Affected individuals 
 synonym: "KAT5-RELATED DISORDER" EXACT []
 synonym: "NEDFASB" EXACT []
 xref: MIM:619103
-xref: ORDO:726684
 is_a: DOID:535 ! sleep disorder
 is_a: DOID:9001487 ! Facies
 is_a: DOID:9004429 ! Neurodevelopmental Disorders
@@ -181758,7 +181257,6 @@ name: Megacystis-Microcolon-Intestinal Hypoperistalsis Syndrome 1
 synonym: "MMIHS1" EXACT []
 xref: MIM:249210
 xref: MONDO:0100354
-xref: ORDO:2241
 is_a: DOID:0060610 ! megacystis-microcolon-intestinal hypoperistalsis syndrome
 created_by: mtutaj
 creation_date: 2021-05-28T13:25:32Z
@@ -184279,7 +183777,6 @@ name: Cerebroretinal Microangiopathy with Calcifications and Cysts 3
 def: "An autosomal recessive disorder characterized by intrauterine growth retardation, retinal exudates, intracranial calcifications, and leukoencephalopathy. Caused by homozygous mutation in the POT1 gene on chromosome 7q31." [MIM:620368]
 synonym: "CRMCC3" EXACT []
 xref: MIM:620368
-xref: ORDO:620368
 is_a: DOID:9003025 ! Cerebroretinal Microangiopathy with Calcifications and Cysts
 created_by: mtutaj
 creation_date: 2023-05-12T09:17:05Z
@@ -184291,7 +183788,6 @@ def: "An autosomal recessive multisystemic disorder characterized by cholestatic
 synonym: "IMNEPD2" EXACT []
 synonym: "YARS1-RELATED DISORDER" BROAD []
 xref: MIM:619418
-xref: ORDO:727861
 is_a: DOID:9006461 ! Infantile-Onset Multisystem Neurologic, Endocrine, and Pancreatic Disease
 created_by: mtutaj
 creation_date: 2021-07-09T10:59:29Z
@@ -184747,8 +184243,8 @@ def: "A localized arrested tooth development which appears to involve most commo
 synonym: "Ghost Teeth" EXACT []
 synonym: "Ghost Tooth" EXACT []
 synonym: "odontodysplasias" EXACT []
-synonym: "odontogenesis imperfecta" EXACT []
-synonym: "odontogenic dysplasia" EXACT []
+synonym: "Odontogenesis Imperfecta" EXACT []
+synonym: "Odontogenic Dysplasia" EXACT []
 synonym: "odontogenic dysplasias" EXACT []
 xref: MESH:D018126
 is_a: DOID:9009007 ! Tooth Abnormalities
@@ -185337,10 +184833,10 @@ is_a: DOID:9005004 ! Musculoskeletal Abnormalities
 
 [Term]
 id: DOID:9001095
-name: Koone-Rizzo-Elias Syndrome
+name: Koone Rizzo Elias Syndrome
 synonym: "Ichthyosis, mental retardation and asymptomatic spasticity" EXACT []
 xref: MESH:C537023
-xref: MONDO:0023561
+xref: RDO:0002775
 is_a: DOID:1059 ! intellectual disability
 is_a: DOID:1697 ! ichthyosis
 is_a: DOID:225 ! syndrome
@@ -186175,10 +185671,11 @@ is_a: DOID:9004795 ! Congenital Hand Deformities
 id: DOID:9001191
 name: Cadmium Poisoning
 def: "Poisoning occurring after exposure to cadmium compounds or fumes. It may cause gastrointestinal syndromes, anemia, or pneumonitis." [MESH:D002105]
+synonym: "Cadmium Poisonings" EXACT []
 synonym: "Itai Itai" EXACT []
 xref: EFO:1001768
 xref: MESH:D002105
-xref: MONDO:0043523
+xref: RDO:0005092
 is_a: DOID:9000046 ! Poisoning
 
 [Term]
@@ -186760,7 +186257,6 @@ name: CHITAYAT SYNDROME
 def: "A rare condition characterized by respiratory distress presenting at birth, bilateral accessory phalanx resulting in shortened index fingers with ulnar deviation, hallux valgus, and characteristic facial features including prominent eyes, hypertelorism, depressed nasal bridge, full lips, and upturned nose. (OMIM)" []
 synonym: "CHYTS" EXACT []
 xref: MIM:617180
-xref: ORDO:726700
 is_a: DOID:1148 ! polydactyly
 is_a: DOID:12716 ! newborn respiratory distress syndrome
 is_a: DOID:225 ! syndrome
@@ -188058,9 +187554,8 @@ is_a: DOID:9006081 ! Osteolysis
 
 [Term]
 id: DOID:9001404
-name: Aphalangia-Syndactyly-Microcephaly
+name: Aphalangia Syndactyly Microcephaly
 xref: MESH:C537787
-xref: MONDO:0010882
 is_a: DOID:10907 ! microcephaly
 is_a: DOID:11193 ! syndactyly
 is_a: DOID:9006257 ! Growth Disorders
@@ -188201,7 +187696,6 @@ synonym: "TFE3-RELATED DISORDER" BROAD []
 synonym: "X-linked syndromic intellectual developmental disorder with pigmentary mosaicism and coarse facies" EXACT []
 xref: MIM:301066
 xref: NCI:C206529
-xref: ORDO:717846
 is_a: DOID:1059 ! intellectual disability
 is_a: DOID:9001487 ! Facies
 created_by: slaulede
@@ -190755,6 +190249,17 @@ is_a: DOID:6432 ! pulmonary hypertension
 is_a: DOID:9006257 ! Growth Disorders
 
 [Term]
+id: DOID:9001692
+name: Primary Ciliary Dyskinesia 46
+def: "Characterized by recurrent sinus and respiratory infections, with reduced pulmonary function and uncoordinated beating of respiratory cilia. Caused by homozygous mutation in the STK36 gene on chromosome 2q35. (OMIM)" []
+synonym: "CILD46" EXACT []
+synonym: "STK36-RELATED CONDITION" EXACT []
+xref: MIM:619436
+is_a: DOID:9562 ! primary ciliary dyskinesia
+created_by: mtutaj
+creation_date: 2021-07-16T16:10:58Z
+
+[Term]
 id: DOID:9001694
 name: NEURODEVELOPMENTAL DISORDER WITH NONSPECIFIC BRAIN ABNORMALITIES AND WITH OR WITHOUT SEIZURES
 alt_id: MIM:618709
@@ -191794,10 +191299,9 @@ creation_date: 2017-03-29T00:00:00Z
 [Term]
 id: DOID:9001802
 name: Hereditary Hemorrhagic Telangiectasia, Type 4
+alt_id: MIM:610655
 synonym: "HHT4" EXACT []
 xref: MESH:C565691
-xref: MIM:610655
-xref: MONDO:0012532
 is_a: DOID:1270 ! hereditary hemorrhagic telangiectasia
 
 [Term]
@@ -192321,12 +191825,10 @@ creation_date: 2019-09-16T18:17:12Z
 [Term]
 id: DOID:9001864
 name: Chudley-Rozdilsky Syndrome
+alt_id: MIM:253320
 synonym: "Chudley syndrome" EXACT []
-synonym: "intellectual disability-myopathy-short stature-endocrine defect syndrome" EXACT []
 synonym: "MULTICORE MYOPATHY WITH MENTAL RETARDATION, SHORT STATURE, AND HYPOGONADOTROPIC HYPOGONADISM" EXACT []
 xref: MESH:C535458
-xref: MIM:253320
-xref: MONDO:0009671
 xref: ORDO:3068
 is_a: DOID:1059 ! intellectual disability
 is_a: DOID:1924 ! hypogonadism
@@ -194666,7 +194168,6 @@ def: "A disease characterized by small head circumference with abnormalities in 
 synonym: "BAIDCS" EXACT []
 synonym: "ZIC1-RELATED CONDITION" BROAD []
 xref: MIM:618736
-xref: ORDO:672985
 is_a: DOID:1059 ! intellectual disability
 is_a: DOID:2340 ! craniosynostosis
 created_by: slaulede
@@ -196880,7 +196381,6 @@ synonym: "Charcot-Marie-Tooth disease, demyelinating, type 1J" EXACT []
 synonym: "Charcot-Marie-Tooth neuropathy, demyelinating, type 1J" EXACT []
 synonym: "CMT1J" EXACT []
 xref: MIM:620111
-xref: ORDO:730332
 is_a: DOID:0050538 ! Charcot-Marie-Tooth disease type 1
 created_by: mtutaj
 creation_date: 2022-11-04T16:19:40Z
@@ -197332,15 +196832,17 @@ synonym: "Apical Ballooning Syndrome" EXACT []
 synonym: "Broken Heart Syndrome" EXACT []
 synonym: "Left Ventricular Apical Ballooning Syndrome" EXACT []
 synonym: "Stress Cardiomyopathy" EXACT []
+synonym: "Syndromes, Broken Heart" EXACT []
 synonym: "Tako tsubo Cardiomyopathy" EXACT []
-synonym: "Tako-tsubo Syndrome" EXACT []
+synonym: "Tako tsubo Syndrome" EXACT []
 synonym: "Takotsubo Syndrome" EXACT []
+synonym: "Tako-tsubo Syndromes" EXACT []
 synonym: "Transient Apical Ballooning Syndrome" EXACT []
 xref: EFO:1002000
 xref: MESH:D054549
-xref: MONDO:0019018
 xref: NCI:C85181
 xref: ORDO:66529
+xref: RDO:0004600
 is_a: DOID:0051064 ! left ventricular failure
 
 [Term]
@@ -197507,7 +197009,6 @@ synonym: "CPE-RELATED CONDITION" EXACT []
 synonym: "IDDHH" EXACT []
 synonym: "intellectual developmental disorder and hypogonadotropic hypogonadism" EXACT []
 xref: MIM:619326
-xref: ORDO:633028
 is_a: DOID:0090070 ! hypogonadotropic hypogonadism
 is_a: DOID:1059 ! intellectual disability
 created_by: slaulede
@@ -197533,7 +197034,6 @@ synonym: "MPIG6B-RELATED CONDITION" EXACT []
 synonym: "THAMY" EXACT []
 xref: MIM:617441
 xref: MONDO:0044316
-xref: ORDO:728467
 is_a: DOID:1588 ! thrombocytopenia
 is_a: DOID:2355 ! anemia
 is_a: DOID:9006561 ! Familial Myelofibrosis
@@ -198012,7 +197512,6 @@ synonym: "OFC2" EXACT []
 synonym: "OTFCS2" EXACT []
 synonym: "PAX1-RELATED CONDITION" EXACT []
 xref: MIM:615560
-xref: ORDO:720357
 is_a: DOID:14702 ! branchiootorenal syndrome
 
 [Term]
@@ -198512,7 +198011,6 @@ def: "A severe autosomal recessive developmental disorder characterized by neona
 synonym: "PCH17" EXACT []
 synonym: "PRDM13-RELATED CONDITION" BROAD []
 xref: MIM:619909
-xref: ORDO:728521
 is_a: DOID:0060264 ! pontocerebellar hypoplasia
 created_by: mtutaj
 creation_date: 2022-06-13T11:35:24Z
@@ -199215,7 +198713,6 @@ synonym: "otofaciocervical syndrome" EXACT []
 synonym: "otofaciocervical syndrome 1" EXACT []
 xref: MESH:C563481
 xref: ORDO:2792
-xref: ORDO:720341
 is_a: DOID:14702 ! branchiootorenal syndrome
 
 [Term]
@@ -200207,10 +199704,9 @@ is_a: DOID:0060262 ! gallbladder disease
 [Term]
 id: DOID:9002712
 name: Thymic-Renal-Anal-Lung Dysplasia
+alt_id: MIM:274265
 def: "Syndrome of unilobed or absent thymus, renal and ureter agenesis/dysgenesis, and intrauterine growth retardation (IUGR)." []
 xref: MESH:C536907
-xref: MIM:274265
-xref: MONDO:0010129
 xref: ORDO:3326
 is_a: DOID:10488 ! imperforate anus
 is_a: DOID:9002231 ! Fetal Growth Retardation
@@ -200964,6 +200460,21 @@ is_a: DOID:0051061 ! stroke
 is_a: DOID:0112313 ! brain small vessel disease
 
 [Term]
+id: DOID:9002789
+name: INTELLECTUAL DEVELOPMENTAL DISORDER, X-LINKED, SYNDROMIC, SNIJDERS BLOK TYPE
+def: "This is a disease which occurs predominantly in females, is characterized by mildly to severely impaired intellectual development with variable other features including brain abnormalities, microcephaly, hypotonia, movement disorder and/or spasticity, ventricular enlargement, hypoplasia, and behavioral problems." [MIM:300958]
+synonym: "DDX3X-RELATED CONDITION" EXACT []
+synonym: "DDX3X-RELATED X-LINKED INTELLECTUAL DISABILITY" EXACT []
+synonym: "Mental Retardation, X-Linked 102" EXACT []
+synonym: "MRX102" EXACT []
+synonym: "MRXSSB" EXACT []
+synonym: "syndromic X-linked intellectual developmental disorder, Snijders Blok type" EXACT []
+synonym: "X-LINKED INTELLECTUAL DISABILITY-HYPOTONIA-MOVEMENT DISORDER SYNDROME" EXACT []
+xref: MIM:300958
+xref: NCI:C129931
+is_a: DOID:9005867 ! X-Linked Intellectual Developmental Disorders
+
+[Term]
 id: DOID:9002790
 name: Elastosis Perforans Serpiginosa
 synonym: "Elastoma intrapapillare perforans verruciformis" EXACT []
@@ -201213,7 +200724,6 @@ def: "This disease is an autosomal dominant disorder characterized by developmen
 synonym: "ANKRD17-RELATED CONDITION" EXACT []
 synonym: "CAGS" EXACT []
 xref: MIM:619504
-xref: ORDO:717823
 is_a: DOID:9004429 ! Neurodevelopmental Disorders
 is_a: DOID:9007653 ! Multiple Abnormalities
 created_by: slaulede
@@ -206340,8 +205850,8 @@ id: DOID:9003352
 name: Yang Deficiency
 def: "In the YIN-YANG system of philosophy and medicine, a lack of vital energy (called yangxu in Chinese). It manifests itself in various systemic and organic diseases. (The Pinyin Chinese-English Dictionary, 1979)" [MESH:D016711]
 synonym: "Yang Hsu" EXACT []
-synonym: "Yangxu" EXACT []
 synonym: "Yang Xu" EXACT []
+synonym: "Yangxu" EXACT []
 xref: EFO:0006817
 xref: MESH:D016711
 is_a: DOID:9004611 ! Pathologic Processes
@@ -207241,7 +206751,6 @@ def: "This disease is an autosomal recessive disorder characterized by global de
 synonym: "NEDSCAC" EXACT []
 xref: MIM:619286
 xref: MONDO:0859137
-xref: ORDO:726677
 is_a: DOID:0070338 ! cerebellar hypoplasia
 is_a: DOID:83 ! cataract
 is_a: DOID:9004429 ! Neurodevelopmental Disorders
@@ -207347,6 +206856,18 @@ synonym: "Trisomy 2p" EXACT []
 xref: MESH:C538318
 xref: RDO:0004280
 is_a: DOID:9003960 ! Trisomy
+
+[Term]
+id: DOID:9003463
+name: Gingival Fibromatosis 2
+synonym: "Fibromatosis, Gingival, Hereditary, 2" EXACT []
+synonym: "GGF2" EXACT []
+synonym: "GINGF2" EXACT []
+synonym: "HGF2" EXACT []
+xref: MESH:C565323
+xref: MIM:605544
+xref: MONDO:0011563
+is_a: DOID:0060466 ! gingival fibromatosis
 
 [Term]
 id: DOID:9003464
@@ -207977,7 +207498,6 @@ id: DOID:9003535
 name: Bone Marrow Failure Syndrome 5
 synonym: "BMFS5" EXACT []
 xref: MIM:618165
-xref: ORDO:726036
 is_a: DOID:9004906 ! Congenital Bone Marrow Failure Syndromes
 created_by: mtutaj
 creation_date: 2019-03-15T14:09:34Z
@@ -208820,6 +208340,17 @@ is_a: DOID:225 ! syndrome
 is_a: DOID:9002762 ! Ovarian Neoplasms
 
 [Term]
+id: DOID:9003633
+name: Primary Ciliary Dyskinesia 50
+def: "A primary ciliary dyskinesia characterized by chronic sinusitis and bronchitis as well as male infertility. Caused by homozygous or compound heterozygous mutation in the DNAH7 gene on chromosome 2q32." [MIM:620356]
+synonym: "CILD50" EXACT []
+synonym: "DNAH7-RELATED CONDITION" EXACT []
+xref: MIM:620356
+is_a: DOID:9562 ! primary ciliary dyskinesia
+created_by: mtutaj
+creation_date: 2023-05-01T09:04:08Z
+
+[Term]
 id: DOID:9003634
 name: NEURODEVELOPMENTAL DISORDER WITH POOR GROWTH AND SKELETAL ANOMALIES
 def: "This disease is an autosomal recessive disorder characterized by global developmental delay and impaired intellectual development apparent from infancy. Affected individuals have hypotonia, delayed walking, poor or absent speech, and variable skeletal anomalies." [MIM:619880]
@@ -209278,6 +208809,19 @@ synonym: "PFBI" EXACT []
 synonym: "PLASMODIUM FALCIPARUM PARASITEMIA" EXACT []
 xref: MIM:248310
 is_a: DOID:12365 ! malaria
+
+[Term]
+id: DOID:9003681
+name: Primary Ciliary Dyskinesia 52
+def: "An autosomal recessive disorder characterized by laterality defects and mild respiratory symptoms due to subtle ciliary beating defects. Caused by homozygous or compound heterozygous mutation in the DAW1 gene on chromosome 2q36." [MIM:620570]
+synonym: "CILD52" EXACT []
+synonym: "DAW1-RELATED DISORDER" EXACT []
+synonym: "primary ciliary dyskinesia 52, with or without situs invertus" EXACT []
+xref: MIM:620570
+xref: MONDO:0957922
+is_a: DOID:9562 ! primary ciliary dyskinesia
+created_by: tutajm
+creation_date: 2023-11-10T14:39:45Z
 
 [Term]
 id: DOID:9003683
@@ -211261,6 +210805,23 @@ xref: MESH:C565418
 is_a: DOID:3413 ! alpha-mannosidosis
 
 [Term]
+id: DOID:9003873
+name: Gingival Fibromatosis 1
+synonym: "GGF1" EXACT []
+synonym: "GINGF" EXACT []
+synonym: "GINGF1" EXACT []
+synonym: "gingival fibromatosis, type 1" EXACT []
+synonym: "hereditary gingival fibromatosis 1" EXACT []
+synonym: "HGF" EXACT []
+synonym: "SOS1-RELATED CONDITION" BROAD []
+synonym: "SOS1-RELATED DISORDER" BROAD []
+xref: MESH:C562884
+xref: MIM:135300
+xref: MONDO:0007609
+xref: ORDO:2024
+is_a: DOID:0060466 ! gingival fibromatosis
+
+[Term]
 id: DOID:9003875
 name: Bleeding Disorder, East Texas Type
 alt_id: MIM:605913
@@ -212158,6 +211719,17 @@ created_by: rgd
 creation_date: 2015-08-11T00:00:00Z
 
 [Term]
+id: DOID:9003969
+name: Peri-Implantitis
+def: "An inflammatory process with loss of supporting bone in the tissues surrounding functioning DENTAL IMPLANTS." [MESH:D057873]
+synonym: "Peri-Implantitides" EXACT []
+synonym: "Periimplantitides" EXACT []
+synonym: "Periimplantitis" EXACT []
+xref: EFO:1001390
+xref: MESH:D057873
+is_a: DOID:3388 ! periodontal disease
+
+[Term]
 id: DOID:9003970
 name: Preeclampsia/Eclampsia 1
 synonym: "PEE1" EXACT []
@@ -212202,7 +211774,6 @@ synonym: "developmental delay with endocrine, exocrine, autonomic, and hematolog
 synonym: "MADD-related condition" BROAD []
 xref: MIM:619004
 xref: MONDO:0033561
-xref: ORDO:686495
 is_a: DOID:225 ! syndrome
 is_a: DOID:9007653 ! Multiple Abnormalities
 created_by: mtutaj
@@ -212653,6 +212224,12 @@ is_a: DOID:225 ! syndrome
 is_a: DOID:6364 ! migraine
 is_a: DOID:9000343 ! Vision Disorders
 is_a: DOID:9004523 ! Perceptual Disorders
+
+[Term]
+id: DOID:9004029
+name: Peroxisome Biogenesis Disorder, Complementation Group 9
+xref: MESH:C566387
+is_a: DOID:0080377 ! peroxisomal biogenesis disorder
 
 [Term]
 id: DOID:9004030
@@ -214101,6 +213678,7 @@ def: "Congenital abnormalities in which the HEART is in the normal position (lev
 synonym: "Isolated Levocardia" EXACT []
 synonym: "Situs Inversus with Levocardia" EXACT []
 xref: MESH:D007979
+xref: ORDO:95854
 is_a: DOID:1682 ! congenital heart disease
 is_a: DOID:758 ! visceral heterotaxy 5
 
@@ -214448,7 +214026,6 @@ def: "This disease is characterized by pre- and postnatal growth restriction, wi
 synonym: "PDIL" EXACT []
 xref: MIM:620005
 xref: MONDO:0859276
-xref: ORDO:718037
 is_a: DOID:612 ! primary immunodeficiency disease
 is_a: DOID:811 ! lipodystrophy
 is_a: DOID:9007661 ! Dwarfism
@@ -214656,6 +214233,7 @@ synonym: "phyllodes tumors" EXACT []
 xref: EFO:0000653
 xref: MESH:D003557
 xref: MONDO:0005078
+xref: ORDO:180261
 is_a: DOID:1115 ! sarcoma
 
 [Term]
@@ -216071,7 +215649,6 @@ xref: EFO:0003820
 xref: MESH:D001859
 xref: MONDO:0019060
 xref: NCI:C9343
-xref: ORDO:68411
 is_a: DOID:0080001 ! bone disease
 is_a: DOID:9005424 ! Neoplasms by Site
 
@@ -216514,7 +216091,6 @@ def: "This disease is a neurodevelopmental disorder characterized by global deve
 synonym: "GLOBAL DEVELOPMENTAL DELAY, HYPOTONIA, AND CHARACTERISTIC FACIAL FEATURES" EXACT []
 synonym: "WHIKERS" EXACT []
 xref: MIM:619426
-xref: ORDO:716109
 is_a: DOID:9004429 ! Neurodevelopmental Disorders
 is_a: DOID:9005603 ! Muscle Hypotonia
 created_by: slaulede
@@ -216745,6 +216321,7 @@ name: Pyometra
 def: "An accumulation of PUS in the uterine cavity (UTERUS). Pyometra generally indicates the presence of infections." [MESH:D055112]
 synonym: "Pyometras" EXACT []
 xref: MESH:D055112
+xref: RDO:0007701
 is_a: DOID:345 ! uterine disease
 
 [Term]
@@ -217576,7 +217153,6 @@ xref: EFO:0003841
 xref: MESH:D013964
 xref: MONDO:0015074
 xref: NCI:C179056
-xref: ORDO:100087
 is_a: DOID:50 ! thyroid gland disease
 is_a: DOID:9006169 ! Head and Neck Neoplasms
 is_a: DOID:9007803 ! Endocrine Gland Neoplasms
@@ -217715,6 +217291,7 @@ name: Dental Fissures
 def: "Deep grooves or clefts in the surface of teeth equivalent to class 1 cavities in Black's classification of dental caries." [MESH:D003750]
 synonym: "Dental Fissure" EXACT []
 xref: MESH:D003750
+xref: RDO:0005328
 is_a: DOID:216 ! dental caries
 
 [Term]
@@ -218424,6 +218001,17 @@ xref: MONDO:0010477
 xref: NCI:C206528
 xref: ORDO:293707
 is_a: DOID:0060289 ! Ohdo syndrome
+
+[Term]
+id: DOID:9004629
+name: Gingival Fibromatosis 4
+alt_id: MIM:611010
+synonym: "Fibromatosis, Gingival, Hereditary, 4" EXACT []
+synonym: "GGF4" EXACT []
+synonym: "GINGF4" EXACT []
+synonym: "HGF4" EXACT []
+xref: MESH:C567028
+is_a: DOID:0060466 ! gingival fibromatosis
 
 [Term]
 id: DOID:9004630
@@ -220184,6 +219772,7 @@ synonym: "Cytogenetic Abnormalities" EXACT []
 synonym: "Cytogenetic Abnormality" EXACT []
 xref: EFO:0000336
 xref: MESH:D002869
+xref: ORDO:68335
 is_a: DOID:9004611 ! Pathologic Processes
 
 [Term]
@@ -222219,8 +221808,8 @@ creation_date: 2019-09-03T14:46:29Z
 [Term]
 id: DOID:9005029
 name: Ectrodactyly and Ectodermal Dysplasia without Cleft Lip/Palate
+alt_id: MIM:129810
 xref: MESH:C565065
-xref: MIM:129810
 xref: ORDO:1888
 is_a: DOID:2121 ! ectodermal dysplasia
 is_a: DOID:9000067 ! Congenital Foot Deformities
@@ -223883,6 +223472,17 @@ created_by: mtutaj
 creation_date: 2023-04-11T09:48:57Z
 
 [Term]
+id: DOID:9005202
+name: Primary Ciliary Dyskinesia 48
+def: "An autosomal recessive disorder characterized by recurrent upper and lower respiratory infections due to impaired ciliary movement and clearance. Caused by homozygous mutation in the NME5 gene on chromosome 5q31." []
+synonym: "CILD48" EXACT []
+synonym: "primary ciliary dyskinesia-48 without situs inversus" EXACT []
+xref: MIM:620032
+is_a: DOID:9562 ! primary ciliary dyskinesia
+created_by: mtutaj
+creation_date: 2022-09-16T12:01:26Z
+
+[Term]
 id: DOID:9005203
 name: Periventricular Nodular Heterotopia 3
 alt_id: MIM:608098
@@ -224791,6 +224391,7 @@ synonym: "TBXA2R-RELATED CONDITION" EXACT []
 xref: MESH:C566055
 xref: MIM:614009
 xref: MONDO:0800447
+xref: ORDO:220443
 is_a: DOID:2218 ! blood platelet disease
 is_a: DOID:9008217 ! Hemorrhage
 
@@ -224860,7 +224461,6 @@ synonym: "HCHOLA3" EXACT []
 synonym: "PCSK9-RELATED CONDITION" EXACT []
 synonym: "PCSK9-RELATED DISORDER" EXACT []
 xref: MESH:C566337
-xref: ORDO:727932
 is_a: DOID:13810 ! familial hypercholesterolemia
 
 [Term]
@@ -225159,6 +224759,20 @@ synonym: "cloaca malformation" EXACT []
 is_a: DOID:9001471 ! Anorectal Malformations
 created_by: rgd
 creation_date: 2017-03-31T00:00:00Z
+
+[Term]
+id: DOID:9005352
+name: CILIARY DYSKINESIA, PRIMARY, 47, AND LISSENCEPHALY
+def: "An autosomal recessive disorder characterized by onset of recurrent respiratory infections and respiratory dysfunction caused by defective mucociliary clearance in early childhood. Caused by homozygous mutation in the TP73 gene on chromosome 1p36." [MIM:619466]
+synonym: "CILD47" EXACT []
+synonym: "Primary Ciliary Dyskinesia 47" EXACT []
+synonym: "primary ciliary dyskinesia-47 and lissencephaly" EXACT []
+xref: MIM:619466
+xref: MONDO:0030346
+is_a: DOID:0050453 ! lissencephaly
+is_a: DOID:9562 ! primary ciliary dyskinesia
+created_by: mtutaj
+creation_date: 2021-08-09T14:53:56Z
 
 [Term]
 id: DOID:9005353
@@ -225619,6 +225233,18 @@ synonym: "Comminuted Fracture" EXACT []
 xref: MESH:D018460
 xref: RDO:0007206
 is_a: DOID:9002589 ! Bone Fractures
+
+[Term]
+id: DOID:9005405
+name: Primary Ciliary Dyskinesia 49
+def: "An autosomal recessive disorder characterized by the onset of recurrent respiratory infections, chronic cough, and bronchiectasis in early childhood due to defective ciliary clearance. Caused by compound heterozygous mutation in the CFAP74 gene on chromosome 1p36." [MIM:620197]
+synonym: "CFAP74-RELATED CONDITION" EXACT []
+synonym: "CILD49" EXACT []
+synonym: "primary ciliary dyskinesia-49 without situs inversus" EXACT []
+xref: MIM:620197
+is_a: DOID:9562 ! primary ciliary dyskinesia
+created_by: mtutaj
+creation_date: 2023-01-16T10:23:56Z
 
 [Term]
 id: DOID:9005406
@@ -228039,7 +227665,6 @@ synonym: "Hyporeninemic Hypoaldosteronism" EXACT []
 synonym: "Type IV Renal Tubular Acidosis" EXACT []
 xref: MESH:D006994
 xref: MONDO:0015900
-xref: ORDO:181419
 is_a: DOID:9008622 ! Adrenal Insufficiency
 
 [Term]
@@ -228398,7 +228023,6 @@ def: "This is a disease characterized by microcephaly, congenital alopecia, dist
 synonym: "GKAF" EXACT []
 xref: MIM:619321
 xref: MONDO:0859146
-xref: ORDO:729781
 is_a: DOID:9001487 ! Facies
 is_a: DOID:9006257 ! Growth Disorders
 is_a: DOID:987 ! alopecia
@@ -230686,8 +230310,8 @@ alt_id: MIM:609432
 synonym: "BHLHA9-RELATED CONDITION" BROAD []
 synonym: "MSSD" EXACT []
 synonym: "Syndactyly, Malik-Percin Type" EXACT []
-synonym: "syndactyly, type 9" EXACT []
 synonym: "SYNDACTYLY TYPE 9" EXACT []
+synonym: "syndactyly, type 9" EXACT []
 synonym: "syndactyly, type IX" EXACT []
 xref: MESH:C563721
 xref: ORDO:157801
@@ -230912,6 +230536,17 @@ xref: EFO:1000953
 xref: MESH:C564777
 xref: MESH:D018309
 is_a: DOID:9002052 ! Neoplasms by Histologic Type
+
+[Term]
+id: DOID:9005960
+name: Primary Ciliary Dyskinesia 51
+def: "A male infertility due to multiple morphologic abnormalities of the sperm flagella (MMAF), resulting in severely reduced progressive motility. Caused by homozygous or compound heterozygous mutation in the BRWD1 gene on chromosome 21q22." [MIM:620438]
+synonym: "BRWD1-RELATED CONDITION" EXACT []
+synonym: "CILD51" EXACT []
+xref: MIM:620438
+is_a: DOID:9562 ! primary ciliary dyskinesia
+created_by: mtutaj
+creation_date: 2023-07-07T12:40:16Z
 
 [Term]
 id: DOID:9005962
@@ -231259,6 +230894,25 @@ xref: MONDO:0007766
 xref: ORDO:77296
 is_a: DOID:205 ! hyperostosis
 is_a: DOID:2256 ! osteochondrodysplasia
+
+[Term]
+id: DOID:9006001
+name: Mental Retardation and Distinctive Facial Features with or without Cardiac Defects
+def: "This disease is an autosomal dominant, complex syndromic neurodevelopmental disorder characterized by delayed psychomotor development, poor speech acquisition, distinctive dysmorphic facial features, including frontal bossing, upslanting palpebral fissures, depressed nasal bridge with bulbous tip, and macrostomia." [MIM:616789]
+synonym: "Asadollahi-Rauch syndrome" EXACT []
+synonym: "CARDIAC ANOMALIES - DEVELOPMENTAL DELAY - FACIAL DYSMORPHISM SYNDROME" EXACT []
+synonym: "IMPAIRED INTELLECTUAL DEVELOPMENT AND DISTINCTIVE FACIAL FEATURES WITH CARDIAC DEFECTS" NARROW []
+synonym: "impaired intellectual development and distinctive facial features with or without cardiac defects" EXACT []
+synonym: "MED13L-related condition" BROAD []
+synonym: "MED13L-related disorder" BROAD []
+synonym: "MRFACD" EXACT []
+xref: MIM:616789
+xref: MONDO:0014773
+xref: ORDO:369891
+is_a: DOID:1059 ! intellectual disability
+is_a: DOID:1682 ! congenital heart disease
+is_a: DOID:9001487 ! Facies
+is_a: DOID:9008731 ! Craniofacial Abnormalities
 
 [Term]
 id: DOID:9006002
@@ -232373,6 +232027,7 @@ alt_id: MIM:606703
 synonym: "DSKOD" NARROW []
 synonym: "dyskinesia with orofacial involvement, autosomal dominant" NARROW []
 xref: NCI:C215052
+xref: ORDO:324588
 is_a: DOID:9007924 ! Dyskinesia with Orofacial Involvement
 created_by: mtutaj
 creation_date: 2023-03-07T14:19:05Z
@@ -232646,6 +232301,16 @@ xref: RDO:0012245
 is_a: DOID:10604 ! lactose intolerance
 
 [Term]
+id: DOID:9006148
+name: King's Evil
+alt_id: RDO:0007221
+def: "The historic designation for scrofula (TUBERCULOSIS, LYMPH NODE). The disease is so called from the belief that it could be healed by the touch of a king. This term is used only for historical articles using the name 'king's evil', and is to be differentiated from scrofula as lymph node tuberculosis in modern clinical medicine. (From Webster, 3d ed)" [MESH:D018601]
+synonym: "Kings Evil" EXACT []
+synonym: "Kings Evils" EXACT []
+xref: MESH:D018601
+is_a: DOID:4889 ! lymph node tuberculosis
+
+[Term]
 id: DOID:9006149
 name: Chromosome 14q, Proximal Duplication
 synonym: "Duplication 14q proximal" EXACT []
@@ -232663,6 +232328,7 @@ is_a: DOID:0060480 ! left ventricular noncompaction
 id: DOID:9006151
 name: Choroidal Neovascularization, Experimental
 def: "Choroidal neovascularization that is induced in experimental animals by use of laser, hypoxia, or chemical injury." []
+xref: RDO:9000349
 is_a: DOID:9001044 ! Choroidal Neovascularization
 is_a: DOID:9006205 ! Animal Disease Models
 created_by: rgd
@@ -234043,7 +233709,6 @@ def: "This is a primarily fibrotic disease affecting the liver, kidney, and hear
 synonym: "HRCDF" EXACT []
 xref: MIM:619902
 xref: MONDO:0859254
-xref: ORDO:726824
 is_a: DOID:0050855 ! renal fibrosis
 is_a: DOID:5082 ! liver cirrhosis
 is_a: DOID:9003139 ! Cardiac Fibrosis
@@ -234441,7 +234106,6 @@ synonym: "NEDLBA" EXACT []
 synonym: "PPP2CA-related condition" BROAD []
 xref: MIM:618354
 xref: MONDO:0032697
-xref: ORDO:726659
 is_a: DOID:9005466 ! Language Development Disorders
 is_a: DOID:9006534 ! Nervous System Malformations
 is_a: DOID:9009276 ! Houge-Janssens Syndrome
@@ -236637,6 +236301,18 @@ xref: MESH:C538496
 is_a: DOID:0050476 ! Barth syndrome
 
 [Term]
+id: DOID:9006587
+name: Gingival Fibromatosis 3
+synonym: "GGF3" EXACT []
+synonym: "GINGF3" EXACT []
+synonym: "gingival fibromatosis, hereditary, 3" EXACT []
+synonym: "HGF3" EXACT []
+xref: MESH:C537928
+xref: MIM:609955
+xref: MONDO:0012378
+is_a: DOID:0060466 ! gingival fibromatosis
+
+[Term]
 id: DOID:9006588
 name: Trismus
 def: "Spasmodic contraction of the masseter muscle resulting in forceful jaw closure. This may be seen with a variety of diseases, including TETANUS, as a complication of radiation therapy, trauma, or in association with neoplastic conditions." [MESH:D014313]
@@ -237591,7 +237267,6 @@ synonym: "NEURODEVELOPMENTAL DISORDER WITH BRAIN, LIVER, AND LUNG ABNORMALITIES"
 synonym: "RILDBC1" EXACT []
 xref: MIM:613658
 xref: MONDO:0100215
-xref: ORDO:178506
 is_a: DOID:10907 ! microcephaly
 is_a: DOID:9001942 ! Rajab Interstitial Lung Disease with Brain Calcifications
 is_a: DOID:9006257 ! Growth Disorders
@@ -238609,7 +238284,6 @@ name: Pseudo-TORCH Syndrome 3
 synonym: "PTORCH3" EXACT []
 xref: MIM:618886
 xref: MONDO:0030044
-xref: ORDO:714429
 is_a: DOID:2914 ! immune system disease
 is_a: DOID:9002061 ! Pseudo-TORCH Syndrome
 created_by: mtutaj
@@ -239694,9 +239368,9 @@ id: DOID:9006916
 name: Hepatic Granuloma
 def: "This is a relatively small nodular inflammatory lesion containing grouped mononuclear phagocytes, caused by infectious and noninfectious agents in the liver." [MESH:D006099]
 synonym: "liver granuloma" EXACT []
+synonym: "NCI:C4936" EXACT []
 xref: EFO:1000291
 xref: MONDO:0006241
-xref: NCI:C4936
 is_a: DOID:409 ! liver disease
 is_a: DOID:9002019 ! Granuloma
 created_by: slaulede
@@ -240141,6 +239815,7 @@ id: DOID:9006963
 name: Pseudohypoaldosteronism Type IB1, Autosomal Recessive
 synonym: "PHA1B1" EXACT []
 xref: MIM:264350
+xref: ORDO:171876
 is_a: DOID:0060854 ! autosomal recessive pseudohypoaldosteronism type 1
 created_by: mtutaj
 creation_date: 2022-12-05T08:47:56Z
@@ -241298,6 +240973,7 @@ name: Lethal Bone Dysplasia, Holmgren Type
 xref: MESH:C565896
 xref: MIM:211120
 xref: MONDO:0008878
+xref: ORDO:1842
 is_a: DOID:0080006 ! bone development disease
 
 [Term]
@@ -241648,7 +241324,6 @@ name: Polydactyly-Macrocephaly Syndrome
 def: "A disease characterized by postaxial polydactyly and progressive macrocephaly. Caused by heterozygous mutation in the MAX gene on chromosome 14q23." [MIM:620712]
 synonym: "PDMCS" EXACT []
 xref: MIM:620712
-xref: ORDO:726703
 is_a: DOID:9003071 ! Postaxial Polydactyly
 is_a: DOID:9003816 ! Macrocephaly
 created_by: tutajm
@@ -244582,7 +244257,6 @@ synonym: "IDDSSA" EXACT []
 synonym: "WIPI2-related condition" EXACT []
 xref: MIM:618453
 xref: MONDO:0032759
-xref: ORDO:724143
 is_a: DOID:9004429 ! Neurodevelopmental Disorders
 is_a: DOID:9005004 ! Musculoskeletal Abnormalities
 created_by: slaulede
@@ -246289,6 +245963,17 @@ synonym: "paroxysmal atrial fibrillations" EXACT []
 is_a: DOID:0060224 ! atrial fibrillation
 
 [Term]
+id: DOID:9007615
+name: Primary Ciliary Dyskinesia 53
+def: "An autosomal recessive disorder characterized by randomization of the left-right body asymmetry and respiratory symptoms. Caused by homozygous mutation in the calaxin gene (CLXN) on chromosome 8q11." [MIM:620642]
+synonym: "CILD53" EXACT []
+xref: MIM:620642
+xref: MONDO:0957991
+is_a: DOID:9562 ! primary ciliary dyskinesia
+created_by: tutajm
+creation_date: 2023-12-04T13:00:08Z
+
+[Term]
 id: DOID:9007616
 name: Polyglucosan Body Myopathy 1 with or without Immunodeficiency
 def: "An autosomal recessive disorder characterized by onset in childhood of progressive proximal muscle weakness, resulting in difficulties in ambulation. (OMIM)" []
@@ -247504,7 +247189,6 @@ synonym: "NEURODEVELOPMENTAL DISORDER WITH LOW CHOLESTEROL AND ABNORMAL URINE OR
 synonym: "SQSD" EXACT []
 xref: EFO:0010167
 xref: MIM:618156
-xref: ORDO:730300
 is_a: DOID:655 ! inherited metabolic disorder
 is_a: DOID:9007653 ! Multiple Abnormalities
 created_by: slaulede
@@ -249272,7 +248956,6 @@ synonym: "FDFM" EXACT []
 xref: MESH:C564676
 xref: MIM:PS606703
 xref: NCI:C202047
-xref: ORDO:324588
 is_a: DOID:9003935 ! Myokymia
 is_a: DOID:9008675 ! Dyskinesias
 
@@ -251143,6 +250826,7 @@ synonym: "Metatropic dwarfism, type 2" EXACT []
 synonym: "Metatropic dysplasia 2" EXACT []
 synonym: "Metatropic Dysplasia Type II" EXACT []
 xref: MESH:C581628
+xref: RDO:0015940
 is_a: DOID:2256 ! osteochondrodysplasia
 is_a: DOID:9007661 ! Dwarfism
 
@@ -251941,10 +251625,10 @@ is_a: DOID:9001487 ! Facies
 [Term]
 id: DOID:9008197
 name: Familial Atrial Fibrillation 3
+alt_id: MIM:607554
+alt_id: RDO:0012980
 synonym: "ATFB3" EXACT []
 xref: MESH:C563817
-xref: MIM:607554
-xref: MONDO:0011857
 is_a: DOID:0050650 ! familial atrial fibrillation
 
 [Term]
@@ -251974,7 +251658,6 @@ name: Megalencephaly-Polydactyly Syndrome
 def: "An autosomal dominant disorder characterized by megalencephaly, ventriculomegaly, postaxial polydactyly, and, notably, neuroblastoma during infancy. Caused by heterozygous mutation in the MYCN gene on chromosome 2p24." [MIM:620748]
 synonym: "MPAPA" EXACT []
 xref: MIM:620748
-xref: ORDO:730286
 is_a: DOID:769 ! neuroblastoma
 is_a: DOID:9003071 ! Postaxial Polydactyly
 is_a: DOID:9003816 ! Macrocephaly
@@ -258302,6 +257985,7 @@ synonym: "CFHR5 nephropathy" EXACT []
 synonym: "CFH-RELATED DENSE DEPOSIT DISEASE / MEMBRANOPROLIFERATIVE GLOMERULONEPHRITIS TYPE II" BROAD []
 synonym: "nephropathy due to CFHR5 deficiency" EXACT []
 xref: MIM:614809
+xref: ORDO:329931
 is_a: DOID:2920 ! membranoproliferative glomerulonephritis
 
 [Term]
@@ -259789,6 +259473,14 @@ is_a: DOID:9007472 ! Skin Manifestations
 is_a: DOID:9008217 ! Hemorrhage
 
 [Term]
+id: DOID:9009030
+name: Intestinal Lipophagic Granulomatosis
+synonym: "Secondary Non-tropical Sprue" EXACT []
+xref: MESH:C531849
+xref: RDO:0000241
+is_a: DOID:8476 ! Whipple disease
+
+[Term]
 id: DOID:9009031
 name: Porphyria Cutanea Tarda, Type I
 synonym: "PCT, sporadic type" EXACT []
@@ -260204,7 +259896,6 @@ def: "An autosomal recessive disorder characterized by the onset of manifestatio
 synonym: "BMFDMS" EXACT []
 xref: MIM:620044
 xref: MONDO:0859288
-xref: ORDO:725898
 is_a: DOID:9004906 ! Congenital Bone Marrow Failure Syndromes
 is_a: DOID:9351 ! diabetes mellitus
 created_by: mtutaj
@@ -260901,7 +260592,6 @@ synonym: "NEDSBAS" EXACT []
 synonym: "WDR45B-related condition" EXACT []
 xref: MIM:617977
 xref: MONDO:0060704
-xref: ORDO:724148
 is_a: DOID:10970 ! spastic quadriplegic cerebral palsy
 is_a: DOID:9004429 ! Neurodevelopmental Disorders
 created_by: slaulede
@@ -261152,6 +260842,16 @@ created_by: slaulede
 creation_date: 2018-08-17T17:55:47Z
 
 [Term]
+id: DOID:9009208
+name: Gingival Fibromatosis 6
+def: "An autosomal dominant disorder characterized by gingival overgrowth, beginning in the first decade of life. Caused by heterozygous mutation in the ZNF862 gene on chromosome 7q36." [MIM:620999]
+synonym: "GINGF6" EXACT []
+xref: MIM:620999
+is_a: DOID:0060466 ! gingival fibromatosis
+created_by: tutajm
+creation_date: 2024-11-05T11:11:05Z
+
+[Term]
 id: DOID:9009211
 name: Pancreatic Agenesis 3
 def: "An autosomal recessive disorder characterized by neonatal diabetes and exocrine pancreatic insufficiency caused by homozygous or compound heterozygous mutation in the ZNF808 gene on chromosome 19q13." [MIM:620991]
@@ -261348,7 +261048,6 @@ synonym: "PAK1-related neurodevelopmental disorders" BROAD []
 xref: EFO:0010259
 xref: MIM:618158
 xref: MONDO:0032568
-xref: ORDO:717884
 is_a: DOID:1059 ! intellectual disability
 is_a: DOID:1826 ! epilepsy
 is_a: DOID:9003816 ! Macrocephaly
@@ -261397,7 +261096,7 @@ synonym: "CMS24" EXACT []
 synonym: "MYO9A-RELATED CONDITION" EXACT []
 synonym: "presynaptic congenital myasthenic syndrome-24" EXACT []
 xref: MIM:618198
-xref: ORDO:716889
+xref: ORDO:98914
 is_a: DOID:3635 ! congenital myasthenic syndrome
 created_by: slaulede
 creation_date: 2019-01-15T13:31:11Z
@@ -262013,6 +261712,17 @@ created_by: tutajm
 creation_date: 2025-03-14T09:04:28Z
 
 [Term]
+id: DOID:9009318
+name: Primary Ciliary Dyskinesia 54
+def: "An autosomal recessive disorder characterized by a relatively mild respiratory phenotype, including rhinitis, sinusitis, asthma, and bronchiectasis. Caused by compound heterozygous mutation in the CFAP54 gene on chromosome 12q23." [MIM:621125]
+synonym: "CILD54" EXACT []
+xref: MIM:621125
+xref: MONDO:0100607
+is_a: DOID:9562 ! primary ciliary dyskinesia
+created_by: tutajm
+creation_date: 2025-03-14T09:10:38Z
+
+[Term]
 id: DOID:9009319
 name: NEURODEVELOPMENTAL DISORDER WITH THIN CORPUS CALLOSUM, HYPOTONIA, AND ABSENT LANGUAGE
 def: "This disease is a severe neurodevelopmental disorder with microcephaly and spasticity." [MIM:621150]
@@ -262239,7 +261949,6 @@ def: "A disease characterized by global developmental delay, hypotonia, delayed 
 synonym: "HJS4" EXACT []
 synonym: "PPP2R5C-RELATED DISORDER" EXACT []
 xref: MIM:621185
-xref: ORDO:726667
 is_a: DOID:9009276 ! Houge-Janssens Syndrome
 created_by: tutajm
 creation_date: 2025-05-27T09:38:33Z
@@ -262359,7 +262068,6 @@ name: Craniofaciocardiohepatic syndrome
 def: "An autosomal dominant disorder characterized by a recognizable phenotype of orofacial clefting, congenital heart disease, tall stature with variable dysmorphic features, gastrointestinal involvement, and developmental delay." [MIM:621192]
 synonym: "CFCHS" EXACT []
 xref: MIM:621192
-xref: ORDO:660021
 is_a: DOID:0050567 ! orofacial cleft
 is_a: DOID:1682 ! congenital heart disease
 is_a: DOID:409 ! liver disease
@@ -262386,7 +262094,6 @@ name: Leukodystrophy and cerebellar atrophy
 def: "An autosomal recessive disorder characterized by neurodevelopmental defects, leukodystrophy, and cerebellar atrophy." [MIM:621191]
 synonym: "LDCA" EXACT []
 xref: MIM:621191
-xref: MONDO:0978294
 is_a: DOID:10579 ! leukodystrophy
 is_a: DOID:2786 ! cerebellar disease
 is_a: DOID:9004429 ! Neurodevelopmental Disorders
@@ -268508,7 +268215,6 @@ def: "An obsolete diagnosis that has been replaced by periodontitis." []
 synonym: "periodontoses" EXACT []
 xref: ICD10CM:K05.4
 xref: ICD9CM:523.5
-is_a: DOID:1091 ! tooth disease
 is_a: DOID:3388 ! periodontal disease
 created_by: rgd
 creation_date: 2017-10-18T00:00:00Z
