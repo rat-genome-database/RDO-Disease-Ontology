@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-08-01
-date: 01:08:2026 20:13
+data-version: releases/2026-07-29
+date: 29:07:2026 15:47
 saved-by: rgd
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 subsetdef: RGD_JBrowse_slim "RGD_JBrowse_slim"
@@ -11,7 +11,7 @@ property_value: dc:creator "Carissa A. Park" xsd:string
 property_value: dc:creator "G. Thomas Hayman" xsd:string
 property_value: dc:creator "Mahima Vedi" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-08-01" xsd:string
+property_value: owl:versionInfo "2026-07-29" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -106116,8 +106116,8 @@ id: DOID:11213
 name: acute contagious conjunctivitis
 def: "A bacterial acute conjunctivitis that is characterized by highly contagious conjunctival hypermia and mucopurulent discharge and has_material_basis_in Hemophilius Aegypticus. (DO)" [https://www.aafp.org/afp/1998/0215/p735.html "DO"]
 synonym: "contagious opthalmia" EXACT []
-synonym: "pinkeye" EXACT []
 synonym: "pink eye" EXACT []
+synonym: "pinkeye" EXACT []
 xref: MONDO:0001226
 xref: NCI:C35704
 is_a: DOID:11184 ! acute conjunctivitis
@@ -106583,8 +106583,8 @@ def: "A viral infectious disease that is a hemorrhagic fever, located in kidney,
 synonym: "epidemic hemorrhagic fever" EXACT []
 synonym: "hemorrhagic fever renal syndrome" EXACT []
 synonym: "hemorrhagic fever with renal syndrome" EXACT []
-synonym: "hemorrhagic nephrosonephritis" EXACT []
 synonym: "hemorrhagic nephroso nephritis" EXACT []
+synonym: "hemorrhagic nephrosonephritis" EXACT []
 synonym: "HFRS" EXACT []
 synonym: "Puumala virus nephropathy" EXACT []
 synonym: "Russian hemorrhagic fever" EXACT []
@@ -237964,7 +237964,6 @@ id: DOID:9006742
 name: GSD IV, Nonprogressive Hepatic
 xref: MESH:C565540
 xref: MONDO:0017696
-xref: ORDO:308638
 is_a: DOID:2750 ! glycogen storage disease IV
 is_a: DOID:409 ! liver disease
 
@@ -266055,8 +266054,8 @@ id: DOID:9478
 name: postpartum depression
 def: "An endogenous depression that involves intense, sustained and sometimes disabling depression experienced by women after giving birth. (DO)" [http://en.wikipedia.org/wiki/Mood_disorder "DO"]
 synonym: "maternity blues" EXACT []
-synonym: "postnatal depression" EXACT []
 synonym: "post natal depression" EXACT []
+synonym: "postnatal depression" EXACT []
 synonym: "post partum depression" EXACT []
 xref: EFO:0007453
 xref: ICD10CM:F53.0
