@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-08-29
-date: 29:08:2026 20:13
+data-version: releases/2026-08-22
+date: 22:08:2026 20:13
 saved-by: rgd
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 subsetdef: RGD_JBrowse_slim "RGD_JBrowse_slim"
@@ -11,7 +11,7 @@ property_value: dc:creator "Carissa A. Park" xsd:string
 property_value: dc:creator "G. Thomas Hayman" xsd:string
 property_value: dc:creator "Mahima Vedi" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-08-29" xsd:string
+property_value: owl:versionInfo "2026-08-22" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -25505,7 +25505,6 @@ def: "An orofaciodigital syndrome that is characterized by tongue nodules; denta
 synonym: "OFD19" EXACT []
 synonym: "OFDS XIX" EXACT []
 synonym: "ORAL-FACIAL-DIGITAL SYNDROME, TYPE XIX" EXACT []
-synonym: "OROFACIODIGITAL SYNDROME 19" EXACT []
 xref: MIM:620107
 is_a: DOID:0050737 ! autosomal recessive disease
 is_a: DOID:4501 ! orofaciodigital syndrome
@@ -31067,7 +31066,6 @@ synonym: "autosomal dominant intellectual developmental disorder 6, with or with
 synonym: "autosomal dominant mental retardation 6" EXACT []
 synonym: "autosomal dominant mental retardation 6, with or without seizures" EXACT []
 synonym: "autosomal dominant non-syndromic intellectual disability 6" EXACT []
-synonym: "GRIN2B-RELATED COMPLEX NEURODEVELOPMENTAL DISORDER" BROAD []
 synonym: "GRIN2B-RELATED CONDITION" BROAD []
 synonym: "GRIN2B-RELATED DEVELOPMENTAL DELAY, INTELLECTUAL DISABILITY AND AUTISM SPECTRUM DISORDER" BROAD []
 synonym: "GRIN2B-RELATED DISORDER" BROAD []
@@ -31253,7 +31251,6 @@ name: autosomal dominant intellectual developmental disorder 19
 def: "An autosomal dominant intellectual developmental disorder that has_material_basis_in an autosomal dominant mutation of the CTNNB1 gene on chromosome 3p22.1. (DO)" [PMID:23033978 "DO"]
 synonym: "autosomal dominant mental retardation 19" EXACT []
 synonym: "autosomal dominant non-syndromic intellectual disability 19" EXACT []
-synonym: "CTNNB1-RELATED NEURODEVELOPMENTAL DISORDER AND/OR VITREORETINOPATHY" BROAD []
 synonym: "CTNNB1-RELATED SYNDROMIC INTELLECTUAL DISABILITY" EXACT []
 synonym: "MRD19" EXACT []
 synonym: "NEDSDV" EXACT []
@@ -35810,7 +35807,6 @@ alt_id: DOID:9003577
 def: "A developmental and epileptic encephalopathy characterized by onset of variable types of seizures in the first months or years of life preceded by global developmental delay that has_material_basis_in heterozygous mutation in the FBXO28 gene on chromosome 1q42. (DO)" [PMID:33280099 "DO"]
 synonym: "DEE100" EXACT []
 synonym: "early infantile epileptic encephalopathy 100" EXACT []
-synonym: "FBXO28-RELATED CONDITION" EXACT []
 xref: MIM:619777
 is_a: DOID:0050736 ! autosomal dominant disease
 is_a: DOID:0112202 ! developmental and epileptic encephalopathy
@@ -39147,7 +39143,6 @@ alt_id: DOID:9005157
 def: "An autosomal dominant nonsyndromic deafness that has_material_basis_in heterozygous mutation in the MYO3A gene on chromosome 10p12. (DO)" [PMID:29880844 "DO", PMID:32519820 "DO"]
 synonym: "Deafness, autosomal dominant 90" EXACT []
 synonym: "DFNA90" EXACT []
-synonym: "HEARING LOSS, AUTOSOMAL DOMINANT 90" EXACT []
 xref: MIM:620722
 xref: MONDO:0958232
 is_a: DOID:0050564 ! autosomal dominant nonsyndromic deafness
@@ -40957,7 +40952,6 @@ id: DOID:0070736
 name: multiple mitochondrial dysfunctions syndrome 9B
 alt_id: DOID:9009165
 def: "A multiple mitochondrial dysfunctions syndrome characterized by optic atrophy and/or auditory neuropathy variably associated with developmental delay or regression, global hypotonia, pyramidal and cerebellar signs, and seizures that has_material_basis_in homozygous or compound heterozygous mutation in the FDXR gene on chromosome 17q25. (DO)" [PMID:37046037 "DO"]
-synonym: "FDXR-RELATED OPTIC ATROPHY MITOCHONDRIAL DYSFUNCTION SYNDROME" EXACT []
 synonym: "MMDS9B" EXACT []
 xref: GARD:27208
 xref: MIM:620887
@@ -45481,7 +45475,6 @@ is_a: DOID:0050565 ! autosomal recessive nonsyndromic deafness
 id: DOID:0080264
 name: exudative vitreoretinopathy 7
 def: "An exudative vitreoretinopathy that has_material_basis_in heterozygous mutation in the CTNNB1 gene on chromosome 3p22.1. (DO)" [PMID:28575650 "DO"]
-synonym: "CTNNB1-RELATED NEURODEVELOPMENTAL DISORDER AND/OR VITREORETINOPATHY" BROAD []
 synonym: "EVR7" EXACT []
 xref: MIM:617572
 is_a: DOID:0050535 ! exudative vitreoretinopathy
@@ -47740,7 +47733,6 @@ synonym: "DEE27" EXACT []
 synonym: "developmental delay with intractable seizures" RELATED []
 synonym: "early infantile epileptic encephalopathy 27" EXACT []
 synonym: "EIEE27" EXACT []
-synonym: "GRIN2B-RELATED COMPLEX NEURODEVELOPMENTAL DISORDER" BROAD []
 synonym: "GRIN2B-RELATED CONDITION" BROAD []
 synonym: "GRIN2B-RELATED DEVELOPMENTAL DELAY, INTELLECTUAL DISABILITY AND AUTISM SPECTRUM DISORDER" BROAD []
 synonym: "GRIN2B-RELATED DISORDER" BROAD []
@@ -49137,8 +49129,8 @@ synonym: "Hyperimmunoglobulinemia E Syndrome" EXACT []
 synonym: "Hyperimmunoglobulinemia E Syndromes" EXACT []
 synonym: "hyperimmunoglobulin E recurrent infection syndrome" EXACT []
 synonym: "hyperimmunoglobulin E recurrent infection syndrome, autosomal recessive" NARROW []
-synonym: "hyperimmunoglobulin E syndrome" EXACT []
 synonym: "hyper immunoglobulin E syndrome" EXACT []
+synonym: "hyperimmunoglobulin E syndrome" EXACT []
 synonym: "hyper immunoglobulin E syndrome, autosomal recessive" NARROW []
 xref: GARD:10956
 xref: MESH:D007589
@@ -64195,7 +64187,6 @@ synonym: "PMGYSA" EXACT []
 synonym: "polymicrogyria due to TUBB2B mutation" EXACT []
 synonym: "POLYMICROGYRIA, SYMMETRIC OR ASYMMETRIC" EXACT []
 synonym: "TUBB2B-related condition" BROAD []
-synonym: "TUBB2B-RELATED CORTICAL MALFORMATION" EXACT []
 xref: MIM:610031
 xref: MONDO:0012399
 xref: ORDO:300573
@@ -84588,7 +84579,6 @@ synonym: "lipodystrophy-Rieger anomaly-diabetes syndrome" EXACT []
 synonym: "partial lipodystrophy with Rieger anomaly and short stature" EXACT []
 synonym: "Rieger anomaly-partial lipodystrophy syndrome" EXACT []
 synonym: "short stature, hyperextensibility, hernia, ocular depression, rieger anomaly, and teething delay" EXACT []
-synonym: "SHORT syndrome" BROAD []
 xref: GARD:7633
 xref: MESH:C537327
 xref: MIM:269880
@@ -90474,7 +90464,6 @@ id: DOID:0111820
 name: zygodactyly 1
 def: "A syndactyly characterized by webbing between the second and third toes in the absence of hand involvement. (DO)" [PMID:16189548 "DO", PMID:27072775 "DO"]
 synonym: "ZD1" EXACT []
-synonym: "ZYGODACTYLY TYPE 1" EXACT []
 xref: MESH:C565223
 xref: MIM:609815
 xref: MONDO:0012351
@@ -92339,7 +92328,6 @@ synonym: "activated PI3K-delta syndrome 2" EXACT []
 synonym: "APDS2" EXACT []
 synonym: "IMD36" EXACT []
 synonym: "immunodeficiency-36 with lymphoproliferation" EXACT []
-synonym: "PIK3R1-RELATED IMMUNODEFICIENCY AND SHORT SYNDROME" BROAD []
 xref: MIM:616005
 xref: MONDO:0014453
 xref: NCI:C176703
@@ -96303,7 +96291,6 @@ creation_date: 2017-10-19T15:03:51Z
 id: DOID:0112202
 name: developmental and epileptic encephalopathy
 def: "An electroclinical syndrome characterized by epileptiform activity and at least one other pathology that together contribute to cognitive and behavioral impairments including developmental delay or regression with onset anywhere from birth to adulthood. (DO)" [PMID:28276062 "DO", PMID:31926847 "DO"]
-synonym: "developmental and epileptic encephalopathy" NARROW []
 synonym: "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY WITH JOINT LAXITY" NARROW []
 synonym: "KCNA3-ASSOCIATED DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY" NARROW []
 synonym: "RYR3-RELATED CONDITION" BROAD []
@@ -96708,7 +96695,6 @@ creation_date: 2020-02-18T11:48:34Z
 id: DOID:0112227
 name: tubulinopathy
 def: "A congenital nervous system abnormality characterized by complex cortical malformations including in most cases dysmorphic basal ganglia that has_material_basis_in mutation in one or more of the tubulin genes. (DO)" [https://www.ncbi.nlm.nih.gov/books/NBK350554/ "DO", PMID:24860126 "DO", PMID:31386652 "DO"]
-synonym: "MYO-TUBULINOPATHY" NARROW []
 xref: EFO:0020030
 is_a: DOID:0050739 ! autosomal genetic disease
 is_a: DOID:2490 ! congenital nervous system abnormality
@@ -109405,7 +109391,6 @@ name: Duchenne muscular dystrophy
 def: "A muscular dystrophy that has_material_basis_in X-linked mutations in the DMD gene found on the X chromosome. It is characterized by rapidly progressing muscle weakness and muscle atrophy initially involving the lower extremities and eventually affecting the whole body. It affects males whereas females can be carriers. The symptoms start before the age of six and may appear at infancy. (DO)" [http://en.wikipedia.org/wiki/Duchenne_muscular_dystrophy "DO", http://www.genome.gov/19518854 "DO", MIM:300377 "DO"]
 synonym: "childhood pseudohypertrophic muscular dystrophy" EXACT []
 synonym: "DMD" EXACT []
-synonym: "DMD-RELATED MUSCULAR DYSTROPHY" BROAD []
 synonym: "Duchenne and Becker muscular dystrophy" EXACT []
 synonym: "Duchenne-Becker muscular dystrophy" EXACT []
 synonym: "Duchenne type progressive muscular dystrophy" EXACT []
@@ -126452,7 +126437,6 @@ creation_date: 2017-09-28T00:00:00Z
 id: DOID:1588
 name: thrombocytopenia
 def: "A blood platelet disease that is characterized by low a platelet count in the blood. (DO)" [http://en.wikipedia.org/wiki/Thrombocytopenia "DO", http://ghr.nlm.nih.gov/glossary=thrombocytopenia "DO", http://www.merckmanuals.com/professional/hematology_and_oncology/thrombocytopenia_and_platelet_dysfunction/overview_of_platelet_disorders.html "DO"]
-synonym: "CONGENITAL THROMBOCYTOPENIA" NARROW []
 synonym: "DHX34-ASSOCIATED THROMBOCYTOPENIA" NARROW []
 synonym: "PREDISPOSITION TO THROMBOCYTOPENIA" RELATED []
 synonym: "thrombocytopenias" EXACT []
@@ -131459,7 +131443,6 @@ synonym: "chondrodysplasia, disproportionate short-limbed" NARROW []
 synonym: "chondrodystrophic myotonia" EXACT []
 synonym: "chondrodystrophy" EXACT []
 synonym: "congenital anomaly of cartilage" EXACT []
-synonym: "FGFR3-RELATED CHONDRODYSPLASIA" NARROW []
 synonym: "late onset spondyloepiphyseal dysplasia" EXACT []
 synonym: "late spondyloepiphyseal dysplasia" EXACT []
 synonym: "myotonic myopathy, dwarfism, chondrodystrophy, and ocular and facial abnormalities" EXACT []
@@ -132088,7 +132071,6 @@ synonym: "anemia due to enzyme disorder" NARROW []
 synonym: "anemias" EXACT []
 synonym: "HEMOGLOBIN ALESHA" RELATED []
 synonym: "HEMOGLOBIN HINSDALE" RELATED []
-synonym: "RARE ANAEMIA" NARROW []
 xref: EFO:0004272
 xref: EFO:0009529
 xref: ICD10CM:D64.9
@@ -175406,7 +175388,6 @@ is_a: DOID:9004441 ! Experimental Leukemia
 id: DOID:9000006
 name: Supraventricular Tachycardia
 def: "A generic expression for any tachycardia that originates above the BUNDLE OF HIS." [MESH:D013617]
-synonym: "AV NODAL TACHYCARDIA" NARROW []
 synonym: "Supraventricular Tachycardias" EXACT []
 xref: MESH:D013617
 is_a: DOID:9002554 ! Tachycardia
@@ -202104,7 +202085,6 @@ id: DOID:9002875
 name: MACROCEPHALY, NEURODEVELOPMENTAL DELAY, LYMPHOID HYPERPLASIA, AND PERSISTENT FETAL HEMOGLOBIN
 def: "This disease is characterized by clinically significant pharyngeal lymphoid hypertrophy, with adenoid overgrowth, frequent upper airway infections, and sleep apnea. Macrocephaly without structural brain abnormalities is present, and patients exhibit increased weight for height as well as delayed gross motor and impaired intellectual development." [MIM:619769]
 synonym: "MNDLFH" EXACT []
-synonym: "ZBTB7A-RELATED CONDITION" EXACT []
 xref: MIM:619769
 xref: ORDO:694956
 is_a: DOID:9002221 ! Hyperplasia
@@ -221344,7 +221324,6 @@ synonym: "FCD2A" EXACT []
 synonym: "FCD IIA" EXACT []
 synonym: "FCORD2A" EXACT []
 synonym: "FOCAL CORTICAL DYSPLASIA, TYPE IIA" EXACT []
-synonym: "ISOLATED FOCAL CORTICAL DYSPLASIA TYPE IIA" EXACT []
 xref: MESH:C564583
 is_a: DOID:9008426 ! Focal Cortical Dysplasia of Taylor
 
@@ -229317,7 +229296,6 @@ id: DOID:9005765
 name: Autoinflammation with Pulmonary and Cutaneous Vasculitis
 def: "A disorder of immune dysregulation manifest as skin lesions (petechiae and purpura) appearing soon after birth followed by progressive pulmonary involvement causing restrictive lung disease and respiratory insufficiency. Caused by heterozygous mutation in the HCK gene on chromosome 20q11." [MIM:620296]
 synonym: "AIPCV" EXACT []
-synonym: "HCK-RELATED CONDITION" EXACT []
 xref: MIM:620296
 is_a: DOID:865 ! vasculitis
 is_a: DOID:9006364 ! Hereditary Autoinflammatory Diseases
@@ -246947,6 +246925,9 @@ creation_date: 2023-04-14T09:02:24Z
 id: DOID:9007653
 name: Multiple Abnormalities
 def: "Congenital abnormalities that affect more than one organ or body structure." [MESH:D000015]
+synonym: "H3-3A-RELATED CONDITION" BROAD []
+synonym: "H3F3A-RELATED CONDITION" NARROW []
+synonym: "H3F3A-RELATED DISORDERS" BROAD []
 synonym: "MULTIPLE CONGENITAL ANOMALIES" EXACT []
 synonym: "Multiple congenital anomalies-hypotonia-seizures syndrome" NARROW []
 synonym: "Multisystem Disorder" EXACT []
@@ -254340,7 +254321,6 @@ synonym: "FCORD2" EXACT []
 synonym: "Focal cortical dysplasia, type 2" EXACT []
 synonym: "Focal Cortical Dysplasia, Type II" EXACT []
 synonym: "focal cortical dysplasia, type II, somatic" NARROW []
-synonym: "ISOLATED FOCAL CORTICAL DYSPLASIA" BROAD []
 synonym: "MTOR-RELATED CONDITION" BROAD []
 synonym: "NEURODEVELOPMENTAL DISORDER, MTOR RELATED" BROAD []
 xref: MESH:C537067
@@ -263509,64 +263489,6 @@ created_by: caripark
 creation_date: 2026-08-18T10:42:22Z
 
 [Term]
-id: DOID:9009465
-name: Kyphomelic dysplasia, Itai-Ikegawa type
-def: "An autosomal dominant disorder characterized by small thorax, bent long bones, short stature, and common facial dysmorphisms that has_material_basis in heterozygous mutation in the KIF5B gene on chromosome 10p11." [MIM:621644]
-synonym: "KDII" EXACT []
-xref: MIM:621644
-is_a: DOID:0050736 ! autosomal dominant disease
-is_a: DOID:0080006 ! bone development disease
-is_a: DOID:9008731 ! Craniofacial Abnormalities
-created_by: caripark
-creation_date: 2026-08-25T07:49:59Z
-
-[Term]
-id: DOID:9009466
-name: Lung-brain developmental disorder
-def: "An autosomal recessive disorder characterized by early-onset respiratory distress, chronic hypoxemia, lung abnormalities, and developmental delay, with speech and language development more severely affected, which has_material_basis in homozygous or compound heterozygous mutations in the TMEM63B gene on chromosome 6p21." [MIM:621645]
-synonym: "LBDD" EXACT []
-xref: MIM:621645
-is_a: DOID:850 ! lung disease
-is_a: DOID:9008086 ! Developmental Disabilities
-created_by: caripark
-creation_date: 2026-08-25T10:37:06Z
-
-[Term]
-id: DOID:9009467
-name: Neurodevelopmental disorder with seizures, spastic tetraparesis, and vision impairment
-def: "A neurodevelopmental disorder characterized by severe intellectual disability, spastic tetraparesis, reduced vision, and epilepsy, associated with severe hydrocephalus, corpus callosum agenesis/hypoplasia, mild ventricular dilation, optic nerve hypoplasia, and white matter reduction, which has_material_basis_in homozygous or compound heterozygous mutation in the FSD1L gene on chromosome 9q31." [MIM:621643]
-synonym: "NEDSTV" EXACT []
-xref: MIM:621643
-is_a: DOID:1826 ! epilepsy
-is_a: DOID:9000343 ! Vision Disorders
-is_a: DOID:9008086 ! Developmental Disabilities
-created_by: caripark
-creation_date: 2026-08-25T11:06:46Z
-
-[Term]
-id: DOID:9009468
-name: Retinitis pigmentosa 109
-def: "An autosomal recessive disorder characterized by onset of symptoms in the first or second decade of life, including night blindness, constricted visual fields, and progressive loss of vision that has_material_basis_in compound heterozygous mutation in the FSD1L gene on chromosome 9q31." [MIM:621656]
-synonym: "RP109" EXACT []
-xref: MIM:621656
-is_a: DOID:0050737 ! autosomal recessive disease
-is_a: DOID:10584 ! retinitis pigmentosa
-created_by: caripark
-creation_date: 2026-08-25T11:20:53Z
-
-[Term]
-id: DOID:9009469
-name: Spondyloepimetaphyseal dysplasia with tracheal stenosis and ectodermal dysplasia
-def: "An autosomal recessive disorder characterized by short stature and a general delay in bone maturation and epiphyseal ossification, with radiographic findings being more evident at birth and in childhood than in adolescence or adulthood. Common features include chondrodysplasia with short stature and tracheal stenosis, as well as conical teeth and/or early tooth decay and sparse hair, suggestive of ectodermal dysplasia, which has_material_basis_in homozygous or compound heterozygous mutation in the MIMS1 gene on chromosome 18p11." [MIM:621650]
-synonym: "SEMDTSED" EXACT []
-xref: MIM:621650
-is_a: DOID:0080027 ! spondyloepimetaphyseal dysplasia
-is_a: DOID:2121 ! ectodermal dysplasia
-is_a: DOID:3227 ! tracheal stenosis
-created_by: caripark
-creation_date: 2026-08-25T11:28:14Z
-
-[Term]
 id: DOID:901
 name: liver lymphoma
 synonym: "Lymphoma of Liver" EXACT []
@@ -266671,8 +266593,8 @@ id: DOID:9478
 name: postpartum depression
 def: "An endogenous depression that involves intense, sustained and sometimes disabling depression experienced by women after giving birth. (DO)" [http://en.wikipedia.org/wiki/Mood_disorder "DO"]
 synonym: "maternity blues" EXACT []
-synonym: "postnatal depression" EXACT []
 synonym: "post natal depression" EXACT []
+synonym: "postnatal depression" EXACT []
 synonym: "post partum depression" EXACT []
 xref: EFO:0007453
 xref: ICD10CM:F53.0
@@ -268932,7 +268854,6 @@ synonym: "Becker's muscular dystrophy" EXACT []
 synonym: "benign congenital myopathy" EXACT []
 synonym: "benign pseudohypertrophic muscular dystrophy" EXACT []
 synonym: "BMD" EXACT []
-synonym: "DMD-RELATED MUSCULAR DYSTROPHY" BROAD []
 synonym: "muscular dystrophy, Becker type" EXACT []
 synonym: "pseudohypertrophic progressive muscular dystrophy, Becker type" EXACT []
 xref: EFO:0000103
